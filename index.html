@@ -7,6 +7,8 @@
 <meta name="description" content="ProLift Garage Doors — same-day garage door opener repair, spring replacement, cable repair & full installation across Connecticut. Licensed techs, flat-rate pricing, 12-month warranty. Call (844) 901-6101."/>
 <meta name="keywords" content="garage door opener repair Connecticut, garage door repair CT, garage door spring repair CT, same day garage door repair Connecticut, LiftMaster repair CT, Chamberlain repair Connecticut, garage door installation CT, Norwalk CT garage door"/>
 <link rel="canonical" href="https://theproliftgaragedoors.com/"/>
+<link rel="icon" type="image/webp" href="https://raw.githubusercontent.com/theproliftgaragedoors/theproliftgaragedoors/main/images/prolift-garage-doors-logo.webp"/>
+<link rel="shortcut icon" type="image/webp" href="https://raw.githubusercontent.com/theproliftgaragedoors/theproliftgaragedoors/main/images/prolift-garage-doors-logo.webp"/>
 <meta property="og:title" content="ProLift Garage Doors | Expert Garage Door Opener Repair – Connecticut"/>
 <meta property="og:description" content="Same-day garage door opener repair across CT. Licensed techs, flat-rate pricing, 12-month warranty. Call (844) 901-6101."/>
 <meta property="og:type" content="website"/>
@@ -378,6 +380,11 @@ section{position:relative}
 }
 .srv-bg-icon{width:44px;height:44px;opacity:.35}
 .srv-bg-icon svg{width:44px;height:44px;fill:var(--teal2)}
+.srv-img{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;transition:transform .4s ease
+}
+.srv-card:hover .srv-img{transform:scale(1.04)}
 .srv-badge{
   position:absolute;bottom:12px;left:12px;
   background:rgba(13,17,23,.85);
@@ -1182,26 +1189,27 @@ section{position:relative}
 
 <script>
 /* ── SERVICES DATA ─────────────────────────────────────── */
+const IMG_BASE = 'https://raw.githubusercontent.com/theproliftgaragedoors/theproliftgaragedoors/main/images/';
 const SERVICES = [
-  {title:'Garage Door Opener Repair',        desc:'Motor failing, reversing unexpectedly, or not responding? We diagnose and repair all opener types — chain, belt, screw, and direct drive — or replace with a top-brand unit when needed.',tag:'Most common repair', grad:'135deg,#0d2030,#0f2838'},
-  {title:'Spring Repair & Replacement',       desc:'A broken torsion or extension spring is the #1 cause of a door that won\'t open. We carry springs for all door sizes and replace them safely — this is never a DIY job.',tag:'Safety-critical', grad:'135deg,#0f2030,#122030'},
-  {title:'Cable Repair',                      desc:'Snapped or frayed cables cause dangerous imbalances. We replace both cables together so wear stays even, and the door operates safely and smoothly.',tag:'Same-day fix', grad:'135deg,#0d2230,#0f2a30'},
-  {title:'Off-Track Repair',                  desc:'A door that jumped its tracks needs immediate attention — operating it further causes more damage. We realign, adjust, and test the full track system before leaving.',tag:'Urgent service', grad:'135deg,#14201e,#0f2a26'},
-  {title:'Opener Motor Repair',               desc:'The motor is the heart of your opener. Burnt-out or seized motors are repaired or swapped with compatible units that restore full, reliable operation across all brands.',tag:'All brands', grad:'135deg,#0e1e2e,#122030'},
-  {title:'Garage Door Installation',          desc:'New home, upgrade, or full replacement — we measure, source, and install garage doors of all styles and materials with professional precision and clean finishing.',tag:'New install', grad:'135deg,#12202a,#0d1e2c'},
-  {title:'Opener Installation',               desc:'Upgrade to a quieter belt drive, add smart home connectivity via MyQ, or replace an aging unit. We install LiftMaster, Chamberlain, Genie, and Ryobi with full setup.',tag:'Smart home ready', grad:'135deg,#0f2232,#0d2030'},
-  {title:'Sensor Alignment & Replacement',   desc:'Misaligned photo-eye sensors cause the door to reverse or refuse to close. We realign, clean, and replace sensors to restore safe auto-reverse operation.',tag:'Safety system', grad:'135deg,#0d2030,#112838'},
-  {title:'Roller Replacement',                desc:'Worn nylon or steel rollers cause noisy, jerky movement and extra strain on the opener. We replace all rollers in one visit to restore whisper-quiet operation.',tag:'Quiet & smooth', grad:'135deg,#0f1e2c,#122030'},
-  {title:'Track Alignment & Replacement',    desc:'Bent, warped, or misaligned tracks cause the door to bind, grind, or derail. We straighten, realign, or fully replace tracks to manufacturer tolerances.',tag:'Precision work', grad:'135deg,#0d2030,#102838'},
-  {title:'Hinge Repair & Replacement',       desc:'Cracked or broken hinges create stress points that can bend panels and damage the full door. We replace damaged hinges with heavy-gauge equivalents.',tag:'Structural fix', grad:'135deg,#12202a,#0f2230'},
-  {title:'Panel Replacement',                desc:'Dented, cracked, or weather-damaged panels affect curb appeal and insulation. We source matching panels for most door brands and install them seamlessly.',tag:'Cosmetic & structural', grad:'135deg,#0e2030,#112838'},
-  {title:'Wiring Repair',                    desc:'Frayed wires, shorted circuits, or faulty wall buttons cause erratic opener behavior. We trace and repair all wiring issues safely, including logic board connections.',tag:'Electrical expertise', grad:'135deg,#0d1e30,#102232'},
-  {title:'Garage Door Balancing',            desc:'An unbalanced door puts enormous strain on the opener motor and shortens its life. We test and adjust spring tension until the door holds steady at mid-travel.',tag:'Extends opener life', grad:'135deg,#0f2232,#0d2030'},
-  {title:'Tune-Up & Maintenance',            desc:'Annual maintenance prevents most garage door breakdowns. Our tune-up covers lubrication, hardware tightening, balance check, safety testing, and full inspection.',tag:'Preventive care', grad:'135deg,#0d2a20,#102830'},
-  {title:'Remote & Keypad Programming',      desc:'Lost remotes, dead keypads, or a new opener that needs setup — we configure all remotes, wireless keypads, and smart integrations including MyQ and Google Home.',tag:'Quick service', grad:'135deg,#0e2030,#122030'},
-  {title:'Weatherstripping',                 desc:'Worn seals let in cold air, pests, and water. We replace bottom seals, side seals, and top trim to restore a tight, weatherproof fit and improve energy efficiency.',tag:'Energy saving', grad:'135deg,#0f2030,#102838'},
-  {title:'Insulation Installation',          desc:'An insulated garage door improves energy efficiency, reduces noise, and regulates temperature. We install insulation panels or upgrade you to a factory-insulated door.',tag:'Energy efficient', grad:'135deg,#0d2230,#102030'},
-  {title:'General Garage Door Repair',       desc:'Not sure what\'s wrong? That\'s exactly what we\'re here for. Our technicians diagnose any garage door problem — from minor noises to complete failures — and fix it right.',tag:'Any problem', grad:'135deg,#0e1e2c,#102030'},
+  {title:'Opener Repair',                     desc:'Motor failing, reversing unexpectedly, or not responding? We diagnose and repair all opener types — chain, belt, screw, and direct drive — or replace with a top-brand unit when needed.',tag:'Most common repair', grad:'135deg,#0d2030,#0f2838', img:'garage-door-opener-repair-by-prolift-garage-doors.webp'},
+  {title:'Spring Replacement',                desc:'A broken torsion or extension spring is the #1 cause of a door that won\'t open. We carry springs for all door sizes and replace them safely — this is never a DIY job.',tag:'Safety-critical', grad:'135deg,#0f2030,#122030', img:'garage-door-spring-replacement-by-prolift-garage-doors.webp'},
+  {title:'Cable Repair & Replacement',        desc:'Snapped or frayed cables cause dangerous imbalances. We replace both cables together so wear stays even, and the door operates safely and smoothly.',tag:'Same-day fix', grad:'135deg,#0d2230,#0f2a30', img:'garage-door-cable-repair-by-prolift-garage-doors.webp'},
+  {title:'Off-Track Repair',                  desc:'A door that jumped its tracks needs immediate attention — operating it further causes more damage. We realign, adjust, and test the full track system before leaving.',tag:'Urgent service', grad:'135deg,#14201e,#0f2a26', img:'garage-door-off-track-repair-by-prolift-garage-doors.webp'},
+  {title:'Opener Motor Repair',               desc:'The motor is the heart of your opener. Burnt-out or seized motors are repaired or swapped with compatible units that restore full, reliable operation across all brands.',tag:'All brands', grad:'135deg,#0e1e2e,#122030', img:'garage-door-moto-repair-by-prolift-garage-doors.webp'},
+  {title:'Garage Door Installation',          desc:'New home, upgrade, or full replacement — we measure, source, and install garage doors of all styles and materials with professional precision and clean finishing.',tag:'New install', grad:'135deg,#12202a,#0d1e2c', img:'garage-door-installation-by-prolift-garage-doors.webp'},
+  {title:'Opener Installation',               desc:'Upgrade to a quieter belt drive, add smart home connectivity via MyQ, or replace an aging unit. We install LiftMaster, Chamberlain, Genie, and Ryobi with full setup.',tag:'Smart home ready', grad:'135deg,#0f2232,#0d2030', img:'garage-door-opener-installaton-by-prolift-garage-doors.webp'},
+  {title:'Sensor Alignment & Replacement',   desc:'Misaligned photo-eye sensors cause the door to reverse or refuse to close. We realign, clean, and replace sensors to restore safe auto-reverse operation.',tag:'Safety system', grad:'135deg,#0d2030,#112838', img:'garage-door-sensoralignment-by-prolift-garage-doors.webp'},
+  {title:'Roller Replacement',                desc:'Worn nylon or steel rollers cause noisy, jerky movement and extra strain on the opener. We replace all rollers in one visit to restore whisper-quiet operation.',tag:'Quiet & smooth', grad:'135deg,#0f1e2c,#122030', img:'garage-door-rollerr-replacement-by-prolift-garage-doors.webp'},
+  {title:'Track Alignment & Replacement',    desc:'Bent, warped, or misaligned tracks cause the door to bind, grind, or derail. We straighten, realign, or fully replace tracks to manufacturer tolerances.',tag:'Precision work', grad:'135deg,#0d2030,#102838', img:'garage-door-track-alignment-by-prolift-garage-doors.webp'},
+  {title:'Hinge Repair & Replacement',       desc:'Cracked or broken hinges create stress points that can bend panels and damage the full door. We replace damaged hinges with heavy-gauge equivalents.',tag:'Structural fix', grad:'135deg,#12202a,#0f2230', img:'garage-door-hinge-repair-by-prolift-garage-doors.webp'},
+  {title:'Panel Replacement',                desc:'Dented, cracked, or weather-damaged panels affect curb appeal and insulation. We source matching panels for most door brands and install them seamlessly.',tag:'Cosmetic & structural', grad:'135deg,#0e2030,#112838', img:'garage-door-panel-replacement-by-prolift-garage-doors.webp'},
+  {title:'Wiring Repair',                    desc:'Frayed wires, shorted circuits, or faulty wall buttons cause erratic opener behavior. We trace and repair all wiring issues safely, including logic board connections.',tag:'Electrical expertise', grad:'135deg,#0d1e30,#102232', img:'garage-door-wiring-repair-by-prolift-garage-doors.webp'},
+  {title:'Garage Door Balancing',            desc:'An unbalanced door puts enormous strain on the opener motor and shortens its life. We test and adjust spring tension until the door holds steady at mid-travel.',tag:'Extends opener life', grad:'135deg,#0f2232,#0d2030', img:'garage-door-balancing-by-prolift-garage-doors.webp'},
+  {title:'Tune-Up & Maintenance',            desc:'Annual maintenance prevents most garage door breakdowns. Our tune-up covers lubrication, hardware tightening, balance check, safety testing, and full inspection.',tag:'Preventive care', grad:'135deg,#0d2a20,#102830', img:'garage-door-maintenance-by-prolift-garage-doors.webp'},
+  {title:'Remote & Keypad Programming',      desc:'Lost remotes, dead keypads, or a new opener that needs setup — we configure all remotes, wireless keypads, and smart integrations including MyQ and Google Home.',tag:'Quick service', grad:'135deg,#0e2030,#122030', img:'garage-door-remote-keypad-programming-by-prolift-garage-doors.webp'},
+  {title:'Weatherstripping',                 desc:'Worn seals let in cold air, pests, and water. We replace bottom seals, side seals, and top trim to restore a tight, weatherproof fit and improve energy efficiency.',tag:'Energy saving', grad:'135deg,#0f2030,#102838', img:'garage-door-weatherstrpping-by-prolift-garage-doors.webp'},
+  {title:'Insulation Installation',          desc:'An insulated garage door improves energy efficiency, reduces noise, and regulates temperature. We install insulation panels or upgrade you to a factory-insulated door.',tag:'Energy efficient', grad:'135deg,#0d2230,#102030', img:'garage-door-insulation-installation-by-prolift-garage-doors.webp'},
+  {title:'General Garage Door Repair',       desc:'Not sure what\'s wrong? That\'s exactly what we\'re here for. Our technicians diagnose any garage door problem — from minor noises to complete failures — and fix it right.',tag:'Any problem', grad:'135deg,#0e1e2c,#102030', img:'garage-door-moto-repair-by-prolift-garage-doors.webp'},
 ];
 
 const SRV_ICONS = [
@@ -1222,6 +1230,7 @@ SERVICES.forEach((s,i)=>{
         <div class="srv-bg" style="background:linear-gradient(${s.grad})">
           <div class="srv-bg-icon"><svg viewBox="0 0 24 24"><path d="${ic}" fill="none" stroke="rgba(12,160,150,.45)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
         </div>
+        <img class="srv-img" src="${IMG_BASE}${s.img}" alt="${s.title}" loading="lazy" onerror="this.style.display='none'"/>
         <span class="srv-badge">${s.tag}</span>
       </div>
       <div class="srv-body">
