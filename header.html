@@ -6,22 +6,11 @@
 <title>ProLift Header</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
-
 <style>
 :root{
-  /* Palette set to match off-white logo background */
-  --ink:#fdfcfb;
-  --ink2:#ffffff;
-  --ink3:#f4f3f1;
-  --steel:#2a3540;
-  --mist:#4a5568;
-  --fog:#c4cdd6;
-  --snow:#2a3540;
-  --white:#0d1117;
-  --teal:#0c8075;
-  --teal2:#0fa898;
-  --teal3:#0c8075;
-  --amber:#e8a020;
+  --ink:#0d1117;--ink2:#161d26;--ink3:#1e2833;--steel:#2a3540;
+  --mist:#8e9ba8;--fog:#c4cdd6;--snow:#f2f4f6;--white:#ffffff;
+  --teal:#0c8075;--teal2:#0fa898;--teal3:#12c4b2;--amber:#e8a020;
   --r4:4px;--r8:8px;--r12:12px;--r16:16px;
 }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -30,19 +19,19 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
 /* ── HEADER SHELL ── */
 .site-header{
   position:fixed;top:0;left:0;right:0;z-index:1000;
-  background:rgba(253,252,251,.95);
-  border-bottom:1px solid rgba(0,0,0,.08);
+  background:rgba(13,17,23,.97);
+  border-bottom:1px solid rgba(255,255,255,.07);
   backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
   transition:background .3s,border-color .3s
 }
 .site-header.scrolled{
-  background:rgba(253,252,251,.98);
+  background:rgba(13,17,23,.98);
   border-bottom-color:rgba(12,128,117,.25)
 }
 .hdr-inner{
   max-width:1280px;margin:0 auto;
-  padding:0 28px;height:64px;
-  display:flex;align-items:center;gap:18px
+  padding:0 36px;height:70px;
+  display:flex;align-items:center;gap:24px
 }
 
 /* ── LOGO ── */
@@ -51,53 +40,56 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
   text-decoration:none
 }
 .hdr-logo img{
-  height:46px;width:auto;
-  filter:none;
+  height:54px;width:auto;
+  filter:drop-shadow(0 0 8px rgba(12,196,178,.12))
 }
 
 /* ── NAV ── */
 .hdr-nav{
-  display:flex;align-items:center;gap:0;
+  display:flex;align-items:center;gap:1px;
   flex:1;
 }
 .hdr-nav > a{
-  font-size:12px;font-weight:500;color:var(--mist);
-  text-decoration:none;padding:7px 10px;border-radius:var(--r8);
+  font-size:13px;font-weight:500;color:var(--mist);
+  text-decoration:none;padding:8px 13px;border-radius:var(--r8);
   transition:color .15s,background .15s;white-space:nowrap
 }
-.hdr-nav > a:hover{color:var(--white);background:rgba(0,0,0,.05)}
+.hdr-nav > a:hover{color:var(--white);background:rgba(255,255,255,.06)}
 
 /* ── SERVICES MEGA DROP ── */
 .mega-wrap{position:relative}
 .mega-trigger{
   display:flex;align-items:center;gap:5px;
-  font-size:12px;font-weight:500;color:var(--mist);
-  padding:7px 10px;border-radius:var(--r8);cursor:pointer;
+  font-size:13px;font-weight:500;color:var(--mist);
+  padding:8px 13px;border-radius:var(--r8);cursor:pointer;
   background:none;border:none;font-family:inherit;white-space:nowrap;
   transition:color .15s,background .15s
 }
 .mega-trigger:hover,.mega-wrap:focus-within .mega-trigger{
-  color:var(--white);background:rgba(0,0,0,.05)
+  color:var(--white);background:rgba(255,255,255,.06)
 }
 .mega-trigger svg{width:11px;height:11px;fill:var(--mist);transition:transform .22s}
 .mega-wrap:hover .mega-trigger svg,
 .mega-wrap:focus-within .mega-trigger svg{transform:rotate(180deg);fill:var(--teal3)}
 
+/* The panel — attached RIGHT to the trigger, not the viewport */
 .mega-panel{
   position:absolute;
   top:calc(100% + 10px);
   left:50%;
   transform:translateX(-50%) translateY(-6px);
-  width:600px;
+  width:640px;
   background:var(--ink2);
-  border:1px solid rgba(0,0,0,.09);
+  border:1px solid rgba(255,255,255,.09);
   border-radius:var(--r16);
-  padding:16px;
+  padding:20px;
   display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;
-  box-shadow:0 12px 32px rgba(0,0,0,.1);
+  box-shadow:0 24px 64px rgba(0,0,0,.6);
   opacity:0;pointer-events:none;
   transition:opacity .2s ease,transform .2s ease;
+  /* keep panel reachable when cursor moves down toward it */
 }
+/* invisible bridge so cursor doesn't lose hover */
 .mega-panel::before{
   content:'';position:absolute;top:-14px;left:0;right:0;height:14px
 }
@@ -112,23 +104,24 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
   text-decoration:none;transition:background .15s;
   color:var(--mist)
 }
-.mega-item:hover{background:rgba(0,0,0,.04);color:var(--white)}
+.mega-item:hover{background:rgba(255,255,255,.06);color:var(--white)}
 .mega-item:hover .mi-title{color:var(--white)}
-.mega-item:hover .mi-icon{background:rgba(12,128,117,.15);border-color:rgba(12,128,117,.3)}
+.mega-item:hover .mi-icon{background:rgba(12,128,117,.25);border-color:rgba(12,128,117,.4)}
 .mi-icon{
   width:32px;height:32px;flex-shrink:0;
-  background:rgba(0,0,0,.03);border:1px solid rgba(0,0,0,.06);
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);
   border-radius:var(--r8);display:flex;align-items:center;justify-content:center;
   transition:all .15s;margin-top:1px
 }
 .mi-icon svg{width:15px;height:15px;fill:var(--teal2)}
-.mi-title{font-size:12.5px;font-weight:600;color:rgba(0,0,0,.85);display:block;line-height:1.3;margin-bottom:2px}
-.mi-sub{font-size:11px;font-weight:400;color:var(--mist);line-height:1.4}
+.mi-title{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.75);display:block;line-height:1.3;margin-bottom:2px}
+.mi-sub{font-size:11px;font-weight:300;color:var(--mist);line-height:1.4}
 
+/* mega footer row */
 .mega-footer{
   grid-column:1/-1;
   margin-top:8px;padding-top:14px;
-  border-top:1px solid rgba(0,0,0,.07);
+  border-top:1px solid rgba(255,255,255,.07);
   display:flex;align-items:center;justify-content:space-between;gap:12px
 }
 .mega-all{
@@ -142,9 +135,9 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
 .mega-all svg{width:13px;height:13px;fill:var(--teal3)}
 .mega-badge{
   display:flex;align-items:center;gap:6px;
-  font-size:11px;font-weight:500;color:rgba(0,0,0,.45)
+  font-size:11px;font-weight:500;color:rgba(255,255,255,.25)
 }
-.mega-badge svg{width:12px;height:12px;fill:rgba(12,128,117,.8)}
+.mega-badge svg{width:12px;height:12px;fill:rgba(12,128,117,.5)}
 
 /* ── STATUS PILL ── */
 .hdr-status{
@@ -159,7 +152,7 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
 /* ── PHONE ── */
 .hdr-phone{
   display:flex;align-items:center;gap:7px;
-  font-size:13px;font-weight:700;color:var(--white);
+  font-size:13.5px;font-weight:700;color:var(--white);
   text-decoration:none;transition:color .15s;flex-shrink:0;white-space:nowrap
 }
 .hdr-phone:hover{color:var(--teal3)}
@@ -181,9 +174,9 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
 /* ── MOBILE DRAWER ── */
 .hdr-mobile{
   display:none;background:var(--ink2);
-  border-top:1px solid rgba(0,0,0,.08);
+  border-top:1px solid rgba(255,255,255,.07);
   padding:12px 16px 20px;flex-direction:column;gap:2px;
-  max-height:calc(100vh - 64px);overflow-y:auto
+  max-height:calc(100vh - 70px);overflow-y:auto
 }
 .hdr-mobile.open{display:flex}
 .hdr-mobile a,.hdr-mobile .m-label{
@@ -191,12 +184,12 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
   text-decoration:none;padding:11px 14px;border-radius:var(--r8);
   transition:all .15s;display:block
 }
-.hdr-mobile a:hover{color:var(--white);background:rgba(0,0,0,.04)}
+.hdr-mobile a:hover{color:var(--white);background:rgba(255,255,255,.06)}
 .m-label{
-  font-size:10px;font-weight:700;color:rgba(0,0,0,.4);
+  font-size:10px;font-weight:700;color:rgba(255,255,255,.2);
   letter-spacing:.8px;padding:16px 14px 6px;
 }
-.m-divider{height:1px;background:rgba(0,0,0,.06);margin:6px 0}
+.m-divider{height:1px;background:rgba(255,255,255,.06);margin:6px 0}
 .m-phone{
   display:flex;align-items:center;gap:8px;
   font-size:15px;font-weight:700;color:var(--teal3) !important;
@@ -211,7 +204,7 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
 @media(max-width:900px){
   .hdr-nav,.hdr-phone{display:none}
   .hdr-burger{display:flex}
-  .hdr-inner{padding:0 14px;height:60px}
+  .hdr-inner{padding:0 16px}
 }
 </style>
 </head>
@@ -222,7 +215,7 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
 
     <!-- Logo -->
     <a href="/" class="hdr-logo">
-      <img src="data:image/webp;base64,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" alt="ProLift Garage Doors"/>
+      <img src="https://theproliftgaragedoors.com/images/prolift-garage-doors-logo-transparent.webp" alt="ProLift Garage Doors"/>
     </a>
 
     <!-- Desktop Nav -->
@@ -350,7 +343,6 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
     </a>
   </div>
 </header>
-
 <script>
 window.addEventListener('scroll',()=>{
   document.getElementById('siteHeader').classList.toggle('scrolled',window.scrollY>20);
