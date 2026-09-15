@@ -147,216 +147,366 @@
 </script>
 
 <style>
-  :root {
-    --teal: #0F6865;
-    --ink: #1B2228;
-    --surface-dark: #252E35;
-    --cream: #F4F1E8;
-    --stone: #B8B8AF;
-    --white: #FFFFFF;
-  }
+/* =========================================================
+   PROLIFT GARAGE DOORS — MANCHESTER LOCATION THEME
+   Matched to the supplied ProLift homepage visual system.
+   ========================================================= */
+:root{
+  --ink:#0d1117;
+  --ink2:#161d26;
+  --ink3:#1e2833;
+  --steel:#2a3540;
+  --mist:#8e9ba8;
+  --fog:#c4cdd6;
+  --snow:#f2f4f6;
+  --white:#ffffff;
+  --teal:#0c8075;
+  --teal2:#0fa898;
+  --teal3:#12c4b2;
+  --amber:#e8a020;
+  --r4:4px;
+  --r8:8px;
+  --r12:12px;
+  --r16:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--ink);
+  color:var(--white);
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  font-size:16px;
+  line-height:1.7;
+}
+a{color:var(--teal3)}
+a:focus-visible,button:focus-visible,summary:focus-visible{
+  outline:3px solid var(--teal3);
+  outline-offset:3px;
+}
+h1,h2,h3{
+  font-family:'Fraunces',serif;
+  font-weight:400;
+  line-height:1.08;
+  letter-spacing:-.02em;
+  color:var(--white);
+}
+h2{font-size:clamp(30px,4vw,46px)}
+h3{font-size:23px}
+.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+.prose{max-width:760px;color:var(--fog)}
+section{padding:88px 0}
+section.light{background:var(--snow);color:var(--ink)}
+section.light h2,section.light h3{color:var(--ink)}
+section.dark{background:var(--ink2)}
+section.tealband{
+  background:linear-gradient(135deg,var(--teal),#075b55);
+  color:var(--white);
+}
+section.tealband h2,section.tealband h3{color:var(--white)}
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  color:var(--teal3);
+  font:600 13px/1 'Inter',sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  margin-bottom:18px;
+}
+.eyebrow:before{
+  content:"";
+  width:28px;height:2px;
+  background:var(--teal3);
+}
+.rail{display:flex;gap:5px;margin:18px 0 28px}
+.rail span{height:3px;width:25px;background:var(--teal2);border-radius:2px}
+.rail span:nth-child(4),.rail span:nth-child(5){background:var(--steel)}
 
-  * { box-sizing: border-box; }
+.topbar{
+  background:#080b0f;
+  color:var(--fog);
+  border-bottom:1px solid rgba(255,255,255,.07);
+  font-size:13px;
+}
+.topbar .wrap{
+  display:flex;justify-content:space-between;align-items:center;
+  gap:12px;flex-wrap:wrap;padding:9px 0;
+}
+.topbar a{color:var(--white);text-decoration:none;font-weight:600}
 
-  html { scroll-behavior: smooth; }
+header.site{
+  background:rgba(13,17,23,.96);
+  border-bottom:1px solid rgba(255,255,255,.08);
+  position:relative;z-index:5;
+}
+header.site .wrap{
+  display:flex;justify-content:space-between;align-items:center;
+  min-height:78px;gap:25px;
+}
+.brand{
+  font-family:'Fraunces',serif;font-size:25px;color:var(--white);
+  text-decoration:none;letter-spacing:-.03em;
+}
+.brand span{color:var(--teal3)}
+.call-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  background:var(--teal);
+  color:var(--white);
+  text-decoration:none;
+  padding:12px 21px;
+  border:1px solid rgba(18,196,178,.35);
+  border-radius:var(--r8);
+  font:600 14px/1 'Inter',sans-serif;
+  transition:transform .2s ease,background .2s ease,box-shadow .2s ease;
+  box-shadow:0 8px 28px rgba(12,128,117,.18);
+}
+.call-btn:hover{background:var(--teal2);transform:translateY(-2px);box-shadow:0 12px 34px rgba(12,128,117,.28)}
 
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
-    font-family: 'Barlow', sans-serif;
-    font-size: 17px;
-    line-height: 1.6;
-  }
+.breadcrumb{
+  padding:22px 0 0;
+  font-size:13px;color:var(--mist);
+}
+.breadcrumb a{color:var(--fog);text-decoration:none}
+.breadcrumb a:hover{color:var(--teal3)}
+.breadcrumb .sep{color:var(--steel);margin:0 8px}
 
-  h1, h2, h3, .display {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    color: var(--ink);
-    margin: 0;
-  }
+.hero{
+  padding:76px 0 92px;
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 82% 28%,rgba(18,196,178,.14),transparent 28rem),
+    linear-gradient(180deg,#0d1117 0%,#111923 100%);
+}
+.hero:after{
+  content:"";
+  position:absolute;right:-180px;bottom:-260px;
+  width:600px;height:600px;border:1px solid rgba(18,196,178,.10);
+  border-radius:50%;pointer-events:none;
+}
+.hero h1{
+  max-width:920px;
+  font-size:clamp(42px,6vw,72px);
+}
+.hero .sub{
+  max-width:800px;
+  margin-top:22px;
+  color:var(--fog);
+  font-size:18px;
+}
+.hero-cta{
+  margin-top:32px;display:flex;gap:15px;align-items:center;flex-wrap:wrap
+}
+.hero-cta .call-btn{padding:15px 27px;font-size:15px}
+.phone-text{
+  font-size:15px;color:var(--mist)
+}
+.phone-text a{color:var(--fog);font-weight:600;text-decoration:none}
+.quickanswer{
+  margin-top:48px;
+  max-width:850px;
+  padding:25px 28px;
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.09);
+  border-left:4px solid var(--teal2);
+  border-radius:var(--r8);
+  box-shadow:0 20px 60px rgba(0,0,0,.18);
+}
+.quickanswer strong{
+  display:block;color:var(--teal3);
+  font-size:13px;text-transform:uppercase;letter-spacing:.12em;
+  margin-bottom:6px;
+}
+.quickanswer p{color:var(--fog);margin:0}
 
-  a { color: var(--teal); }
-  a:focus-visible, button:focus-visible, summary:focus-visible {
-    outline: 3px solid var(--teal);
-    outline-offset: 2px;
-  }
+.service-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:18px;margin-top:28px;
+}
+.service-card{
+  background:var(--ink2);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:var(--r12);
+  overflow:hidden;
+  transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+}
+.service-card:hover{
+  transform:translateY(-5px);
+  border-color:rgba(18,196,178,.42);
+  box-shadow:0 22px 50px rgba(0,0,0,.25);
+}
+.service-card img{
+  width:100%;aspect-ratio:16/10;object-fit:cover;display:block;
+}
+.service-card .body{padding:21px 21px 23px;border-top:2px solid var(--teal)}
+.service-card h3{font-size:22px;margin-bottom:8px}
+.service-card p{font-size:14px;color:var(--mist);margin:0}
 
-  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
-  .prose { max-width: 720px; }
+.problem-list{
+  list-style:none;padding:0;margin:30px 0 0;
+  display:grid;grid-template-columns:repeat(2,1fr);gap:14px;
+}
+.problem-list li{
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.07);
+  border-left:3px solid var(--teal);
+  border-radius:var(--r8);
+  padding:19px 21px;color:var(--fog);
+}
+.problem-list b{color:var(--white);font-weight:600}
 
-  /* track-rail: a structural device echoing a garage door track segment,
-     used once under section headings, not decoratively repeated */
-  .rail {
-    display: flex;
-    gap: 6px;
-    margin: 14px 0 28px;
-  }
-  .rail span {
-    height: 4px;
-    width: 26px;
-    background: var(--teal);
-  }
-  .rail span:nth-child(4), .rail span:nth-child(5) { background: var(--stone); }
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:54px}
+.cols2>div{min-width:0}
+section.light p{color:#4c5863}
+ul.plain{padding-left:20px;color:#4c5863}
+ul.plain li{margin-bottom:12px}
+ul.plain b{color:var(--white)}
 
-  section { padding: 56px 0; }
-  section.dark { background: var(--surface-dark); color: var(--cream); }
-  section.dark h2, section.dark h3 { color: var(--cream); }
-  section.tealband { background: var(--teal); color: var(--cream); }
-  section.tealband h2 { color: var(--cream); }
+.tealband .cols2{gap:60px}
+.tealband p{color:rgba(255,255,255,.82);margin-top:13px}
+.tealband a{color:var(--white)}
 
-  /* Header */
-  .topbar {
-    background: var(--ink);
-    color: var(--cream);
-    font-size: 14px;
-  }
-  .topbar .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 10px; padding-bottom: 10px; flex-wrap: wrap; gap: 8px; }
-  .topbar a { color: var(--cream); text-decoration: none; font-weight: 600; }
+.why-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:18px;margin-top:30px
+}
+.why-grid .item{
+  padding:25px;
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:var(--r12);
+  border-top:2px solid var(--teal);
+}
+.why-grid .item h3{font-size:21px;margin-bottom:8px}
+.why-grid .item p{color:var(--mist);font-size:14px;margin:0}
 
-  header.site {
-    background: var(--white);
-    border-bottom: 1px solid var(--stone);
-  }
-  header.site .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 16px; padding-bottom: 16px; }
-  .brand { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; color: var(--ink); text-decoration: none; }
-  .brand span { color: var(--teal); }
-  .call-btn {
-    background: var(--teal);
-    color: var(--cream);
-    text-decoration: none;
-    padding: 10px 20px;
-    font-weight: 600;
-    font-size: 15px;
-    display: inline-block;
-  }
+.neighborhoods{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
+.neighborhoods span{
+  background:rgba(12,128,117,.08);
+  border:1px solid rgba(12,128,117,.30);
+  color:var(--white);
+  padding:8px 13px;
+  border-radius:100px;
+  font-size:13px;
+}
+.zip-list{
+  display:flex;flex-wrap:wrap;gap:10px;margin-top:18px
+}
+.zip-list div{
+  min-width:76px;text-align:center;
+  padding:9px 12px;border:1px solid #d5dce2;
+  border-radius:var(--r8);background:#fff;color:var(--ink);
+  font-size:14px;font-weight:600;
+}
 
-  .breadcrumb { font-size: 14px; color: var(--ink); padding: 16px 0 0; }
-  .breadcrumb a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--stone); }
-  .breadcrumb .sep { color: var(--stone); margin: 0 6px; }
+.attraction-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:18px;margin-top:28px
+}
+.attraction-card{
+  background:var(--white);
+  border:1px solid #dbe1e6;
+  border-radius:var(--r12);
+  padding:24px;
+  box-shadow:0 12px 35px rgba(13,17,23,.07)
+}
+.attraction-card h3{font-size:22px;margin-bottom:8px}
+.attraction-card p{font-size:14px;color:#58646f;margin-bottom:15px}
+.attraction-card a{text-decoration:none;font-weight:600;font-size:14px}
 
-  /* Hero */
-  .hero { padding: 40px 0 48px; }
-  .hero h1 { font-size: 46px; line-height: 1.05; max-width: 780px; }
-  .hero .sub { max-width: 640px; font-size: 19px; margin-top: 18px; color: var(--ink); }
-  .hero-cta { margin-top: 28px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
-  .hero-cta .call-btn { font-size: 17px; padding: 14px 28px; }
-  .hero-cta .phone-text { font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 600; }
+details.faq{
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:var(--r8);
+  padding:20px 22px;
+  margin-bottom:11px;
+}
+details.faq summary{
+  font-family:'Fraunces',serif;
+  font-size:20px;
+  cursor:pointer;
+  list-style:none;
+  color:var(--white);
+}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::before{
+  content:"+";
+  display:inline-block;width:24px;color:var(--teal3);
+  font-family:'Inter',sans-serif;font-weight:600
+}
+details.faq[open] summary::before{content:"–"}
+details.faq p{margin:12px 0 0;color:var(--mist);font-size:14px}
 
-  .quickanswer {
-    background: var(--white);
-    border: 1px solid var(--stone);
-    border-left: 6px solid var(--teal);
-    padding: 22px 26px;
-    margin-top: 36px;
-    max-width: 760px;
-  }
-  .quickanswer p { margin: 0; }
-  .quickanswer strong { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 18px; margin-bottom: 6px; }
+.final-cta{text-align:center;padding:88px 0}
+.final-cta h2{max-width:700px;margin:auto}
+.final-cta p{max-width:560px;margin:15px auto 0;color:rgba(255,255,255,.78)}
+.final-cta .call-btn{margin-top:28px;background:var(--white);color:var(--ink);border-color:var(--white)}
+.final-cta .call-btn:hover{background:var(--snow)}
 
-  /* Services grid */
-  .service-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 1px;
-    background: var(--stone);
-    margin-top: 24px;
-  }
-  .service-card {
-    background: var(--white);
-    display: flex;
-    flex-direction: column;
-  }
-  .service-card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
-  .service-card .body { padding: 16px 18px 18px; border-top: 4px solid var(--teal); }
-  .service-card h3 { font-size: 19px; margin-bottom: 6px; }
-  .service-card p { font-size: 14.5px; margin: 0; color: var(--ink); }
+footer.site{
+  background:#080b0f;color:var(--mist);
+  padding:52px 0 28px;font-size:14px
+}
+footer.site a{color:var(--fog)}
+footer.site .cols2{margin-bottom:28px}
+footer.site h3{color:var(--white)!important;font-family:'Fraunces',serif}
+footer.site .legal{
+  border-top:1px solid rgba(255,255,255,.08);
+  margin-top:25px;padding-top:18px;font-size:12px;color:var(--mist)
+}
 
-  /* two column */
-  .cols2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-  @media (max-width: 760px) { .cols2 { grid-template-columns: 1fr; } }
-
-  ul.plain { padding-left: 20px; margin: 12px 0; }
-  ul.plain li { margin-bottom: 8px; }
-
-  .problem-list { list-style: none; padding: 0; margin: 24px 0 0; display: grid; gap: 14px; }
-  .problem-list li {
-    background: var(--white);
-    border: 1px solid var(--stone);
-    padding: 16px 20px;
-  }
-  .problem-list b { font-family: 'Barlow Condensed', sans-serif; font-size: 17px; }
-
-  .why-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px,1fr)); gap: 28px; margin-top: 28px; }
-  .why-grid .item h3 { font-size: 20px; margin-bottom: 8px; color: var(--cream); }
-  .why-grid .item p { margin: 0; color: var(--stone); font-size: 15px; }
-  .why-grid .item { border-left: 3px solid var(--teal); padding-left: 16px; }
-
-  .attraction-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 20px; margin-top: 24px; }
-  .attraction-card { background: var(--white); border: 1px solid var(--stone); padding: 18px 20px; }
-  .attraction-card h3 { font-size: 19px; margin-bottom: 8px; }
-  .attraction-card a { font-size: 14.5px; font-weight: 600; text-decoration: none; }
-
-  .zip-list { columns: 4; column-gap: 24px; font-size: 14.5px; color: var(--ink); margin-top: 18px; }
-  @media (max-width: 760px) { .zip-list { columns: 2; } }
-  .zip-list div { break-inside: avoid; padding: 3px 0; }
-
-  details.faq {
-    background: var(--white);
-    border: 1px solid var(--stone);
-    padding: 16px 20px;
-    margin-bottom: 10px;
-  }
-  details.faq summary {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 19px;
-    font-weight: 600;
-    cursor: pointer;
-    list-style: none;
-  }
-  details.faq summary::-webkit-details-marker { display: none; }
-  details.faq summary::before { content: "+ "; color: var(--teal); font-weight: 700; }
-  details.faq[open] summary::before { content: "– "; }
-  details.faq p { margin: 12px 0 0; }
-
-  .neighborhoods { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
-  .neighborhoods span {
-    border: 1px solid var(--stone);
-    padding: 7px 14px;
-    font-size: 14.5px;
-    background: var(--white);
-  }
-
-  footer.site { background: var(--ink); color: var(--stone); padding: 48px 0 28px; font-size: 14.5px; }
-  footer.site a { color: var(--cream); }
-  footer.site .cols2 { margin-bottom: 24px; }
-  footer.site .legal { border-top: 1px solid var(--surface-dark); margin-top: 24px; padding-top: 18px; font-size: 13px; }
-
-  .final-cta { text-align: center; padding: 64px 0; }
-  .final-cta h2 { color: var(--cream); font-size: 34px; }
-  .final-cta .call-btn { background: var(--cream); color: var(--ink); margin-top: 22px; font-size: 19px; padding: 16px 34px; }
-
-  @media (prefers-reduced-motion: reduce) {
-    html { scroll-behavior: auto; }
-  }
+@media(max-width:900px){
+  .service-grid{grid-template-columns:repeat(2,1fr)}
+  .why-grid{grid-template-columns:repeat(2,1fr)}
+  .attraction-grid{grid-template-columns:1fr}
+}
+@media(max-width:700px){
+  .wrap{width:min(100% - 28px,1160px)}
+  section{padding:62px 0}
+  header.site .wrap{min-height:70px}
+  .brand{font-size:21px}
+  .topbar .wrap{justify-content:center;text-align:center}
+  .hero{padding:55px 0 65px}
+  .hero h1{font-size:43px}
+  .hero .sub{font-size:16px}
+  .service-grid,.problem-list,.cols2,.why-grid{grid-template-columns:1fr}
+  .attraction-grid{grid-template-columns:1fr}
+  .hero-cta{align-items:stretch;flex-direction:column}
+  .hero-cta .call-btn{width:max-content}
+  .quickanswer{padding:20px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*:before,*:after{transition:none!important}
+}
 </style>
 </head>
 <body>
 
-<div class="topbar">
-  <div class="wrap">
-    <span>Serving Manchester, CT & Hartford County · Mon–Sat, 8:00 AM–7:00 PM</span>
-    <a href="tel:+18449016101">(844) 901-6101</a>
-  </div>
-</div>
-
-<header class="site">
-  <div class="wrap">
-    <a class="brand" href="https://theproliftgaragedoors.com/">Prolift <span>Garage Doors</span></a>
-    <a class="call-btn" href="tel:+18449016101">Call (844) 901-6101</a>
-  </div>
-</header>
+<!-- Shared Header -->
+<div id="site-header"></div>
+<script>
+(async function(){
+  const el=document.getElementById('site-header');
+  try{
+    const r=await fetch('https://theproliftgaragedoors.com/header.html',{cache:'no-cache'});
+    if(!r.ok) throw new Error('Header HTTP '+r.status);
+    const text=await r.text();
+    const doc=new DOMParser().parseFromString(text,'text/html');
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{
+      const l=document.createElement('link');
+      l.rel='stylesheet'; l.href=x.href; document.head.appendChild(l);
+    });
+    doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
+    el.innerHTML=doc.body.innerHTML;
+  }catch(e){
+    console.error('Could not load header.html',e);
+    el.innerHTML='<div style="padding:16px;background:#161d26;color:#c4cdd6;text-align:center">ProLift Garage Doors</div>';
+  }
+})();
+</script>
 
 <div class="wrap">
   <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -679,26 +829,27 @@
   </div>
 </section>
 
-<footer class="site">
-  <div class="wrap">
-    <div class="cols2">
-      <div>
-        <h3 style="color:var(--cream); font-size:20px;">Prolift Garage Doors</h3>
-        <p>570 Main Ave, Norwalk, CT 06851<br>
-        Mon–Sat, 8:00 AM–7:00 PM<br>
-        <a href="tel:+18449016101">(844) 901-6101</a><br>
-        <a href="mailto:theproliftgaragedoors@gmail.com">theproliftgaragedoors@gmail.com</a></p>
-      </div>
-      <div>
-        <h3 style="color:var(--cream); font-size:20px;">Explore</h3>
-        <p><a href="https://theproliftgaragedoors.com/">Connecticut Garage Door Repair</a><br>
-        <a href="https://theproliftgaragedoors.com/locations/">All Service Areas</a><br>
-        <a href="https://theproliftgaragedoors.com/privacy-policy">Privacy Policy</a></p>
-      </div>
-    </div>
-    <div class="legal">&copy; 2026 Prolift Garage Doors. Service area business serving Manchester, CT and greater Connecticut.</div>
-  </div>
-</footer>
-
+<!-- Shared Footer -->
+<div id="site-footer"></div>
+<script>
+(async function(){
+  const el=document.getElementById('site-footer');
+  try{
+    const r=await fetch('https://theproliftgaragedoors.com/footer.html',{cache:'no-cache'});
+    if(!r.ok) throw new Error('Footer HTTP '+r.status);
+    const text=await r.text();
+    const doc=new DOMParser().parseFromString(text,'text/html');
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{
+      const l=document.createElement('link');
+      l.rel='stylesheet'; l.href=x.href; document.head.appendChild(l);
+    });
+    doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
+    el.innerHTML=doc.body.innerHTML;
+  }catch(e){
+    console.error('Could not load footer.html',e);
+    el.innerHTML='<footer style="padding:32px;background:#080b0f;color:#8e9ba8;text-align:center">© ProLift Garage Doors</footer>';
+  }
+})();
+</script>
 </body>
 </html>
