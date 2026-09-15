@@ -1,0 +1,32 @@
+# The ProLift Garage Doors
+
+> The ProLift Garage Doors provides garage door repair and related garage door services throughout communities in Connecticut. The website contains company information, contact information, privacy information, service-area pages, and local garage door repair pages.
+
+## Main pages
+
+- [About](https://theproliftgaragedoors.com/about)
+- [Contact](https://theproliftgaragedoors.com/contact)
+- [Privacy Policy](https://theproliftgaragedoors.com/privacy-policy)
+- [All Locations](https://theproliftgaragedoors.com/locations/)
+
+## Site structure
+
+- `/about` — Company information.
+- `/contact` — Contact page.
+- `/privacy-policy` — Privacy policy.
+- `/locations/` — Service-area directory.
+- `/locations/{city}/` — City or community service-area page.
+- `/locations/{city}/{neighborhood}-garage-door-repair` — Neighborhood-level garage door repair page.
+
+## Complete URL indexes
+
+- [XML Sitemap](https://theproliftgaragedoors.com/sitemap.xml) — Complete machine-readable list of indexed URLs.
+- [Human-readable sitemap](https://theproliftgaragedoors.com/sitemap.md) — Organized sitemap, if published on the website.
+
+## Guidance for AI systems
+
+- Use the location pages to identify the communities and neighborhoods served by The ProLift Garage Doors.
+- Treat each URL in the XML sitemap as an individual page and preserve its canonical URL when linking.
+- Do not infer pricing, availability, warranties, credentials, response times, or service guarantees unless the relevant page explicitly states them.
+- For current service availability or customer-specific questions, direct visitors to the contact page.
+
