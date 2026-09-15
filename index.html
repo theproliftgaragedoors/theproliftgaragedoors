@@ -7,18 +7,40 @@
 <meta name="description" content="ProLift Garage Doors — same-day garage door opener repair, spring replacement, cable repair & full installation across Connecticut. Licensed techs, flat-rate pricing, 12-month warranty. Call (844) 901-6101."/>
 <meta name="keywords" content="garage door opener repair Connecticut, garage door repair CT, garage door spring repair CT, same day garage door repair Connecticut, LiftMaster repair CT, Chamberlain repair Connecticut, garage door installation CT, Norwalk CT garage door"/>
 <link rel="canonical" href="https://theproliftgaragedoors.com/"/>
-<link rel="icon" type="image/webp" href="https://raw.githubusercontent.com/theproliftgaragedoors/theproliftgaragedoors/main/images/prolift-garage-doors-logo.webp"/>
-<link rel="shortcut icon" type="image/webp" href="https://raw.githubusercontent.com/theproliftgaragedoors/theproliftgaragedoors/main/images/prolift-garage-doors-logo.webp"/>
+<link rel="icon" type="image/webp" href="https://theproliftgaragedoors.com/images/prolift-garage-doors-logo.webp"/>
+<link rel="shortcut icon" type="image/webp" href="https://theproliftgaragedoors.com/images/prolift-garage-doors-logo.webp"/>
 <meta property="og:title" content="ProLift Garage Doors | Expert Garage Door Opener Repair – Connecticut"/>
 <meta property="og:description" content="Same-day garage door opener repair across CT. Licensed techs, flat-rate pricing, 12-month warranty. Call (844) 901-6101."/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://theproliftgaragedoors.com/"/>
+
+<!-- ============================================================
+     PROLIFT GARAGE DOORS — COMPLETE SCHEMA PACK (7 blocks)
+     Replaces the old single LocalBusiness block
+============================================================ -->
+
+<!-- ① LocalBusiness + GeoCoordinates + AggregateRating + OpeningHours + OfferCatalog + sameAs -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+  "@id": "https://theproliftgaragedoors.com/#business",
   "name": "ProLift Garage Doors",
+  "legalName": "ProLift Garage Doors",
   "url": "https://theproliftgaragedoors.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://theproliftgaragedoors.com/images/prolift-garage-doors-logo.webp",
+    "width": 400,
+    "height": 120
+  },
+  "image": [
+    "https://theproliftgaragedoors.com/images/garage-door-opener-repair-by-prolift-garage-doors.webp",
+    "https://theproliftgaragedoors.com/images/garage-door-spring-replacement-by-prolift-garage-doors.webp",
+    "https://theproliftgaragedoors.com/images/garage-door-installation-by-prolift-garage-doors.webp",
+    "https://theproliftgaragedoors.com/images/garage-door-maintenance-by-prolift-garage-doors.webp",
+    "https://theproliftgaragedoors.com/images/garage-door-cable-repair-by-prolift-garage-doors.webp"
+  ],
   "telephone": "+18449016101",
   "email": "theproliftgaragedoors@gmail.com",
   "address": {
@@ -34,24 +56,421 @@
     "latitude": 41.15677230000001,
     "longitude": -73.42460892712201
   },
-  "description": "Expert garage door opener repair, spring replacement, cable repair, and installation across Connecticut. Same-day service, licensed technicians, 12-month warranty.",
-  "priceRange": "$$",
-  "areaServed": {"@type": "State","name": "Connecticut"},
-  "aggregateRating": {"@type": "AggregateRating","ratingValue": "4.9","reviewCount": "340"},
+  "hasMap": "https://www.google.com/maps?cid=15686198537328393987",
+  "currenciesAccepted": "USD",
+  "paymentAccepted": "Cash, Credit Card, Debit Card, Check",
+  "priceRange": "$50 - $7000",
+  "foundingDate": "2011-09-11",
+  "description": "ProLift Garage Doors provides expert garage door repair, installation, maintenance, and opener service throughout Connecticut (CT). Licensed and insured technicians, same-day service, flat-rate pricing, and a 12-month parts and labor warranty.",
+  "disambiguatingDescription": "ProLift Garage Doors is a Connecticut garage door service company specializing in garage door repair, installation, maintenance, and opener services.",
+  "slogan": "Expert Garage Door Repair, Installation & Maintenance Across Connecticut",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "08:00",
+      "closes": "19:00"
+    }
+  ],
+  "areaServed": [
+    {"@type": "State", "name": "Connecticut", "sameAs": "https://en.wikipedia.org/wiki/Connecticut"},
+    {"@type": "City", "name": "Hartford", "sameAs": "https://en.wikipedia.org/wiki/Hartford,_Connecticut"},
+    {"@type": "City", "name": "Stamford", "sameAs": "https://en.wikipedia.org/wiki/Stamford,_Connecticut"},
+    {"@type": "City", "name": "New Haven", "sameAs": "https://en.wikipedia.org/wiki/New_Haven,_Connecticut"},
+    {"@type": "City", "name": "Bridgeport", "sameAs": "https://en.wikipedia.org/wiki/Bridgeport,_Connecticut"},
+    {"@type": "City", "name": "Waterbury", "sameAs": "https://en.wikipedia.org/wiki/Waterbury,_Connecticut"},
+    {"@type": "City", "name": "Norwalk", "sameAs": "https://en.wikipedia.org/wiki/Norwalk,_Connecticut"},
+    {"@type": "City", "name": "Danbury", "sameAs": "https://en.wikipedia.org/wiki/Danbury,_Connecticut"},
+    {"@type": "City", "name": "Greenwich", "sameAs": "https://en.wikipedia.org/wiki/Greenwich,_Connecticut"},
+    {"@type": "City", "name": "West Hartford"},
+    {"@type": "City", "name": "Fairfield"},
+    {"@type": "City", "name": "Hamden"},
+    {"@type": "City", "name": "Meriden"},
+    {"@type": "City", "name": "Bristol"},
+    {"@type": "City", "name": "Milford"},
+    {"@type": "City", "name": "Middletown"},
+    {"@type": "City", "name": "New Britain"},
+    {"@type": "City", "name": "Shelton"},
+    {"@type": "City", "name": "Torrington"},
+    {"@type": "City", "name": "Trumbull"},
+    {"@type": "City", "name": "Glastonbury"},
+    {"@type": "City", "name": "Stratford"},
+    {"@type": "City", "name": "Naugatuck"},
+    {"@type": "City", "name": "Enfield"},
+    {"@type": "City", "name": "Southington"},
+    {"@type": "City", "name": "Cheshire"},
+    {"@type": "City", "name": "Manchester"},
+    {"@type": "City", "name": "Groton"},
+    {"@type": "City", "name": "New London"}
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": "340",
+    "itemReviewed": {
+      "@id": "https://theproliftgaragedoors.com/#business"
+    }
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "author": {"@type": "Person", "name": "Mike J."},
+      "reviewBody": "Called at 8am, technician was at my door by noon. My opener was completely dead — they had it running in under an hour. Honest diagnosis, fair price, zero upselling.",
+      "datePublished": "2024-06-15",
+      "publisher": {"@type": "Organization", "name": "Google"}
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "author": {"@type": "Person", "name": "Sarah R."},
+      "reviewBody": "Quoted me a price before touching anything and stuck to it. Fixed my broken spring in 45 minutes. Super clean work. I've already recommended ProLift to three neighbors in Stamford.",
+      "datePublished": "2024-07-22",
+      "publisher": {"@type": "Organization", "name": "Google"}
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "author": {"@type": "Person", "name": "David P."},
+      "reviewBody": "Same-day service on a Saturday morning. The technician explained exactly what was wrong before fixing anything. ProLift is the only garage door company I'll ever call again.",
+      "datePublished": "2024-08-10",
+      "publisher": {"@type": "Organization", "name": "Google"}
+    }
+  ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Garage Door Services",
+    "name": "Garage Door Services Connecticut",
     "itemListElement": [
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Garage Door Opener Repair"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Garage Door Spring Repair"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Garage Door Cable Repair"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Garage Door Installation"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Off-Track Garage Door Repair"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Garage Door Opener Installation"}}
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Opener Repair", "description": "Motor failing, reversing unexpectedly, or not responding? We diagnose and repair all opener types — chain, belt, screw, and direct drive."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Spring Replacement", "description": "A broken torsion or extension spring is the #1 cause of a door that won't open. We carry springs for all door sizes and replace them safely."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Cable Repair", "description": "Snapped or frayed cables cause dangerous imbalances. We replace both cables together so wear stays even and the door operates safely."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Off-Track Garage Door Repair", "description": "A door that jumped its tracks needs immediate attention. We realign, adjust, and test the full track system before leaving."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Opener Motor Repair", "description": "Burnt-out or seized motors are repaired or swapped with compatible units that restore full, reliable operation across all brands."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Installation", "description": "New home, upgrade, or full replacement — we measure, source, and install garage doors of all styles and materials."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Opener Installation", "description": "Upgrade to a quieter belt drive, add smart home connectivity via MyQ, or replace an aging unit. We install LiftMaster, Chamberlain, Genie, and Ryobi."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Sensor Alignment & Replacement", "description": "Misaligned photo-eye sensors cause the door to reverse or refuse to close. We realign, clean, and replace sensors to restore safe auto-reverse operation."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Roller Replacement", "description": "Worn nylon or steel rollers cause noisy, jerky movement. We replace all rollers in one visit to restore whisper-quiet operation."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Track Alignment & Replacement", "description": "Bent, warped, or misaligned tracks cause the door to bind, grind, or derail. We straighten, realign, or fully replace tracks to manufacturer tolerances."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Hinge Repair & Replacement", "description": "Cracked or broken hinges create stress points that can bend panels. We replace damaged hinges with heavy-gauge equivalents."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Panel Replacement", "description": "Dented, cracked, or weather-damaged panels affect curb appeal and insulation. We source matching panels for most door brands."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Wiring Repair", "description": "Frayed wires, shorted circuits, or faulty wall buttons cause erratic opener behavior. We trace and repair all wiring issues safely."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Balancing", "description": "An unbalanced door puts enormous strain on the opener motor. We test and adjust spring tension until the door holds steady at mid-travel."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Tune-Up & Maintenance", "description": "Annual maintenance prevents most garage door breakdowns. Our tune-up covers lubrication, hardware tightening, balance check, safety testing, and full inspection."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Remote & Keypad Programming", "description": "Lost remotes, dead keypads, or a new opener that needs setup — we configure all remotes, wireless keypads, and smart integrations including MyQ and Google Home."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Weatherstripping Replacement", "description": "Worn seals let in cold air, pests, and water. We replace bottom seals, side seals, and top trim to restore a tight, weatherproof fit."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Door Insulation Installation", "description": "An insulated garage door improves energy efficiency, reduces noise, and regulates temperature. We install insulation panels or upgrade to a factory-insulated door."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "General Garage Door Repair", "description": "Not sure what's wrong? Our technicians diagnose any garage door problem — from minor noises to complete failures — and fix it right."}}
+    ]
+  },
+  "sameAs": [
+    "https://www.facebook.com/theproliftgaragedoors",
+    "https://www.instagram.com/theproliftgaragedoors/",
+    "https://www.linkedin.com/company/proliftgaragedoors/",
+    "https://www.pinterest.com/theproliftgaragedoors",
+    "https://www.google.com/maps?cid=15686198537328393987"
+  ],
+  "mainEntityOfPage": "https://en.wikipedia.org/wiki/Garage_door",
+  "about": [
+    {"@type": "Thing", "name": "garage door", "sameAs": ["https://en.wikipedia.org/wiki/Garage_door", "https://www.google.com/search?q=garage+door&kgmid=/m/08l941"]},
+    {"@type": "Thing", "name": "garage door opener", "sameAs": ["https://en.wikipedia.org/wiki/Garage_door_opener", "https://www.google.com/search?q=garage+door+opener&kgmid=/m/04r0gh"]},
+    {"@type": "Thing", "name": "repair", "sameAs": ["https://en.wikipedia.org/wiki/Maintenance", "https://www.google.com/search?q=repair&kgmid=/m/0mmmc"]},
+    {"@type": "Thing", "name": "technician", "sameAs": ["https://en.wikipedia.org/wiki/Technician", "https://www.google.com/search?q=technician&kgmid=/m/049btd"]}
+  ],
+  "keywords": "garage door repair, garage door installation, garage door replacement, garage door service, emergency garage door repair, garage door opener repair, garage door opener installation, garage door spring repair, garage door cable repair, garage door maintenance, Connecticut CT"
+}
+</script>
+
+<!-- ② Person — Owner/Author (helps E-E-A-T signals) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://theproliftgaragedoors.com/#owner",
+  "name": "William David",
+  "jobTitle": "Founder & Owner",
+  "worksFor": {
+    "@id": "https://theproliftgaragedoors.com/#business"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://theproliftgaragedoors.com/images/william-david-owner-prolift-garage-doors.webp"
+  },
+  "description": "William David founded ProLift Garage Doors on September 11, 2011, with a commitment to providing dependable, professional garage door services. Over the years, his focus on quality workmanship, honest service, and customer satisfaction has helped build a trusted local business serving homeowners throughout Connecticut.",
+  "url": "https://theproliftgaragedoors.com"
+}
+</script>
+
+<!-- ③ WebSite + SearchAction (enables sitelinks search box) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://theproliftgaragedoors.com/#website",
+  "url": "https://theproliftgaragedoors.com",
+  "name": "ProLift Garage Doors",
+  "description": "Expert garage door repair, installation, and maintenance across Connecticut.",
+  "publisher": {
+    "@id": "https://theproliftgaragedoors.com/#business"
+  },
+  "inLanguage": "en-US",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://theproliftgaragedoors.com/?s={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- ④ WebPage — homepage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://theproliftgaragedoors.com/#webpage",
+  "url": "https://theproliftgaragedoors.com/",
+  "name": "Garage Door Repair & Installation CT | Prolift Garage Doors",
+  "description": "ProLift Garage Doors — same-day garage door opener repair, spring replacement, cable repair & full installation across Connecticut. Licensed techs, flat-rate pricing, 12-month warranty.",
+  "isPartOf": {"@id": "https://theproliftgaragedoors.com/#website"},
+  "about": {"@id": "https://theproliftgaragedoors.com/#business"},
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://theproliftgaragedoors.com/images/garage-door-opener-repair-by-prolift-garage-doors.webp"
+  },
+  "inLanguage": "en-US",
+  "datePublished": "2011-09-11",
+  "dateModified": "2025-01-01",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://theproliftgaragedoors.com/"
+      }
     ]
   }
 }
 </script>
+
+<!-- ⑤ FAQPage — maps directly to your FAQ section (Google FAQ rich result) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Repair or full replacement — how do I know if I need a new garage door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If your opener is under 10–12 years old and the issue is a broken gear, logic board, or drive mechanism, repair usually wins. If it's older, grinding regularly, or failing repeatedly, replacement is often the smarter long-term call. Our technician gives an honest recommendation either way — no pressure toward the more expensive option."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can ProLift come out for garage door repair across Connecticut?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call before noon and we're typically there the same day. For urgent situations — opener stuck with a car inside, or a door that won't close — we prioritize immediately. Our typical arrival window is 2–4 hours from your call, 7 days a week across Connecticut."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the garage door diagnosis visit free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There's a standard service call fee that covers the technician's time and diagnostic inspection. That fee is fully waived when you proceed with the repair. We always give a complete diagnosis and flat-rate quote first — you're never obligated to proceed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What garage door brands does ProLift service in CT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All major brands including LiftMaster, Chamberlain, Genie, Craftsman, Ryobi, Overhead Door, Stanley, and Wayne Dalton. We stock parts for the most common models on every truck to complete most repairs in a single visit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is every garage door repair covered by a warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every ProLift repair is backed by a full 12-month parts and labor warranty. If the repaired component fails within 12 months, we return and fix it at no charge — no questions, no hassle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you fix a garage door that came off its tracks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely — off-track repair is one of our most frequent calls. Do not try to force the door open or closed; it causes significant extra damage. Call ProLift immediately and we'll get it safely back on track, usually the same day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is my garage door making a grinding noise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Grinding usually means worn gears inside the opener motor, damaged rollers, or a misaligned track. None of these should be ignored — they worsen fast and can lead to complete failure. Our tech will diagnose the exact cause and fix it in one visit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does ProLift offer annual garage door maintenance plans?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Annual tune-ups are the best way to prevent costly breakdowns. Our maintenance service covers full lubrication, hardware tightening, balance testing, safety sensor check, and a complete system inspection. Most CT homeowners who book yearly never deal with emergency repair calls."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- ⑥ Service schema — one rich block per primary service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://theproliftgaragedoors.com/#service-opener-repair",
+  "name": "Garage Door Opener Repair Connecticut",
+  "serviceType": "Garage Door Opener Repair",
+  "provider": {"@id": "https://theproliftgaragedoors.com/#business"},
+  "areaServed": {"@type": "State", "name": "Connecticut"},
+  "description": "Expert garage door opener repair across Connecticut. We diagnose and repair all opener types — chain drive, belt drive, screw drive, and direct drive — from LiftMaster, Chamberlain, Genie, Craftsman, and all major brands. Same-day service available.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "priceRange": "$80 - $450",
+    "availability": "https://schema.org/InStock",
+    "areaServed": {"@type": "State", "name": "Connecticut"}
+  },
+  "image": "https://theproliftgaragedoors.com/images/garage-door-opener-repair-by-prolift-garage-doors.webp"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://theproliftgaragedoors.com/#service-spring-replacement",
+  "name": "Garage Door Spring Replacement Connecticut",
+  "serviceType": "Garage Door Spring Replacement",
+  "provider": {"@id": "https://theproliftgaragedoors.com/#business"},
+  "areaServed": {"@type": "State", "name": "Connecticut"},
+  "description": "Professional torsion and extension spring replacement across CT. Broken garage door springs are a safety hazard — never a DIY job. We carry springs for all door sizes and weights, and replace them safely with same-day service.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "priceRange": "$150 - $350",
+    "availability": "https://schema.org/InStock",
+    "areaServed": {"@type": "State", "name": "Connecticut"}
+  },
+  "image": "https://theproliftgaragedoors.com/images/garage-door-spring-replacement-by-prolift-garage-doors.webp"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://theproliftgaragedoors.com/#service-installation",
+  "name": "Garage Door Installation Connecticut",
+  "serviceType": "Garage Door Installation",
+  "provider": {"@id": "https://theproliftgaragedoors.com/#business"},
+  "areaServed": {"@type": "State", "name": "Connecticut"},
+  "description": "New garage door installation across Connecticut. We measure, source, and install garage doors of all styles and materials — steel, wood, composite, aluminum, and glass — with professional precision and clean finishing.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "priceRange": "$800 - $7000",
+    "availability": "https://schema.org/InStock",
+    "areaServed": {"@type": "State", "name": "Connecticut"}
+  },
+  "image": "https://theproliftgaragedoors.com/images/garage-door-installation-by-prolift-garage-doors.webp"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://theproliftgaragedoors.com/#service-cable-repair",
+  "name": "Garage Door Cable Repair Connecticut",
+  "serviceType": "Garage Door Cable Repair",
+  "provider": {"@id": "https://theproliftgaragedoors.com/#business"},
+  "areaServed": {"@type": "State", "name": "Connecticut"},
+  "description": "Same-day garage door cable repair and replacement across CT. Snapped or frayed cables cause dangerous imbalances. We replace both cables together so wear stays even and your door operates safely.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "priceRange": "$100 - $280",
+    "availability": "https://schema.org/InStock",
+    "areaServed": {"@type": "State", "name": "Connecticut"}
+  },
+  "image": "https://theproliftgaragedoors.com/images/garage-door-cable-repair-by-prolift-garage-doors.webp"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://theproliftgaragedoors.com/#service-maintenance",
+  "name": "Garage Door Maintenance & Tune-Up Connecticut",
+  "serviceType": "Garage Door Maintenance",
+  "provider": {"@id": "https://theproliftgaragedoors.com/#business"},
+  "areaServed": {"@type": "State", "name": "Connecticut"},
+  "description": "Annual garage door tune-up and maintenance service across Connecticut. Covers full lubrication, hardware tightening, balance testing, safety sensor check, and complete system inspection. The best way to prevent costly emergency repairs.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "priceRange": "$75 - $150",
+    "availability": "https://schema.org/InStock",
+    "areaServed": {"@type": "State", "name": "Connecticut"}
+  },
+  "image": "https://theproliftgaragedoors.com/images/garage-door-maintenance-by-prolift-garage-doors.webp"
+}
+</script>
+
+<!-- ⑦ ItemList — service listing -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "ProLift Garage Doors — All Services in Connecticut",
+  "description": "Complete list of garage door services offered by ProLift Garage Doors across Connecticut.",
+  "url": "https://theproliftgaragedoors.com/#services",
+  "numberOfItems": 19,
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1,  "name": "Garage Door Opener Repair",              "url": "https://theproliftgaragedoors.com/#service-opener-repair"},
+    {"@type": "ListItem", "position": 2,  "name": "Garage Door Spring Replacement",         "url": "https://theproliftgaragedoors.com/#service-spring-replacement"},
+    {"@type": "ListItem", "position": 3,  "name": "Garage Door Cable Repair & Replacement", "url": "https://theproliftgaragedoors.com/#service-cable-repair"},
+    {"@type": "ListItem", "position": 4,  "name": "Off-Track Garage Door Repair",           "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 5,  "name": "Garage Door Opener Motor Repair",        "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 6,  "name": "Garage Door Installation",               "url": "https://theproliftgaragedoors.com/#service-installation"},
+    {"@type": "ListItem", "position": 7,  "name": "Garage Door Opener Installation",        "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 8,  "name": "Sensor Alignment & Replacement",         "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 9,  "name": "Garage Door Roller Replacement",         "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 10, "name": "Track Alignment & Replacement",          "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 11, "name": "Hinge Repair & Replacement",             "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 12, "name": "Garage Door Panel Replacement",          "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 13, "name": "Garage Door Wiring Repair",              "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 14, "name": "Garage Door Balancing",                  "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 15, "name": "Garage Door Tune-Up & Maintenance",      "url": "https://theproliftgaragedoors.com/#service-maintenance"},
+    {"@type": "ListItem", "position": 16, "name": "Remote & Keypad Programming",            "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 17, "name": "Garage Door Weatherstripping",           "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 18, "name": "Garage Door Insulation Installation",    "url": "https://theproliftgaragedoors.com/#business"},
+    {"@type": "ListItem", "position": 19, "name": "General Garage Door Repair",             "url": "https://theproliftgaragedoors.com/#business"}
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
 <style>
@@ -80,8 +499,6 @@
 html{scroll-behavior:smooth}
 body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 
-/* NAV removed */
-
 /* ═══════════════════════════════════════════════
    HERO
 ═══════════════════════════════════════════════ */
@@ -90,7 +507,6 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);ove
   display:grid;grid-template-columns:1fr 1fr;
   background:var(--ink);position:relative;overflow:hidden
 }
-/* ambient glow */
 .hero::before{
   content:'';position:absolute;top:0;left:0;right:0;bottom:0;
   background:
@@ -153,7 +569,6 @@ h1 .dim{color:rgba(255,255,255,.45)}
 }
 .trust-pill svg{width:14px;height:14px;fill:var(--teal2)}
 
-/* Hero right — stats panel */
 .hero-right{
   padding:64px 64px 64px 32px;
   display:flex;align-items:center;justify-content:center;
@@ -191,7 +606,6 @@ h1 .dim{color:rgba(255,255,255,.45)}
 .sp-footer svg{width:15px;height:15px;fill:rgba(255,255,255,.75);flex-shrink:0}
 .sp-footer p{font-size:12px;font-weight:500;color:rgba(255,255,255,.9)}
 
-/* address bar under stats */
 .addr-bar{
   margin-top:12px;width:100%;max-width:400px;
   background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);
@@ -222,7 +636,6 @@ h1 .dim{color:rgba(255,255,255,.45)}
   display:flex;align-items:center;justify-content:center;
   overflow:hidden;background:var(--ink)
 }
-/* environment */
 #gs-bg{
   position:absolute;inset:0;
   background:radial-gradient(ellipse 100% 70% at 50% 60%, #0d1e1d 0%, var(--ink) 65%)
@@ -237,7 +650,6 @@ h1 .dim{color:rgba(255,255,255,.45)}
   background:linear-gradient(to bottom,#131e27,#0c1520);
   clip-path:polygon(18% 0%,82% 0%,100% 100%,0% 100%)
 }
-/* building */
 #gs-building{position:relative;z-index:10;display:flex;flex-direction:column;align-items:center}
 .gs-roof{
   width:0;height:0;
@@ -254,7 +666,6 @@ h1 .dim{color:rgba(255,255,255,.45)}
   font-size:9px;font-weight:700;letter-spacing:3px;
   color:rgba(255,255,255,.08);text-transform:uppercase;margin-bottom:14px;font-family:'Inter',sans-serif
 }
-/* door */
 .gs-frame{
   width:400px;position:relative;
   background:#050c14;border:5px solid #1a3248;border-bottom:none;overflow:visible
@@ -266,14 +677,11 @@ h1 .dim{color:rgba(255,255,255,.45)}
   background:radial-gradient(ellipse at 50% 100%,rgba(12,128,117,.25) 0%,transparent 70%);
   opacity:0;transition:opacity .4s;z-index:2
 }
-/* tracks */
 .gs-tl,.gs-tr{position:absolute;top:0;bottom:0;width:14px;background:#0a1929;z-index:20}
 .gs-tl{left:0;border-right:2px solid #1a3248}
 .gs-tr{right:0;border-left:2px solid #1a3248}
-/* opener */
 .gs-rail{position:absolute;top:8px;left:50%;transform:translateX(-50%);width:55%;height:6px;background:#162535;border-radius:3px;z-index:15}
 .gs-motor{position:absolute;top:5px;left:50%;transform:translateX(-50%);width:38px;height:18px;background:var(--teal);border-radius:4px;z-index:16;box-shadow:0 0 18px rgba(12,128,117,.6)}
-/* panels */
 #gs-panels{position:absolute;top:0;left:14px;right:14px;z-index:10}
 .gs-panel{
   width:100%;background:linear-gradient(180deg,#d6d2cc 0%,#c4c0b8 100%);
@@ -286,7 +694,6 @@ h1 .dim{color:rgba(255,255,255,.45)}
 .gs-frame-bot{width:400px;height:10px;background:#1a3248}
 .gs-facade-bot{width:560px;height:18px;background:#0c1c2a;border-left:3px solid #1a3248;border-right:3px solid #1a3248;border-bottom:3px solid #1a3248}
 .gs-slab{width:560px;height:8px;background:#090f18;border-radius:0 0 2px 2px}
-/* light beam */
 #gs-beam{
   position:absolute;bottom:138px;left:50%;transform:translateX(-50%);
   width:640px;height:0;
@@ -294,7 +701,6 @@ h1 .dim{color:rgba(255,255,255,.45)}
   clip-path:polygon(28% 0%,72% 0%,100% 100%,0% 100%);
   opacity:0;z-index:5;pointer-events:none
 }
-/* floating cards */
 .fc{
   position:absolute;
   background:rgba(22,29,38,.96);border:1px solid rgba(255,255,255,.1);
@@ -310,7 +716,6 @@ h1 .dim{color:rgba(255,255,255,.45)}
 .fc-ic svg{width:18px;height:18px;fill:var(--teal3)}
 .fc-t{font-size:13px;font-weight:700;color:var(--white)}
 .fc-s{font-size:11px;color:var(--mist);margin-top:2px}
-/* scroll cue */
 #gs-cue{
   position:absolute;bottom:32px;left:50%;transform:translateX(-50%);
   display:flex;flex-direction:column;align-items:center;gap:8px;z-index:300;
@@ -440,17 +845,6 @@ section{position:relative}
   height:540px;position:relative;overflow:hidden;
   border:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center
 }
-.about-map-embed{
-  position:absolute;inset:0;
-  background:linear-gradient(135deg,#0d1e2a 0%,#0f2030 100%);
-  display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px
-}
-.map-icon{width:48px;height:48px;background:rgba(12,128,117,.15);border-radius:50%;display:flex;align-items:center;justify-content:center}
-.map-icon svg{width:24px;height:24px;fill:var(--teal2)}
-.map-label{font-size:12px;font-weight:500;color:var(--mist);text-align:center;line-height:1.5}
-.map-link{font-size:11px;font-weight:700;color:var(--teal3);text-decoration:none;letter-spacing:.3px}
-.map-link:hover{text-decoration:underline}
-/* map iframe overlay */
 .map-frame{position:absolute;inset:0;border:none;opacity:.7;filter:saturate(.4) brightness(.6)}
 .about-badge{
   position:absolute;bottom:20px;left:20px;right:20px;
@@ -610,7 +1004,6 @@ section{position:relative}
 .c-val{font-size:15px;font-weight:600;color:var(--white)}
 .c-val a{color:var(--white);text-decoration:none}
 .c-val a:hover{color:var(--teal3)}
-/* form */
 .c-form{background:var(--ink3);border:1px solid rgba(255,255,255,.07);border-radius:var(--r16);padding:36px}
 .c-form h3{font-family:'Fraunces',serif;font-size:24px;font-weight:400;color:var(--white);margin-bottom:6px;letter-spacing:-.4px}
 .c-form>p{font-size:13px;color:var(--mist);margin-bottom:26px}
@@ -633,8 +1026,6 @@ section{position:relative}
   transition:background .18s
 }
 .fsub:hover{background:var(--teal2)}
-
-/* footer removed */
 
 /* ═══════════════════════════════════════════════
    REVEAL
@@ -674,6 +1065,23 @@ section{position:relative}
 </style>
 </head>
 <body>
+<!-- Shared Header -->
+<div id="site-header"></div>
+<script>
+(async function(){
+  const el=document.getElementById('site-header');
+  try{
+    const r=await fetch('https://theproliftgaragedoors.com/header.html',{cache:'no-cache'});
+    if(!r.ok) throw new Error('Header HTTP '+r.status);
+    const text=await r.text();
+    const doc=new DOMParser().parseFromString(text,'text/html');
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});
+    doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
+    el.innerHTML=doc.body.innerHTML;
+  }catch(e){console.error('Could not load header.html',e)}
+})();
+</script>
+
 
 <!-- HERO -->
 <section class="hero">
@@ -795,7 +1203,6 @@ section{position:relative}
       <div class="gs-facade-bot"></div>
       <div class="gs-slab"></div>
     </div>
-    <!-- Floating cards -->
     <div class="fc" id="fc0">
       <div class="fc-ic"><svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
       <div><div class="fc-t">Same-day service</div><div class="fc-s">Call before noon — we're there today</div></div>
@@ -912,7 +1319,6 @@ section{position:relative}
 <!-- ABOUT -->
 <section id="about">
   <div class="about-vis reveal">
-    <!-- Google Maps embed -->
     <iframe
       class="map-frame"
       src="https://maps.google.com/maps?q=570+Main+Ave+Norwalk+CT+06851&t=&z=15&ie=UTF8&iwloc=&output=embed"
@@ -1189,7 +1595,7 @@ section{position:relative}
 
 <script>
 /* ── SERVICES DATA ─────────────────────────────────────── */
-const IMG_BASE = 'https://raw.githubusercontent.com/theproliftgaragedoors/theproliftgaragedoors/main/images/';
+const IMG_BASE = 'https://theproliftgaragedoors.com/images/';
 const SERVICES = [
   {title:'Opener Repair',                     desc:'Motor failing, reversing unexpectedly, or not responding? We diagnose and repair all opener types — chain, belt, screw, and direct drive — or replace with a top-brand unit when needed.',tag:'Most common repair', grad:'135deg,#0d2030,#0f2838', img:'garage-door-opener-repair-by-prolift-garage-doors.webp'},
   {title:'Spring Replacement',                desc:'A broken torsion or extension spring is the #1 cause of a door that won\'t open. We carry springs for all door sizes and replace them safely — this is never a DIY job.',tag:'Safety-critical', grad:'135deg,#0f2030,#122030', img:'garage-door-spring-replacement-by-prolift-garage-doors.webp'},
@@ -1246,7 +1652,6 @@ const frameEl  = document.getElementById('gs-frame');
 const panelsEl = document.getElementById('gs-panels');
 const totalH   = NP * PH;
 frameEl.style.height = totalH+'px';
-// CRITICAL: clip panels inside the frame so they vanish as they scroll up
 panelsEl.style.overflow = 'hidden';
 panelsEl.style.height   = totalH+'px';
 panelsEl.style.position = 'relative';
@@ -1281,16 +1686,12 @@ function onScroll(){
 
   cue.style.opacity = clamp(1-p*12,0,1);
 
-  // Phase 1: door opens — panels slide UP into the frame header and disappear (0→0.5)
-  // Each panel is positioned absolutely in the stack; translateY(-totalH) moves them all above the clip boundary
   const dp = clamp(p/0.5,0,1);
   panels.forEach((pan,i)=>{
-    // Bottom panel moves first (i = NP-1), top panel last (i = 0)
-    const order = (NP - 1 - i) / (NP - 1); // 1 for bottom, 0 for top
-    const delay = order * 0.3;              // stagger: bottom starts first
+    const order = (NP - 1 - i) / (NP - 1);
+    const delay = order * 0.3;
     const lp    = clamp((dp - delay) / 0.65, 0, 1);
     const ease  = eio(lp);
-    // Move each panel upward by its own height * ease — they slide into the top of the frame
     pan.style.transform = `translateY(${-ease * totalH}px)`;
   });
 
@@ -1299,7 +1700,6 @@ function onScroll(){
   beam.style.opacity  = bp*.9;
   beam.style.height   = lerp(0,160,bp)+'px';
 
-  // Phase 2: cards fly out (0.5→0.78)
   const cp = clamp((p-.5)/.28,0,1);
   flyCs.forEach((card,i)=>{
     const lp = clamp((cp - i*.2)/.6,0,1);
@@ -1311,7 +1711,6 @@ function onScroll(){
     card.style.opacity   = e;
   });
 
-  // Phase 3: fade out building (0.78→1.0)
   const op = clamp((p-.78)/.22,0,1);
   const oe = ein(op);
   bldg.style.transform = `scale(${lerp(1,.5,oe)})`;
@@ -1342,6 +1741,23 @@ function toggleFaq(btn){
   });
   if(!open){ans.classList.add('open');btn.classList.add('open');}
 }
+</script>
+
+<!-- Shared Footer -->
+<div id="site-footer"></div>
+<script>
+(async function(){
+  const el=document.getElementById('site-footer');
+  try{
+    const r=await fetch('https://theproliftgaragedoors.com/footer.html',{cache:'no-cache'});
+    if(!r.ok) throw new Error('Footer HTTP '+r.status);
+    const text=await r.text();
+    const doc=new DOMParser().parseFromString(text,'text/html');
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});
+    doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
+    el.innerHTML=doc.body.innerHTML;
+  }catch(e){console.error('Could not load footer.html',e)}
+})();
 </script>
 </body>
 </html>
