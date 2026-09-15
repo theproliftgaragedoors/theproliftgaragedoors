@@ -144,7 +144,9 @@
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/></noscript>
 <style>
 :root{
   --ink:     #0d1117;
@@ -166,7 +168,9 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body{font-family:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--ink);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed}
+@font-face{font-family:'Inter Fallback';size-adjust:107%;ascent-override:90%;src:local('Arial')}
+@font-face{font-family:'Fraunces Fallback';size-adjust:100%;src:local('Georgia')}
 
 /* HERO (compact, location variant — no fabricated "we're your neighbors" copy) */
 .lhero{
@@ -188,7 +192,7 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);ove
 .badge-dot{width:6px;height:6px;background:var(--teal3);border-radius:50%;animation:blink 2s ease-in-out infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
 .badge span{font-size:11px;font-weight:600;color:var(--teal3);letter-spacing:.6px}
-h1{font-family:'Fraunces',serif;font-size:48px;font-weight:400;line-height:1.05;letter-spacing:-1.2px;color:var(--white);margin-bottom:18px}
+h1{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:48px;font-weight:400;line-height:1.05;letter-spacing:-1.2px;color:var(--white);margin-bottom:18px}
 h1 .accent{font-style:italic;color:var(--teal3)}
 .lhero-desc{font-size:16px;font-weight:300;line-height:1.75;color:var(--mist);max-width:520px;margin-bottom:12px}
 .lhero-sub{font-size:13px;font-weight:400;line-height:1.7;color:rgba(142,155,168,.65);max-width:500px;margin-bottom:34px}
@@ -225,7 +229,7 @@ h1 .accent{font-style:italic;color:var(--teal3)}
 
 section{position:relative}
 .sec-tag{font-size:11px;font-weight:600;color:var(--teal2);letter-spacing:.8px;margin-bottom:14px;display:block}
-.sec-h{font-family:'Fraunces',serif;font-size:38px;font-weight:400;letter-spacing:-1.1px;line-height:1.08;margin-bottom:16px}
+.sec-h{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:38px;font-weight:400;letter-spacing:-1.1px;line-height:1.08;margin-bottom:16px}
 .sec-h.on-dark{color:var(--white)}
 .sec-h.on-light{color:var(--ink)}
 .sec-p{font-size:15px;font-weight:300;line-height:1.8;color:var(--mist)}
@@ -237,7 +241,7 @@ section{position:relative}
 .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.05);border-radius:var(--r16);overflow:hidden}
 .why-card{background:var(--ink3);padding:34px 26px;transition:background .2s}
 .why-card:hover{background:var(--steel)}
-.why-num{font-family:'Fraunces',serif;font-size:13px;font-weight:300;font-style:italic;color:rgba(12,128,117,.5);margin-bottom:18px;display:block}
+.why-num{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:13px;font-weight:300;font-style:italic;color:rgba(12,128,117,.5);margin-bottom:18px;display:block}
 .why-card h4{font-size:15px;font-weight:700;color:var(--white);margin-bottom:10px}
 .why-card p{font-size:13px;font-weight:300;color:var(--mist);line-height:1.7}
 
@@ -263,7 +267,7 @@ section{position:relative}
 .li-head{max-width:640px;margin-bottom:48px}
 .li-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-bottom:20px}
 .li-card{background:var(--ink2);border:1px solid rgba(255,255,255,.07);border-radius:var(--r16);padding:32px}
-.li-card h3{font-family:'Fraunces',serif;font-size:20px;font-weight:400;color:var(--white);margin-bottom:14px;letter-spacing:-.3px}
+.li-card h3{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:20px;font-weight:400;color:var(--white);margin-bottom:14px;letter-spacing:-.3px}
 .li-card p{font-size:13.5px;font-weight:300;color:var(--mist);line-height:1.75;margin-bottom:10px}
 .zip-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .zip-chip{padding:7px 14px;border-radius:999px;border:1px solid rgba(12,128,117,.3);background:rgba(12,128,117,.1);font-size:12.5px;font-weight:600;color:var(--teal3)}
@@ -282,12 +286,12 @@ section{position:relative}
 #trust{background:var(--ink3);border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06);padding:48px 64px}
 .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.05)}
 .trust-cell{padding:30px 26px;text-align:center;background:var(--ink3)}
-.trust-num{font-family:'Fraunces',serif;font-size:44px;font-weight:400;color:var(--teal3);line-height:1;margin-bottom:8px;letter-spacing:-2px}
+.trust-num{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:44px;font-weight:400;color:var(--teal3);line-height:1;margin-bottom:8px;letter-spacing:-2px}
 .trust-lbl{font-size:12.5px;font-weight:400;color:var(--mist);line-height:1.5}
 
 /* CTA BAND */
 .ctaband{background:var(--teal);padding:72px 64px;display:grid;grid-template-columns:1fr auto;gap:48px;align-items:center}
-.ctaband h2{font-family:'Fraunces',serif;font-size:38px;font-weight:400;color:var(--white);letter-spacing:-1.1px;line-height:1.05;margin-bottom:12px}
+.ctaband h2{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:38px;font-weight:400;color:var(--white);letter-spacing:-1.1px;line-height:1.05;margin-bottom:12px}
 .ctaband h2 em{font-style:italic;opacity:.7}
 .ctaband p{font-size:15px;font-weight:300;color:rgba(255,255,255,.65)}
 .cta-btns{display:flex;flex-direction:column;gap:12px;align-items:flex-end;flex-shrink:0}
@@ -305,7 +309,7 @@ section{position:relative}
 .faq-list{display:flex;flex-direction:column;gap:0;border-radius:var(--r12);overflow:hidden;border:1px solid #dde4ea}
 .faq-item{background:var(--white);border-bottom:1px solid #dde4ea}
 .faq-item:last-child{border-bottom:none}
-.faq-q{width:100%;background:none;border:none;padding:19px 22px;text-align:left;font-family:'Inter',sans-serif;font-size:13.5px;font-weight:600;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;transition:background .15s}
+.faq-q{width:100%;background:none;border:none;padding:19px 22px;text-align:left;font-family:'Inter','Inter Fallback',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:13.5px;font-weight:600;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;transition:background .15s}
 .faq-q:hover{background:#f5f8fb}
 .faq-q svg{width:15px;height:15px;fill:var(--teal);flex-shrink:0;transition:transform .28s}
 .faq-q.open svg{transform:rotate(45deg)}
@@ -327,14 +331,14 @@ section{position:relative}
 .c-val a{color:var(--white);text-decoration:none}
 .c-val a:hover{color:var(--teal3)}
 .c-form{background:var(--ink3);border:1px solid rgba(255,255,255,.07);border-radius:var(--r16);padding:34px}
-.c-form h3{font-family:'Fraunces',serif;font-size:22px;font-weight:400;color:var(--white);margin-bottom:6px;letter-spacing:-.3px}
+.c-form h3{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:22px;font-weight:400;color:var(--white);margin-bottom:6px;letter-spacing:-.3px}
 .c-form>p{font-size:13px;color:var(--mist);margin-bottom:24px}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}
-.finput{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);border-radius:var(--r8);padding:13px 15px;color:var(--white);font-size:13px;font-family:'Inter',sans-serif;width:100%;outline:none;margin-bottom:10px;transition:border-color .18s}
+.finput{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);border-radius:var(--r8);padding:13px 15px;color:var(--white);font-size:13px;font-family:'Inter','Inter Fallback',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;width:100%;outline:none;margin-bottom:10px;transition:border-color .18s}
 .finput:focus{border-color:rgba(12,128,117,.5)}
 .finput::placeholder{color:rgba(255,255,255,.18)}
 .finput:last-of-type,.finput:last-child{margin-bottom:0}
-.fsub{background:var(--teal);color:var(--white);border:none;border-radius:var(--r8);padding:14px;width:100%;font-size:14px;font-weight:700;cursor:pointer;font-family:'Inter',sans-serif;margin-top:12px;transition:background .18s}
+.fsub{background:var(--teal);color:var(--white);border:none;border-radius:var(--r8);padding:14px;width:100%;font-size:14px;font-weight:700;cursor:pointer;font-family:'Inter','Inter Fallback',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin-top:12px;transition:background .18s}
 .fsub:hover{background:var(--teal2)}
 
 /* MAIN-PAGE LINK BAND */
@@ -659,7 +663,7 @@ section{position:relative}
       <input class="finput" type="email" placeholder="Email address" autocomplete="email"/>
       <input class="finput" type="text" placeholder="Your address in Manchester / Buckland" autocomplete="street-address"/>
       <input class="finput" type="text" placeholder="Describe the issue (opener, spring, cable…)"/>
-      <select class="finput" style="cursor:pointer;color:rgba(255,255,255,.5)">
+      <select class="finput" aria-label="When do you need service?" style="cursor:pointer;color:rgba(255,255,255,.5)">
         <option value="" disabled selected>When do you need service?</option>
         <option>Today (same-day)</option>
         <option>Tomorrow</option>
