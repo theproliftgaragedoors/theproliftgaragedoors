@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://theproliftgaragedoors.com/sitemap.xml
