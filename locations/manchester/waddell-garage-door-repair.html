@@ -378,9 +378,16 @@ header.site .wrap{
 .cols2{display:grid;grid-template-columns:1fr 1fr;gap:54px}
 .cols2>div{min-width:0}
 section.light p{color:#4c5863}
-ul.plain{padding-left:20px;color:#4c5863}
+ul.plain{padding-left:20px}
 ul.plain li{margin-bottom:12px}
-ul.plain b{color:var(--white)}
+/* Dark-background usage (default/.dark/.tealband sections) */
+ul.plain-dark{padding-left:20px;color:var(--fog)}
+ul.plain-dark li{margin-bottom:12px}
+ul.plain-dark b{color:var(--white)}
+/* Light-background usage (.light sections) */
+ul.plain-light{padding-left:20px;color:#3c4652}
+ul.plain-light li{margin-bottom:12px}
+ul.plain-light b{color:var(--ink)}
 
 .tealband .cols2{gap:60px}
 .tealband p{color:rgba(255,255,255,.82);margin-top:13px}
@@ -741,12 +748,12 @@ footer.site .legal{
     <h2>Garage Door Types We Work On</h2>
     <div class="rail"><span></span><span></span><span></span><span></span></div>
     <div class="cols2">
-      <ul class="plain">
+      <ul class="plain-dark">
         <li><b>Sectional garage doors</b> — the most common residential type, made of hinged horizontal panels.</li>
         <li><b>Overhead / traditional doors</b> — single-panel doors that tilt up and back, still found on some of Waddell's older homes.</li>
         <li><b>Insulated doors</b> — panels with a foam core for temperature and noise control.</li>
       </ul>
-      <ul class="plain">
+      <ul class="plain-dark">
         <li><b>Single-car doors</b> — common on Waddell's mid-century housing stock.</li>
         <li><b>Double-car doors</b> — sized for larger driveways and newer construction in the wider Manchester area.</li>
         <li><b>Automatic (opener-driven) doors</b> — any door style paired with an electric opener.</li>
@@ -761,13 +768,13 @@ footer.site .legal{
     <div class="rail"><span></span><span></span><span></span></div>
     <p class="prose" style="color:#4c5863;max-width:820px;">Most garage door failures don't happen without warning. Catching these signs early, especially on the older single-car doors common throughout Waddell, usually means a smaller repair instead of an emergency call:</p>
     <div class="cols2" style="margin-top:26px;">
-      <ul class="plain">
+      <ul class="plain-light">
         <li><b>The door is noticeably louder</b> than it used to be, especially a grinding, popping, or scraping sound during travel.</li>
         <li><b>One side lifts before the other,</b> a sign of uneven spring tension or a cable starting to fray.</li>
         <li><b>The opener runs but the door doesn't move,</b> often pointing to a broken spring or disconnected trolley.</li>
         <li><b>Visible gaps or daylight</b> around the bottom seal or side weatherstripping.</li>
       </ul>
-      <ul class="plain">
+      <ul class="plain-light">
         <li><b>The door reverses without an obstruction,</b> usually a sensor alignment issue.</li>
         <li><b>Rust or fraying is visible</b> on the cables or spring coils.</li>
         <li><b>The door feels heavier to lift by hand</b> than it used to, a sign the springs are losing tension.</li>
