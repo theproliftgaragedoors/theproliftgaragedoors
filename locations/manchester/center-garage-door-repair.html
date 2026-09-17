@@ -100,8 +100,16 @@
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<!-- Non-blocking font load: preload as style, swap to stylesheet on load, so it never blocks first paint -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/></noscript>
 <style>
+/* Reserve space for the async header/footer includes so they don't shift
+   layout (and hero content) when header.html / footer.html finish loading. */
+#site-header{min-height:76px}
+#site-footer{min-height:220px}
+
 :root{
   --ink:#0d1117; --ink2:#161d26; --ink3:#1e2833; --steel:#2a3540;
   --mist:#8e9ba8; --fog:#c4cdd6; --snow:#f2f4f6; --white:#ffffff;
@@ -893,7 +901,7 @@ section{position:relative}
       <input class="finput" type="email" placeholder="Email address" autocomplete="email"/>
       <input class="finput" type="text" placeholder="Your address in Center / Manchester" autocomplete="street-address"/>
       <input class="finput" type="text" placeholder="Describe the issue (opener, spring, cable…)"/>
-      <select class="finput" style="cursor:pointer;color:rgba(255,255,255,.5)">
+      <select class="finput" aria-label="When do you need service?" style="cursor:pointer;color:rgba(255,255,255,.5)">
         <option value="" disabled selected>When do you need service?</option>
         <option>Today (same-day)</option>
         <option>Tomorrow</option>
@@ -917,7 +925,7 @@ const SERVICES = [
   {title:'Garage Door Hinge Repair', desc:'Worn or bent hinges cause sagging sections and grinding noise — a quick fix that stops bigger track damage.', tag:'Quick fix', grad:'135deg,#0d2030,#0f2838', img:'garage-door-hinge-repair-by-prolift-garage-doors.webp'},
   {title:'Garage Door Cable Repair', desc:'A frayed or snapped lift cable can drop a door unevenly. We replace cables and re-tension the system safely.', tag:'Same-day fix', grad:'135deg,#0f2030,#122030', img:'garage-door-cable-repair-by-prolift-garage-doors.webp'},
   {title:'Garage Door Installation', desc:'Full replacements for Center\'s older converted homes and commercial storefronts, matched to the building\'s style and opening size.', tag:'New install', grad:'135deg,#0d2230,#0f2a30', img:'garage-door-installation-by-prolift-garage-doors.webp'},
-  {title:'Insulation Installation', desc:'Cuts winter heat loss and street noise — a common upgrade for Center's older, unheated detached garages.', tag:'Energy efficient', grad:'135deg,#14201e,#0f2a26', img:'garage-door-insulation-installation-by-prolift-garage-doors.webp'},
+  {title:'Insulation Installation', desc:'Cuts winter heat loss and street noise — a common upgrade for Center\'s older, unheated detached garages.', tag:'Energy efficient', grad:'135deg,#14201e,#0f2a26', img:'garage-door-insulation-installation-by-prolift-garage-doors.webp'},
   {title:'Garage Door Maintenance', desc:'Seasonal lubrication, hardware checks, and balance testing before Connecticut\'s winter freeze-thaw cycle hits.', tag:'Preventive care', grad:'135deg,#0e1e2e,#122030', img:'garage-door-maintenance-by-prolift-garage-doors.webp'},
   {title:'Garage Door Motor Repair', desc:'Grinding, humming, or stalled motors diagnosed and repaired — often same-day.', tag:'All brands', grad:'135deg,#12202a,#0d1e2c', img:'garage-door-motor-repair-by-prolift-garage-doors.webp'},
   {title:'Off-Track Repair', desc:'A door knocked off its track on a tight rear lot is unsafe to force — we realign it and check the rollers and track for damage.', tag:'Urgent service', grad:'135deg,#0f2232,#0d2030', img:'garage-door-off-track-repair-by-prolift-garage-doors.webp'},
@@ -987,9 +995,11 @@ const cue     = document.getElementById('gs-cue');
 const bldg    = document.getElementById('gs-building');
 const flyCs   = ['fc0','fc1','fc2'].map(id=>document.getElementById(id));
 const TARGETS = [{x:-280,y:-80},{x:0,y:-200},{x:280,y:-80}];
+let _gsSpan = gasSec.offsetHeight - window.innerHeight;
+window.addEventListener('resize',()=>{ _gsSpan = gasSec.offsetHeight - window.innerHeight; },{passive:true});
 function onScroll(){
   const top  = gasSec.getBoundingClientRect().top;
-  const span = gasSec.offsetHeight - window.innerHeight;
+  const span = _gsSpan;
   const p    = clamp(-top/span,0,1);
   cue.style.opacity = clamp(1-p*12,0,1);
   const dp = clamp(p/0.5,0,1);
@@ -1024,7 +1034,13 @@ function onScroll(){
     card.style.opacity   = lerp(1,0,oe);
   });
 }
-window.addEventListener('scroll',onScroll,{passive:true});
+let _gsTicking = false;
+function _gsOnScrollThrottled(){
+  if(_gsTicking) return;
+  _gsTicking = true;
+  requestAnimationFrame(()=>{ onScroll(); _gsTicking = false; });
+}
+window.addEventListener('scroll',_gsOnScrollThrottled,{passive:true});
 onScroll();
 
 /* SCROLL REVEAL */
