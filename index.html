@@ -515,7 +515,7 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);ove
   pointer-events:none
 }
 .hero-left{
-  padding:80px 64px 80px 64px;
+  padding:80px 64px 80px 80px;
   display:flex;flex-direction:column;justify-content:center;
   position:relative;z-index:2
 }
@@ -570,7 +570,7 @@ h1 .dim{color:rgba(255,255,255,.45)}
 .trust-pill svg{width:14px;height:14px;fill:var(--teal2)}
 
 .hero-right{
-  padding:64px 64px 64px 32px;
+  padding:64px 80px 64px 32px;
   display:flex;align-items:center;justify-content:center;
   position:relative;z-index:2
 }
@@ -1062,6 +1062,28 @@ section{position:relative}
   h1{font-size:36px}
   .sec-h{font-size:32px}
 }
+
+/* ═══════════════════════════════════════════════
+   FORMSPREE STATES
+═══════════════════════════════════════════════ */
+.fs-success{
+  display:none;background:rgba(12,128,117,.12);
+  border:1px solid rgba(12,128,117,.3);color:var(--teal3);
+  border-radius:var(--r8);padding:13px 16px;
+  font-size:13px;font-weight:500;margin-bottom:16px
+}
+.fs-global-error{
+  display:none;background:rgba(220,60,60,.1);
+  border:1px solid rgba(220,60,60,.3);color:#f87171;
+  border-radius:var(--r8);padding:13px 16px;
+  font-size:13px;font-weight:500;margin-bottom:16px
+}
+.fs-field-error{
+  display:block;font-size:11px;color:#f87171;
+  min-height:14px;margin-top:-6px;margin-bottom:6px
+}
+.finput[aria-invalid="true"]{border-color:rgba(220,60,60,.5)}
+.fsub:disabled{opacity:.6;cursor:not-allowed}
 </style>
 </head>
 <body>
@@ -1574,21 +1596,39 @@ section{position:relative}
     <div class="c-form">
       <h3>Book a repair</h3>
       <p>We'll confirm your appointment within 60 minutes.</p>
-      <div class="form-row">
-        <input class="finput" type="text" placeholder="Your name" autocomplete="name"/>
-        <input class="finput" type="tel" placeholder="Phone number" autocomplete="tel"/>
+
+      <div data-fs-success class="fs-success">
+        &#x2705; Request sent! We'll be in touch within 60 minutes.
       </div>
-      <input class="finput" type="email" placeholder="Email address" autocomplete="email"/>
-      <input class="finput" type="text" placeholder="Your address in CT" autocomplete="street-address"/>
-      <input class="finput" type="text" placeholder="Describe the issue (opener, spring, cable…)"/>
-      <select class="finput" style="cursor:pointer;color:rgba(255,255,255,.5)">
-        <option value="" disabled selected>When do you need service?</option>
-        <option>Today (same-day)</option>
-        <option>Tomorrow</option>
-        <option>This week</option>
-        <option>Next week</option>
-      </select>
-      <button class="fsub">Send request — get a quote within 60 min</button>
+      <div data-fs-error class="fs-global-error"></div>
+
+      <form id="contact-form">
+        <div class="form-row">
+          <div>
+            <input class="finput" type="text" name="name" placeholder="Your name" autocomplete="name" required data-fs-field/>
+            <span class="fs-field-error" data-fs-error="name"></span>
+          </div>
+          <div>
+            <input class="finput" type="tel" name="phone" placeholder="Phone number" autocomplete="tel" data-fs-field/>
+            <span class="fs-field-error" data-fs-error="phone"></span>
+          </div>
+        </div>
+        <input class="finput" type="email" name="email" placeholder="Email address" autocomplete="email" required data-fs-field/>
+        <span class="fs-field-error" data-fs-error="email"></span>
+        <input class="finput" type="text" name="address" placeholder="Your address in CT" autocomplete="street-address" data-fs-field/>
+        <span class="fs-field-error" data-fs-error="address"></span>
+        <input class="finput" type="text" name="issue" placeholder="Describe the issue (opener, spring, cable…)" data-fs-field/>
+        <span class="fs-field-error" data-fs-error="issue"></span>
+        <select class="finput" name="service_time" style="cursor:pointer;color:rgba(255,255,255,.5)" data-fs-field>
+          <option value="" disabled selected>When do you need service?</option>
+          <option>Today (same-day)</option>
+          <option>Tomorrow</option>
+          <option>This week</option>
+          <option>Next week</option>
+        </select>
+        <span class="fs-field-error" data-fs-error="service_time"></span>
+        <button class="fsub" type="submit" data-fs-submit-btn>Send request — get a quote within 60 min</button>
+      </form>
     </div>
   </div>
 </section>
@@ -1615,7 +1655,7 @@ const SERVICES = [
   {title:'Remote & Keypad Programming',      desc:'Lost remotes, dead keypads, or a new opener that needs setup — we configure all remotes, wireless keypads, and smart integrations including MyQ and Google Home.',tag:'Quick service', grad:'135deg,#0e2030,#122030', img:'garage-door-remote-keypad-programming-by-prolift-garage-doors.webp'},
   {title:'Weatherstripping',                 desc:'Worn seals let in cold air, pests, and water. We replace bottom seals, side seals, and top trim to restore a tight, weatherproof fit and improve energy efficiency.',tag:'Energy saving', grad:'135deg,#0f2030,#102838', img:'garage-door-weatherstrpping-by-prolift-garage-doors.webp'},
   {title:'Insulation Installation',          desc:'An insulated garage door improves energy efficiency, reduces noise, and regulates temperature. We install insulation panels or upgrade you to a factory-insulated door.',tag:'Energy efficient', grad:'135deg,#0d2230,#102030', img:'garage-door-insulation-installation-by-prolift-garage-doors.webp'},
-  {title:'General Garage Door Repair',       desc:'Not sure what\'s wrong? That\'s exactly what we\'re here for. Our technicians diagnose any garage door problem — from minor noises to complete failures — and fix it right.',tag:'Any problem', grad:'135deg,#0e1e2c,#102030', img:'garage-door-repair-by-prolift-garage-doors.webp'},
+  {title:'General Garage Door Repair',       desc:'Not sure what\'s wrong? That\'s exactly what we\'re here for. Our technicians diagnose any garage door problem — from minor noises to complete failures — and fix it right.',tag:'Any problem', grad:'135deg,#0e1e2c,#102030', img:'general-garage-door-repair-by-prolift-garage-doors.webp'},
 ];
 
 const SRV_ICONS = [
@@ -1742,6 +1782,15 @@ function toggleFaq(btn){
   if(!open){ans.classList.add('open');btn.classList.add('open');}
 }
 </script>
+
+<!-- Formspree Vanilla JS (Ajax) -->
+<script>
+  window.formspree = window.formspree || function () {
+    (formspree.q = formspree.q || []).push(arguments);
+  };
+  formspree('initForm', { formElement: '#contact-form', formId: 'maenyjoo' });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 
 <!-- Shared Footer -->
 <div id="site-footer"></div>
