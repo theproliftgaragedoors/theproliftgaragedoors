@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garage Door Repair Bolton, CT | Prolift Garage Doors</title>
+<meta name="description" content="Garage door repair, spring replacement, and opener service in Bolton, CT. Same-day service across Tolland County and the Capitol Region. Call Prolift Garage Doors: (844) 901-6101.">
+<link rel="canonical" href="https://theproliftgaragedoors.com/locations/bolton/">
+<meta property="og:title" content="Garage Door Repair Bolton, CT | Prolift Garage Doors">
+<meta property="og:description" content="Garage door repair, spring replacement, and opener service in Bolton, CT. Call (844) 901-6101.">
+<meta property="og:url" content="https://theproliftgaragedoors.com/locations/bolton/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://theproliftgaragedoors.com/images/bolton-garage-door-repair.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="/images/prolift-garage-doors-logo.webp">
+<link rel="apple-touch-icon" href="/images/prolift-garage-doors-logo.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://theproliftgaragedoors.com/locations/bolton/#webpage",
+      "url": "https://theproliftgaragedoors.com/locations/bolton/",
+      "name": "Garage Door Repair Bolton, CT | Prolift Garage Doors",
+      "description": "Garage door repair, spring replacement, and opener service in Bolton, CT.",
+      "isPartOf": { "@id": "https://theproliftgaragedoors.com/#website" },
+      "about": { "@id": "https://theproliftgaragedoors.com/#organization" },
+      "primaryImageOfPage": { "@id": "https://theproliftgaragedoors.com/locations/bolton/#primaryimage" },
+      "mentions": [
+        { "@id": "https://theproliftgaragedoors.com/locations/bolton/#place" }
+      ],
+      "author": { "@id": "https://theproliftgaragedoors.com/#william-david" },
+      "breadcrumb": { "@id": "https://theproliftgaragedoors.com/locations/bolton/#breadcrumb" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://theproliftgaragedoors.com/locations/bolton/#primaryimage",
+      "url": "https://theproliftgaragedoors.com/images/bolton-garage-door-repair.webp",
+      "contentUrl": "https://theproliftgaragedoors.com/images/bolton-garage-door-repair.webp"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://theproliftgaragedoors.com/#website",
+      "url": "https://theproliftgaragedoors.com/",
+      "name": "Prolift Garage Doors",
+      "publisher": { "@id": "https://theproliftgaragedoors.com/#organization" }
+    },
+    {
+      "@type": ["HomeAndConstructionBusiness"],
+      "@id": "https://theproliftgaragedoors.com/#organization",
+      "name": "Prolift Garage Doors",
+      "url": "https://theproliftgaragedoors.com/",
+      "telephone": "+1-844-901-6101",
+      "email": "theproliftgaragedoors@gmail.com",
+      "foundingDate": "2011-09-11",
+      "founder": { "@id": "https://theproliftgaragedoors.com/#william-david" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "570 Main Ave",
+        "addressLocality": "Norwalk",
+        "addressRegion": "CT",
+        "postalCode": "06851",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.156772,
+        "longitude": -73.424609
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Bolton",
+        "containedInPlace": { "@type": "State", "name": "Connecticut" }
+      },
+      "priceRange": "$50-$7000",
+      "sameAs": [
+        "https://www.facebook.com/theproliftgaragedoors",
+        "https://www.instagram.com/theproliftgaragedoors/",
+        "https://www.linkedin.com/company/proliftgaragedoors/",
+        "https://www.pinterest.com/theproliftgaragedoors"
+      ],
+      "logo": "https://theproliftgaragedoors.com/images/prolift-garage-doors-logo.webp"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://theproliftgaragedoors.com/#william-david",
+      "name": "William David",
+      "jobTitle": "Founder",
+      "worksFor": { "@id": "https://theproliftgaragedoors.com/#organization" },
+      "image": "https://theproliftgaragedoors.com/images/william-david-owner-prolift-garage-doors.webp"
+    },
+    {
+      "@type": "Place",
+      "@id": "https://theproliftgaragedoors.com/locations/bolton/#place",
+      "name": "Bolton, Connecticut",
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Tolland County, Connecticut"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://theproliftgaragedoors.com/locations/bolton/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://theproliftgaragedoors.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Connecticut Service Areas", "item": "https://theproliftgaragedoors.com/locations/" },
+        { "@type": "ListItem", "position": 3, "name": "Bolton, CT", "item": "https://theproliftgaragedoors.com/locations/bolton/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://theproliftgaragedoors.com/locations/bolton/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does garage door repair cost in Bolton, CT?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Cost depends on the part that failed, the size and type of your door, and the hardware or opener brand involved. A sensor or hinge fix runs toward the lower end of a typical repair, while a torsion spring, cable, or full off-track repair costs more because of the parts and labor involved. Call (844) 901-6101 and describe the symptoms for an accurate estimate before any work starts." }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Prolift Garage Doors service Bolton, CT?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Prolift Garage Doors provides residential and light-commercial garage door repair, installation, and maintenance throughout Bolton, including Bolton Center, Bolton Notch, Quarryville, and the Steeles Crossing area, along with the surrounding Tolland County and Capitol Region towns." }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I repair or replace my garage door?",
+          "acceptedAnswer": { "@type": "Answer", "text": "If the frame, track, and opener are sound and only one component has failed, repair is usually the more cost-effective option. Replacement makes more sense when the door is significantly dented, the panels are warped, multiple systems are failing at once, or the door predates current insulation and safety standards. A technician can tell you which situation you're in during an on-site look." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I repair my garage door myself?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Some tasks, like lubricating hinges or tightening visible hardware, are reasonable for a homeowner. Torsion spring replacement and cable work are not — these components are under high tension and have caused serious injuries to people without the right tools and training. For anything involving springs, cables, or the torsion system, use a trained technician." }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does garage door repair take?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Many single-component repairs, such as a spring, cable, or sensor replacement, are completed in one visit lasting roughly one to two hours. More involved jobs, like full off-track realignment or opener replacement, can take longer depending on what's found once the door is inspected." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do detached and older garages in Bolton need anything special?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Many Bolton properties sit on larger, wooded lots with detached garages and longer gravel or paved driveways, and some homes date back to Bolton's colonial-era Green Historic District. Older detached structures more often show wear on hardware, tracks, and weatherstripping from age and exposure, while opener range and Wi-Fi connectivity can be a factor on longer driveways. A technician can flag both during an inspection." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is garage door maintenance worth it in Bolton's climate?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Routine maintenance — lubrication, hardware checks, and balance testing — catches small issues like a worn roller or a loosening hinge before they turn into a stuck door or a snapped cable. Bolton sees a full New England winter with regular snow and freeze-thaw cycles, so keeping hardware lubricated and checked matters more here than in milder climates." }
+        },
+        {
+          "@type": "Question",
+          "name": "Are garage door repairs covered by homeowners insurance?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Coverage depends on your policy and the cause of the damage — for example, damage from a storm, fallen tree limb, or a vehicle impact is more likely to be covered than failure from normal wear and age. Check your specific policy or ask your insurance agent; Prolift Garage Doors can provide a written estimate and photos to support a claim if needed." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+/* =========================================================
+   PROLIFT GARAGE DOORS — BOLTON LOCATION THEME
+   Matched to the ProLift homepage / Manchester location visual system.
+   ========================================================= */
+:root{
+  --ink:#0d1117;
+  --ink2:#161d26;
+  --ink3:#1e2833;
+  --steel:#2a3540;
+  --mist:#8e9ba8;
+  --fog:#c4cdd6;
+  --snow:#f2f4f6;
+  --white:#ffffff;
+  --teal:#0c8075;
+  --teal2:#0fa898;
+  --teal3:#12c4b2;
+  --amber:#e8a020;
+  --r4:4px;
+  --r8:8px;
+  --r12:12px;
+  --r16:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--ink);
+  color:var(--white);
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  font-size:16px;
+  line-height:1.7;
+}
+a{color:var(--teal3)}
+a:focus-visible,button:focus-visible,summary:focus-visible{
+  outline:3px solid var(--teal3);
+  outline-offset:3px;
+}
+h1,h2,h3{
+  font-family:'Fraunces',serif;
+  font-weight:400;
+  line-height:1.08;
+  letter-spacing:-.02em;
+  color:var(--white);
+}
+h2{font-size:clamp(30px,4vw,46px)}
+h3{font-size:23px}
+.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+.prose{max-width:760px;color:var(--fog)}
+section{padding:88px 0}
+section.light{background:var(--snow);color:var(--ink)}
+section.light h2,section.light h3{color:var(--ink)}
+section.dark{background:var(--ink2)}
+section.tealband{
+  background:linear-gradient(135deg,var(--teal),#075b55);
+  color:var(--white);
+}
+section.tealband h2,section.tealband h3{color:var(--white)}
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  color:var(--teal3);
+  font:600 13px/1 'Inter',sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  margin-bottom:18px;
+}
+.eyebrow:before{
+  content:"";
+  width:28px;height:2px;
+  background:var(--teal3);
+}
+.rail{display:flex;gap:5px;margin:18px 0 28px}
+.rail span{height:3px;width:25px;background:var(--teal2);border-radius:2px}
+.rail span:nth-child(4),.rail span:nth-child(5){background:var(--steel)}
+
+.topbar{
+  background:#080b0f;
+  color:var(--fog);
+  border-bottom:1px solid rgba(255,255,255,.07);
+  font-size:13px;
+}
+.topbar .wrap{
+  display:flex;justify-content:space-between;align-items:center;
+  gap:12px;flex-wrap:wrap;padding:9px 0;
+}
+.topbar a{color:var(--white);text-decoration:none;font-weight:600}
+
+header.site{
+  background:rgba(13,17,23,.96);
+  border-bottom:1px solid rgba(255,255,255,.08);
+  position:relative;z-index:5;
+}
+header.site .wrap{
+  display:flex;justify-content:space-between;align-items:center;
+  min-height:78px;gap:25px;
+}
+.brand{
+  font-family:'Fraunces',serif;font-size:25px;color:var(--white);
+  text-decoration:none;letter-spacing:-.03em;
+}
+.brand span{color:var(--teal3)}
+.call-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  background:var(--teal);
+  color:var(--white);
+  text-decoration:none;
+  padding:12px 21px;
+  border:1px solid rgba(18,196,178,.35);
+  border-radius:var(--r8);
+  font:600 14px/1 'Inter',sans-serif;
+  transition:transform .2s ease,background .2s ease,box-shadow .2s ease;
+  box-shadow:0 8px 28px rgba(12,128,117,.18);
+}
+.call-btn:hover{background:var(--teal2);transform:translateY(-2px);box-shadow:0 12px 34px rgba(12,128,117,.28)}
+
+.breadcrumb{
+  padding:22px 0 0;
+  font-size:13px;color:var(--mist);
+}
+.breadcrumb a{color:var(--fog);text-decoration:none}
+.breadcrumb a:hover{color:var(--teal3)}
+.breadcrumb .sep{color:var(--steel);margin:0 8px}
+
+.hero{
+  padding:76px 0 92px;
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 82% 28%,rgba(18,196,178,.14),transparent 28rem),
+    linear-gradient(180deg,#0d1117 0%,#111923 100%);
+}
+.hero:after{
+  content:"";
+  position:absolute;right:-180px;bottom:-260px;
+  width:600px;height:600px;border:1px solid rgba(18,196,178,.10);
+  border-radius:50%;pointer-events:none;
+}
+.hero-grid{
+  display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;
+}
+.hero h1{
+  font-size:clamp(40px,5.4vw,66px);
+}
+.hero .sub{
+  margin-top:22px;
+  color:var(--fog);
+  font-size:18px;
+}
+.hero-cta{
+  margin-top:32px;display:flex;gap:15px;align-items:center;flex-wrap:wrap
+}
+.hero-cta .call-btn{padding:15px 27px;font-size:15px}
+.phone-text{
+  font-size:15px;color:var(--mist)
+}
+.phone-text a{color:var(--fog);font-weight:600;text-decoration:none}
+.hero-media{
+  position:relative;border-radius:var(--r16);overflow:hidden;
+  border:1px solid rgba(255,255,255,.1);
+  box-shadow:0 30px 80px rgba(0,0,0,.35);
+}
+.hero-media img{width:100%;height:100%;object-fit:cover;display:block;aspect-ratio:4/5}
+.hero-media .cap{
+  position:absolute;left:0;right:0;bottom:0;
+  padding:18px 20px;
+  background:linear-gradient(0deg,rgba(8,11,15,.88),transparent);
+  font-size:13px;color:var(--fog);
+}
+.quickanswer{
+  margin-top:48px;
+  max-width:850px;
+  padding:25px 28px;
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.09);
+  border-left:4px solid var(--teal2);
+  border-radius:var(--r8);
+  box-shadow:0 20px 60px rgba(0,0,0,.18);
+}
+.quickanswer strong{
+  display:block;color:var(--teal3);
+  font-size:13px;text-transform:uppercase;letter-spacing:.12em;
+  margin-bottom:6px;
+}
+.quickanswer p{color:var(--fog);margin:0}
+
+.service-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:18px;margin-top:28px;
+}
+.service-card{
+  background:var(--ink2);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:var(--r12);
+  overflow:hidden;
+  transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+}
+.service-card:hover{
+  transform:translateY(-5px);
+  border-color:rgba(18,196,178,.42);
+  box-shadow:0 22px 50px rgba(0,0,0,.25);
+}
+.service-card img{
+  width:100%;aspect-ratio:16/10;object-fit:cover;display:block;
+}
+.service-card .body{padding:21px 21px 23px;border-top:2px solid var(--teal)}
+.service-card h3{font-size:22px;margin-bottom:8px}
+.service-card p{font-size:14px;color:var(--mist);margin:0}
+
+.problem-list{
+  list-style:none;padding:0;margin:30px 0 0;
+  display:grid;grid-template-columns:repeat(2,1fr);gap:14px;
+}
+.problem-list li{
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.07);
+  border-left:3px solid var(--teal);
+  border-radius:var(--r8);
+  padding:19px 21px;color:var(--fog);
+}
+.problem-list b{color:var(--white);font-weight:600}
+
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:54px}
+.cols2>div{min-width:0}
+section.light p{color:#4c5863}
+ul.plain{padding-left:20px;color:#4c5863}
+ul.plain li{margin-bottom:12px}
+ul.plain b{color:var(--white)}
+
+.tealband .cols2{gap:60px}
+.tealband p{color:rgba(255,255,255,.82);margin-top:13px}
+.tealband a{color:var(--white)}
+
+.why-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:18px;margin-top:30px
+}
+.why-grid .item{
+  padding:25px;
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:var(--r12);
+  border-top:2px solid var(--teal);
+}
+.why-grid .item h3{font-size:21px;margin-bottom:8px}
+.why-grid .item p{color:var(--mist);font-size:14px;margin:0}
+
+.neighborhoods{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
+.neighborhoods span{
+  background:rgba(12,128,117,.08);
+  border:1px solid rgba(12,128,117,.30);
+  color:var(--white);
+  padding:8px 13px;
+  border-radius:100px;
+  font-size:13px;
+}
+.zip-list{
+  display:flex;flex-wrap:wrap;gap:10px;margin-top:18px
+}
+.zip-list div{
+  min-width:76px;text-align:center;
+  padding:9px 12px;border:1px solid #d5dce2;
+  border-radius:var(--r8);background:#fff;color:var(--ink);
+  font-size:14px;font-weight:600;
+}
+
+.nearby-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.nearby-list a{
+  display:inline-flex;align-items:center;gap:6px;
+  background:#fff;border:1px solid #d5dce2;color:var(--ink);
+  padding:9px 14px;border-radius:100px;font-size:13px;font-weight:600;
+  text-decoration:none;
+}
+.nearby-list a:hover{border-color:var(--teal);color:var(--teal)}
+
+.attraction-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:18px;margin-top:28px
+}
+.attraction-card{
+  background:var(--white);
+  border:1px solid #dbe1e6;
+  border-radius:var(--r12);
+  padding:24px;
+  box-shadow:0 12px 35px rgba(13,17,23,.07)
+}
+.attraction-card h3{font-size:22px;margin-bottom:8px}
+.attraction-card p{font-size:14px;color:#58646f;margin-bottom:15px}
+.attraction-card a{text-decoration:none;font-weight:600;font-size:14px}
+
+details.faq{
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:var(--r8);
+  padding:20px 22px;
+  margin-bottom:11px;
+}
+details.faq summary{
+  font-family:'Fraunces',serif;
+  font-size:20px;
+  cursor:pointer;
+  list-style:none;
+  color:var(--white);
+}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::before{
+  content:"+";
+  display:inline-block;width:24px;color:var(--teal3);
+  font-family:'Inter',sans-serif;font-weight:600
+}
+details.faq[open] summary::before{content:"–"}
+details.faq p{margin:12px 0 0;color:var(--mist);font-size:14px}
+
+.final-cta{text-align:center;padding:88px 0}
+.final-cta h2{max-width:700px;margin:auto}
+.final-cta p{max-width:560px;margin:15px auto 0;color:rgba(255,255,255,.78)}
+.final-cta .call-btn{margin-top:28px;background:var(--white);color:var(--ink);border-color:var(--white)}
+.final-cta .call-btn:hover{background:var(--snow)}
+
+footer.site{
+  background:#080b0f;color:var(--mist);
+  padding:52px 0 28px;font-size:14px
+}
+footer.site a{color:var(--fog)}
+footer.site .cols2{margin-bottom:28px}
+footer.site h3{color:var(--white)!important;font-family:'Fraunces',serif}
+footer.site .legal{
+  border-top:1px solid rgba(255,255,255,.08);
+  margin-top:25px;padding-top:18px;font-size:12px;color:var(--mist)
+}
+
+@media(max-width:900px){
+  .service-grid{grid-template-columns:repeat(2,1fr)}
+  .why-grid{grid-template-columns:repeat(2,1fr)}
+  .attraction-grid{grid-template-columns:1fr}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-media{order:-1;max-width:480px}
+}
+@media(max-width:700px){
+  .wrap{width:min(100% - 28px,1160px)}
+  section{padding:62px 0}
+  header.site .wrap{min-height:70px}
+  .brand{font-size:21px}
+  .topbar .wrap{justify-content:center;text-align:center}
+  .hero{padding:55px 0 65px}
+  .hero h1{font-size:38px}
+  .hero .sub{font-size:16px}
+  .service-grid,.problem-list,.cols2,.why-grid{grid-template-columns:1fr}
+  .attraction-grid{grid-template-columns:1fr}
+  .hero-cta{align-items:stretch;flex-direction:column}
+  .hero-cta .call-btn{width:max-content}
+  .quickanswer{padding:20px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*:before,*:after{transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<!-- Shared Header -->
+<div id="site-header"></div>
+<script>
+(async function(){
+  const el=document.getElementById('site-header');
+  try{
+    const r=await fetch('https://theproliftgaragedoors.com/header.html',{cache:'no-cache'});
+    if(!r.ok) throw new Error('Header HTTP '+r.status);
+    const text=await r.text();
+    const doc=new DOMParser().parseFromString(text,'text/html');
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{
+      const l=document.createElement('link');
+      l.rel='stylesheet'; l.href=x.href; document.head.appendChild(l);
+    });
+    doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
+    el.innerHTML=doc.body.innerHTML;
+  }catch(e){
+    console.error('Could not load header.html',e);
+    el.innerHTML='<div style="padding:16px;background:#161d26;color:#c4cdd6;text-align:center">ProLift Garage Doors</div>';
+  }
+})();
+</script>
+
+<div class="wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="https://theproliftgaragedoors.com/">Home</a><span class="sep">/</span>
+    <a href="https://theproliftgaragedoors.com/locations/">Connecticut Service Areas</a><span class="sep">/</span>
+    <span>Bolton, CT</span>
+  </nav>
+</div>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Garage Door Repair in Bolton, CT</h1>
+      <p class="sub">Prolift Garage Doors repairs, installs, and maintains residential and light-commercial garage doors for homeowners throughout Bolton and the surrounding Tolland County and Capitol Region towns — from a sudden broken spring to a full door replacement.</p>
+      <div class="hero-cta">
+        <a class="call-btn" href="tel:+18449016101">Call (844) 901-6101</a>
+        <span class="phone-text">or request service online</span>
+      </div>
+
+      <div class="quickanswer">
+        <strong>Quick answer</strong>
+        <p>If your garage door won't open, won't close, or has come off track, stop using the opener and call (844) 901-6101. Most single-component repairs — springs, cables, sensors, rollers — are diagnosed and quoted before any work begins, and many are completed same visit. Exact cost varies by door type, hardware, lock, and material, so we confirm pricing on the call or on site rather than guessing over the phone.</p>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="https://theproliftgaragedoors.com/images/bolton-garage-door-repair.webp" alt="Garage door repair technician servicing a residential garage door in Bolton, CT" loading="eager">
+      <div class="cap">Prolift Garage Doors — serving Bolton, CT</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Garage Door Services in Bolton</h2>
+    <div class="rail"><span></span><span></span><span></span><span></span><span></span></div>
+    <p class="prose">Prolift Garage Doors covers the full range of residential and light-commercial garage door work — from single-part repairs to complete new installations.</p>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="/images/garage-door-repair-by-prolift-garage-doors.webp" alt="Technician repairing a residential garage door in Bolton, CT" loading="lazy">
+        <div class="body"><h3>Garage Door Repair</h3><p>General diagnosis and repair for doors that won't open, close, or move properly.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-spring-replacement-by-prolift-garage-doors.webp" alt="Garage door torsion spring replacement" loading="lazy">
+        <div class="body"><h3>Spring Replacement</h3><p>Torsion and extension spring replacement — a job that requires the right tools under tension.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-cable-repair-by-prolift-garage-doors.webp" alt="Garage door cable repair" loading="lazy">
+        <div class="body"><h3>Cable Repair</h3><p>Replacement of frayed or snapped lift cables that keep the door balanced.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-off-track-repair-by-prolift-garage-doors.webp" alt="Garage door off track repair" loading="lazy">
+        <div class="body"><h3>Off-Track Repair</h3><p>Realigning a door that has jumped its track, without forcing it further out of place.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-track-alignment-by-prolift-garage-doors.webp" alt="Garage door track alignment" loading="lazy">
+        <div class="body"><h3>Track Alignment</h3><p>Straightening bent or misaligned tracks so the door rolls smoothly again.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-hinge-repair-by-prolift-garage-doors.webp" alt="Garage door hinge repair" loading="lazy">
+        <div class="body"><h3>Hinge Repair</h3><p>Repairing or replacing worn hinges that cause sagging or noisy panels.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-roller-replacement-by-prolift-garage-doors.webp" alt="Garage door roller replacement" loading="lazy">
+        <div class="body"><h3>Roller Replacement</h3><p>Swapping worn or cracked rollers to quiet a noisy or sticking door.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-panel-replacement-by-prolift-garage-doors.webp" alt="Garage door panel replacement" loading="lazy">
+        <div class="body"><h3>Panel Replacement</h3><p>Replacing a dented or cracked panel without necessarily replacing the whole door.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-balancing-by-prolift-garage-doors.webp" alt="Garage door balancing service" loading="lazy">
+        <div class="body"><h3>Balancing</h3><p>Adjusting spring tension so the door holds position and the opener isn't overworked.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-weatherstrpping-by-prolift-garage-doors.webp" alt="Garage door weatherstripping replacement" loading="lazy">
+        <div class="body"><h3>Weatherstripping</h3><p>Replacing worn seals to keep out drafts, moisture, and pests through the New England winter.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-maintenance-by-prolift-garage-doors.webp" alt="Garage door maintenance service" loading="lazy">
+        <div class="body"><h3>Maintenance</h3><p>Lubrication, hardware inspection, and balance checks to catch problems early.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-installation-by-prolift-garage-doors.webp" alt="New garage door installation" loading="lazy">
+        <div class="body"><h3>Garage Door Installation</h3><p>New door installation for replacements or new construction.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-insulation-installation-by-prolift-garage-doors.webp" alt="Garage door insulation installation" loading="lazy">
+        <div class="body"><h3>Insulation Installation</h3><p>Adding insulation to improve temperature control and cut noise.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-opener-repair-by-prolift-garage-doors.webp" alt="Garage door opener repair" loading="lazy">
+        <div class="body"><h3>Opener Repair</h3><p>Diagnosing openers that won't respond, stall, or reverse unexpectedly.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-opener-installaton-by-prolift-garage-doors.webp" alt="Garage door opener installation" loading="lazy">
+        <div class="body"><h3>Opener Installation</h3><p>Installing new or replacement garage door opener systems.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-motor-repair-by-prolift-garage-doors.webp" alt="Garage door motor repair" loading="lazy">
+        <div class="body"><h3>Motor Repair</h3><p>Repairing opener motors that are straining, grinding, or failing to run.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-sensor-alignment-by-prolift-garage-doors.webp" alt="Garage door sensor alignment" loading="lazy">
+        <div class="body"><h3>Sensor Alignment</h3><p>Realigning safety sensors that stop the door from reversing correctly.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-wiring-repair-by-prolift-garage-doors.webp" alt="Garage door wiring repair" loading="lazy">
+        <div class="body"><h3>Wiring Repair</h3><p>Fixing damaged or exposed wiring connecting the opener and controls.</p></div>
+      </div>
+      <div class="service-card">
+        <img src="/images/garage-door-remote-keypad-programming-by-prolift-garage-doors.webp" alt="Garage door remote and keypad programming" loading="lazy">
+        <div class="body"><h3>Remote &amp; Keypad Programming</h3><p>Programming new remotes, keypads, and smartphone controls.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <h2>Common Garage Door Problems Bolton Homeowners Report</h2>
+    <div class="rail"><span></span><span></span><span></span><span></span><span></span></div>
+    <p class="prose" style="color:var(--stone)">Bolton is a small, largely rural town of wooded, larger-acreage lots, many with detached garages set back from the house at the end of longer gravel or paved driveways. Housing spans colonial-era homes near the Bolton Green Historic District to newer construction built since the 1970s and '80s. Combined with a full New England winter, a few problems come up consistently:</p>
+    <ul class="problem-list">
+      <li><b>Door won't open or close.</b> Usually a spring, cable, sensor, or opener issue — the specific cause changes the fix and the cost.</li>
+      <li><b>Door is off track.</b> Often follows an impact or a snapped cable. Continuing to run the opener can make the damage worse.</li>
+      <li><b>Stiff or slow movement in cold weather.</b> Grease thickens and metal contracts in low temperatures, which is common through a Bolton winter and is usually resolved with proper lubrication and a hardware check.</li>
+      <li><b>Sagging or noisy panels on older, detached garages.</b> Worn hinges and rollers on garages exposed to the elements year-round, common on Bolton's larger wooded lots, gradually loosen the panel alignment.</li>
+      <li><b>Weak opener signal on longer driveways.</b> Detached garages set well back from the house can strain older remotes, keypads, and Wi-Fi-connected openers.</li>
+      <li><b>Drafts, moisture, and pests around the door seal.</b> Worn weatherstripping lets in cold air, water, and the occasional critter from the surrounding woods — worth addressing before winter.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap cols2">
+    <div>
+      <h2>Repair or Replace?</h2>
+      <div class="rail"><span></span><span></span><span></span></div>
+      <p>Repair is typically the right call when the door's frame, track, and opener are sound and a single part — a spring, cable, sensor, or roller — has failed. Replacement is worth considering when the door has significant dents or warped panels, several systems are failing at the same time, or the door predates modern insulation and safety features. A technician can generally tell which situation applies during an on-site inspection, before any work is scheduled.</p>
+    </div>
+    <div>
+      <h2>Garage Door Emergency?</h2>
+      <div class="rail"><span></span><span></span><span></span></div>
+      <p>A door stuck open, a snapped spring, or a door off its track is a safety issue — springs and cables are under high tension and shouldn't be handled without training. Don't force the opener. Disconnect the opener if the manual release is accessible and safe to reach, keep people and vehicles clear, and call (844) 901-6101 to describe what happened.</p>
+    </div>
+  </div>
+</section>
+
+<section class="tealband">
+  <div class="wrap cols2">
+    <div>
+      <h2>Residential Garage Doors</h2>
+      <p>Single and double-car residential doors, including sectional and traditional overhead styles, insulated and non-insulated options, and opener systems for homes throughout Bolton — attached and detached garages alike.</p>
+    </div>
+    <div>
+      <h2>Commercial Garage Doors</h2>
+      <p>Repair and service for overhead doors used at small commercial, farm, and light-industrial properties, including opener and access-control components.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Garage Door Types We Work On</h2>
+    <div class="rail"><span></span><span></span><span></span><span></span></div>
+    <div class="cols2">
+      <ul class="plain">
+        <li><b>Sectional garage doors</b> — the most common residential type, made of hinged horizontal panels.</li>
+        <li><b>Overhead / traditional doors</b> — single-panel doors that tilt up and back, still found on some of Bolton's older homes.</li>
+        <li><b>Insulated doors</b> — panels with a foam core for temperature and noise control.</li>
+      </ul>
+      <ul class="plain">
+        <li><b>Single-car and double-car doors</b> — sized to standard residential openings.</li>
+        <li><b>Automatic (opener-driven) doors</b> — any door style paired with an electric opener, including Wi-Fi and smartphone-controlled units.</li>
+        <li><b>Commercial and outbuilding overhead doors</b> — heavier-duty doors for barns, workshops, and light-commercial buildings common on Bolton's larger lots.</li>
+      </ul>
+    </div>
+    <p class="prose" style="margin-top:18px;">Locks, latches, and hardware also vary by door — from simple slide bolts on older overhead doors to keyed cylinder locks and electronic keypads on newer sectional doors. Because materials, lock types, and opener brands all affect the fix, we confirm exact pricing by phone or on site rather than quoting a flat number in advance.</p>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <h2>Why Bolton Homeowners Choose Prolift Garage Doors</h2>
+    <div class="rail"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="why-grid">
+      <div class="item">
+        <h3>Connecticut-focused</h3>
+        <p>Prolift Garage Doors serves communities across Connecticut rather than operating as a national call center.</p>
+      </div>
+      <div class="item">
+        <h3>In business since 2011</h3>
+        <p>Founded by William David on September 11, 2011, with a focus on straightforward repair work.</p>
+      </div>
+      <div class="item">
+        <h3>Full-scope capability</h3>
+        <p>From a single sensor realignment to a complete door and opener installation, one call covers it.</p>
+      </div>
+      <div class="item">
+        <h3>Estimate before work begins</h3>
+        <p>You'll know what's failed and what it costs to fix — based on your door type, materials, and hardware — before any repair starts.</p>
+      </div>
+      <div class="item">
+        <h3>Direct phone line</h3>
+        <p>(844) 901-6101 reaches the business directly — no app or portal required to get help.</p>
+      </div>
+      <div class="item">
+        <h3>Safety-first approach</h3>
+        <p>Spring and cable work is handled by trained technicians, not left to guesswork.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Serving Bolton, CT</h2>
+    <div class="rail"><span></span><span></span><span></span></div>
+    <p class="prose">Bolton is a small, tree-covered town in Tolland County's Capitol Region, incorporated in 1720 and named after Bolton, England, near Manchester. Once known for its granite quarries around Bolton Notch — the small community there was once called Quarryville — the town today is mostly residential, set about 20 minutes from both downtown Hartford and UConn's Storrs campus. That mix of colonial-era homes near the Bolton Green Historic District and newer construction on larger, wooded lots is part of why garage door issues in Bolton range from hardware worn down over many decades to opener and sensor problems on newer installs.</p>
+
+    <h3 style="margin-top:32px;">Areas of Bolton We Serve</h3>
+    <div class="neighborhoods">
+      <span>Bolton Center</span><span>Bolton Notch</span><span>Quarryville</span>
+      <span>Steeles Crossing</span><span>North Bolton</span><span>Bolton Lake</span>
+      <span>Freja Park area</span><span>Vernon Line</span><span>Andover Line</span><span>Coventry Line</span>
+    </div>
+    <p style="font-size:14px; color:#4a4a44; margin-top:14px;">Dedicated pages for individual neighborhoods are being built out where there's enough distinct, useful local content to justify a separate page — check back or call to confirm coverage in your area.</p>
+
+    <h3 style="margin-top:36px;">ZIP Code Served in Bolton</h3>
+    <div class="zip-list">
+      <div>06043</div>
+    </div>
+
+    <h3 style="margin-top:36px;">Nearby Service Areas</h3>
+    <div class="nearby-list">
+      <a href="https://theproliftgaragedoors.com/locations/manchester/">Manchester, CT →</a>
+      <a href="https://theproliftgaragedoors.com/locations/">All Connecticut Service Areas →</a>
+    </div>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <h2>Bolton, CT Weather &amp; Seasonal Care</h2>
+    <div class="rail"><span></span><span></span><span></span><span></span></div>
+    <p class="prose" style="color:var(--stone)">Bolton sees a full New England winter, with regular snowfall, freeze-thaw cycles, and periods well below freezing between December and March. Cold temperatures stiffen lubricant and can make metal springs and hinges contract slightly, which is why doors often feel heavier or move more slowly in winter — especially on detached garages exposed on all sides. Moisture from snow and ice also accelerates wear on weatherstripping and exposed hardware. Scheduling a maintenance check before winter — lubrication, a hardware check, and a weatherstripping inspection — helps avoid a mid-winter breakdown.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Bolton, CT Places &amp; Attractions</h2>
+    <div class="rail"><span></span><span></span><span></span></div>
+    <p class="prose">A few well-known local spots for anyone new to the area or coordinating a service visit:</p>
+    <div class="attraction-grid">
+      <div class="attraction-card">
+        <h3>Bolton Notch State Park</h3>
+        <p>A rocky, wooded state park at the site of the old granite quarries, with trailheads and a scenic gorge along Route 44.</p>
+        <a href="https://www.google.com/maps/place/Bolton+Notch+State+Park" target="_blank" rel="noopener">View on Google Maps →</a>
+      </div>
+      <div class="attraction-card">
+        <h3>Hop River State Park Trail</h3>
+        <p>A multi-use rail trail running through Bolton on its way toward Manchester and Vernon, popular for walking and cycling.</p>
+        <a href="https://www.google.com/maps/place/Hop+River+State+Park+Trail" target="_blank" rel="noopener">View on Google Maps →</a>
+      </div>
+      <div class="attraction-card">
+        <h3>Herrick Park</h3>
+        <p>One of Bolton's town-maintained parks, with fields and picnic space near the town center.</p>
+        <a href="https://www.google.com/maps/place/Herrick+Park+Bolton+CT" target="_blank" rel="noopener">View on Google Maps →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tealband">
+  <div class="wrap">
+    <h2>Community Events in Bolton</h2>
+    <div class="rail"><span></span><span></span><span></span></div>
+    <p class="prose">Bolton's Economic Development Committee runs seasonal community events such as the <b>Backyard Bolton Farmer's Market</b> on the Town Common, featuring local growers and small-batch producers. The town also maintains Herrick Park, Indian Notch Park, and Freja Park for year-round recreation. Check <a href="https://www.townofbolton.com" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;">townofbolton.com</a> for current event dates before planning around them.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Getting to Bolton, CT</h2>
+    <div class="rail"><span></span><span></span><span></span></div>
+    <p class="prose">Bolton sits along Route 44 and Route 6 at the edge of I-384, roughly 20 minutes east of downtown Hartford and a similar distance from UConn's Storrs campus, making it a straightforward stop within Prolift Garage Doors' broader Connecticut service area — including neighboring <a href="https://theproliftgaragedoors.com/locations/manchester/">Manchester, CT</a>. For directions to a specific address in town, use <a href="https://www.google.com/maps/place/Bolton,+CT" target="_blank" rel="noopener">Google Maps</a>. To schedule service, call (844) 901-6101 rather than relying on a drive-time estimate — dispatch and arrival windows are confirmed by phone based on current jobs in the area.</p>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <h2>Frequently Asked Questions</h2>
+    <div class="rail"><span></span><span></span><span></span><span></span><span></span></div>
+
+    <details class="faq">
+      <summary>How much does garage door repair cost in Bolton, CT?</summary>
+      <p>Cost depends on the part that failed, the size and type of your door, and the hardware or opener brand involved. A sensor or hinge fix runs toward the lower end of a typical repair, while a torsion spring, cable, or full off-track repair costs more because of the parts and labor involved. Call (844) 901-6101 and describe the symptoms for an accurate estimate before any work starts.</p>
+    </details>
+    <details class="faq">
+      <summary>Does Prolift Garage Doors service Bolton, CT?</summary>
+      <p>Yes. Prolift Garage Doors provides residential and light-commercial garage door repair, installation, and maintenance throughout Bolton, including Bolton Center, Bolton Notch, Quarryville, and the Steeles Crossing area, along with the surrounding Tolland County and Capitol Region towns.</p>
+    </details>
+    <details class="faq">
+      <summary>Should I repair or replace my garage door?</summary>
+      <p>If the frame, track, and opener are sound and only one component has failed, repair is usually the more cost-effective option. Replacement makes more sense when the door is significantly dented, panels are warped, multiple systems are failing at once, or the door predates current insulation and safety standards.</p>
+    </details>
+    <details class="faq">
+      <summary>Can I repair my garage door myself?</summary>
+      <p>Some tasks, like lubricating hinges or tightening visible hardware, are reasonable for a homeowner. Torsion spring replacement and cable work are not — these components are under high tension and have caused serious injuries to people without the right tools and training.</p>
+    </details>
+    <details class="faq">
+      <summary>How long does garage door repair take?</summary>
+      <p>Many single-component repairs — spring, cable, or sensor replacement — are completed in one visit lasting roughly one to two hours. More involved jobs, like full off-track realignment or opener replacement, can take longer depending on what's found once the door is inspected.</p>
+    </details>
+    <details class="faq">
+      <summary>Do detached and older garages in Bolton need anything special?</summary>
+      <p>Many Bolton properties sit on larger, wooded lots with detached garages and longer gravel or paved driveways, and some homes date back to Bolton's colonial-era Green Historic District. Older detached structures more often show wear on hardware, tracks, and weatherstripping from age and exposure, while opener range and Wi-Fi connectivity can be a factor on longer driveways. A technician can flag both during an inspection.</p>
+    </details>
+    <details class="faq">
+      <summary>Is garage door maintenance worth it in Bolton's climate?</summary>
+      <p>Routine maintenance — lubrication, hardware checks, and balance testing — catches small issues like a worn roller or loosening hinge before they turn into a stuck door or snapped cable. Bolton sees a full New England winter with regular snow and freeze-thaw cycles, so this matters more here than in milder climates.</p>
+    </details>
+    <details class="faq">
+      <summary>Are garage door repairs covered by homeowners insurance?</summary>
+      <p>Coverage depends on your policy and the cause of the damage — storm, fallen-tree-limb, or vehicle-impact damage is more likely to be covered than failure from normal wear and age. Check your policy or ask your insurance agent; Prolift Garage Doors can provide a written estimate and photos to support a claim if needed.</p>
+    </details>
+  </div>
+</section>
+
+<section class="tealband final-cta">
+  <div class="wrap">
+    <h2>Garage Door Trouble in Bolton?</h2>
+    <p style="max-width:520px;margin:12px auto 0;">Call Prolift Garage Doors for a straightforward diagnosis and estimate before any repair work starts.</p>
+    <a class="call-btn" href="tel:+18449016101">Call (844) 901-6101</a>
+  </div>
+</section>
+
+<!-- Shared Footer -->
+<div id="site-footer"></div>
+<script>
+(async function(){
+  const el=document.getElementById('site-footer');
+  try{
+    const r=await fetch('https://theproliftgaragedoors.com/footer.html',{cache:'no-cache'});
+    if(!r.ok) throw new Error('Footer HTTP '+r.status);
+    const text=await r.text();
+    const doc=new DOMParser().parseFromString(text,'text/html');
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{
+      const l=document.createElement('link');
+      l.rel='stylesheet'; l.href=x.href; document.head.appendChild(l);
+    });
+    doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
+    el.innerHTML=doc.body.innerHTML;
+  }catch(e){
+    console.error('Could not load footer.html',e);
+    el.innerHTML='<footer style="padding:32px;background:#080b0f;color:#8e9ba8;text-align:center">© ProLift Garage Doors</footer>';
+  }
+})();
+</script>
+</body>
+</html>
