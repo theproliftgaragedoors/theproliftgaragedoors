@@ -19,7 +19,7 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
 /* ── HEADER SHELL ── */
 .site-header{
   position:fixed;top:0;left:0;right:0;z-index:1000;
-  background:rgba(13,17,23,.97);
+  background:rgba(13,17,23,.9);
   border-bottom:1px solid rgba(255,255,255,.07);
   backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
   transition:background .3s,border-color .3s
@@ -206,6 +206,9 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
   .hdr-burger{display:flex}
   .hdr-inner{padding:0 16px}
 }
+
+/* demo spacer */
+.demo-spacer{height:2400px;padding:120px 40px 40px;font-size:13px;color:rgba(255,255,255,.1)}
 </style>
 </head>
 <body>
@@ -214,87 +217,18 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
   <div class="hdr-inner">
 
     <!-- Logo -->
-    <a href="/" class="hdr-logo">
-      <img src="https://theproliftgaragedoors.com/images/prolift-garage-doors-logo.webp" alt="ProLift Garage Doors"/>
+    <a href="https://theproliftgaragedoors.com/" class="hdr-logo">
+      <img src="data:image/webp;base64,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" alt="ProLift Garage Doors"/>
     </a>
 
     <!-- Desktop Nav -->
     <nav class="hdr-nav">
 
-      <a href="#why">Why ProLift</a>
+      <a href="https://theproliftgaragedoors.com/">ProLift Garage Doors</a>
 
-      <!-- Services mega drop -->
-      <div class="mega-wrap">
-        <button class="mega-trigger" aria-haspopup="true">
-          Services
-          <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        </button>
-        <div class="mega-panel" role="menu">
-
-          <a href="#services" class="mega-item">
-            <div class="mi-icon"><svg viewBox="0 0 24 24"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065zM15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
-            <div><span class="mi-title">Opener Repair</span><span class="mi-sub">Motor, logic board, drive belt</span></div>
-          </a>
-
-          <a href="#services" class="mega-item">
-            <div class="mi-icon"><svg viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
-            <div><span class="mi-title">Spring Replacement</span><span class="mi-sub">Torsion & extension springs</span></div>
-          </a>
-
-          <a href="#services" class="mega-item">
-            <div class="mi-icon"><svg viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" transform="rotate(90 12 12)"/></svg></div>
-            <div><span class="mi-title">Cable Repair</span><span class="mi-sub">Snapped or frayed cables</span></div>
-          </a>
-
-          <a href="#services" class="mega-item">
-            <div class="mi-icon"><svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-            <div><span class="mi-title">Off-Track Repair</span><span class="mi-sub">Safe realignment, same day</span></div>
-          </a>
-
-          <a href="#services" class="mega-item">
-            <div class="mi-icon"><svg viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg></div>
-            <div><span class="mi-title">New Door Install</span><span class="mi-sub">All styles & materials</span></div>
-          </a>
-
-          <a href="#services" class="mega-item">
-            <div class="mi-icon"><svg viewBox="0 0 24 24"><path d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg></div>
-            <div><span class="mi-title">Opener Install</span><span class="mi-sub">Smart, belt & chain drives</span></div>
-          </a>
-
-          <a href="#services" class="mega-item">
-            <div class="mi-icon"><svg viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg></div>
-            <div><span class="mi-title">Sensor Alignment</span><span class="mi-sub">Safety eyes & auto-reverse</span></div>
-          </a>
-
-          <a href="#services" class="mega-item">
-            <div class="mi-icon"><svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 000 4h6a2 2 0 000-4M9 5a2 2 0 012-2h2a2 2 0 012 2M9 14l2 2 4-4"/></svg></div>
-            <div><span class="mi-title">Annual Tune-Up</span><span class="mi-sub">Lube, balance & full check</span></div>
-          </a>
-
-          <a href="#services" class="mega-item">
-            <div class="mi-icon"><svg viewBox="0 0 24 24"><path d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg></div>
-            <div><span class="mi-title">Remote & Keypad</span><span class="mi-sub">Programming & MyQ setup</span></div>
-          </a>
-
-          <div class="mega-footer">
-            <a href="#services" class="mega-all">
-              <svg viewBox="0 0 24 24"><path d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
-              View all 19 services
-            </a>
-            <div class="mega-badge">
-              <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-              12-month warranty on every job
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <a href="#process">How it works</a>
-      <a href="#about">About</a>
-      <a href="#areas">Service areas</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#faq">FAQ</a>
+      <a href="https://theproliftgaragedoors.com/locations">Locations</a>
+      <a href="https://theproliftgaragedoors.com/about">About us</a>
+      <a href="https://theproliftgaragedoors.com/contact">Contact us</a>
     </nav>
 
     <!-- Status pill -->
@@ -318,24 +252,11 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
 
   <!-- Mobile drawer -->
   <div class="hdr-mobile" id="mobileNav">
-    <a href="#why">Why ProLift</a>
+    <a href="https://theproliftgaragedoors.com/">Home</a>
     <div class="m-divider"></div>
-    <div class="m-label">Services</div>
-    <a href="#services">Opener Repair</a>
-    <a href="#services">Spring Replacement</a>
-    <a href="#services">Cable Repair</a>
-    <a href="#services">Off-Track Repair</a>
-    <a href="#services">New Door Install</a>
-    <a href="#services">Opener Install</a>
-    <a href="#services">Sensor Alignment</a>
-    <a href="#services">Annual Tune-Up</a>
-    <a href="#services">View all 19 services →</a>
-    <div class="m-divider"></div>
-    <a href="#process">How it works</a>
-    <a href="#about">About us</a>
-    <a href="#areas">Service areas</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#faq">FAQ</a>
+    <a href="https://theproliftgaragedoors.com/locations">Locations</a>
+    <a href="https://theproliftgaragedoors.com/about">About us</a>
+    <a href="https://theproliftgaragedoors.com/contact">Contact us</a>
     <div class="m-divider"></div>
     <a href="tel:+18449016101" class="m-phone">
       <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
@@ -343,6 +264,9 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);-we
     </a>
   </div>
 </header>
+
+<div class="demo-spacer">Scroll down to see the sticky header with scroll shadow effect. Hover "Services" to see the mega-panel.</div>
+
 <script>
 window.addEventListener('scroll',()=>{
   document.getElementById('siteHeader').classList.toggle('scrolled',window.scrollY>20);
