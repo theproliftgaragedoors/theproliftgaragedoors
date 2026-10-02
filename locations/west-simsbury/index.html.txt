@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Garage Door Repair West Simsbury, CT | Same-Day | ProLift Garage Doors</title>
+<meta name="description" content="Garage door repair in West Simsbury, CT. Same-day spring, cable, opener & off-track repair. Flat-rate pricing, licensed techs, 12-month warranty. Call (844) 901-6101."/>
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"/>
+<link rel="canonical" href="https://theproliftgaragedoors.com/locations/west-simsbury/"/>
+<link rel="icon" type="image/webp" href="https://theproliftgaragedoors.com/images/prolift-garage-doors-logo.webp"/>
+<meta property="og:title" content="Garage Door Repair West Simsbury, CT | ProLift Garage Doors"/>
+<meta property="og:description" content="Same-day garage door repair, spring replacement, opener service & installation in West Simsbury, CT. Flat-rate pricing and a 12-month warranty."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://theproliftgaragedoors.com/locations/west-simsbury/"/>
+<meta property="og:image" content="https://theproliftgaragedoors.com/images/west-simsbury-ct-garage-door-repair-by-prolift-garage-doors.webp"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://theproliftgaragedoors.com/images/west-simsbury-ct-garage-door-repair-by-prolift-garage-doors.webp"/>
+<meta name="geo.region" content="US-CT"/><meta name="geo.placename" content="West Simsbury, Simsbury"/><meta name="geo.position" content="41.8812;-72.8387"/><meta name="ICBM" content="41.8812, -72.8387"/>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@graph":[
+{
+"@type":["LocalBusiness","HomeAndConstructionBusiness"],
+"@id":"https://theproliftgaragedoors.com/#business",
+"name":"ProLift Garage Doors",
+"url":"https://theproliftgaragedoors.com",
+"logo":{"@type":"ImageObject","url":"https://theproliftgaragedoors.com/images/prolift-garage-doors-logo.webp"},
+"image":"https://theproliftgaragedoors.com/images/west-simsbury-ct-garage-door-repair-by-prolift-garage-doors.webp",
+"telephone":"+18449016101",
+"email":"theproliftgaragedoors@gmail.com",
+"address":{"@type":"PostalAddress","streetAddress":"570 Main Ave","addressLocality":"Norwalk","addressRegion":"CT","postalCode":"06851","addressCountry":"US"},
+"areaServed":[
+{"@type":"Place","name":"West Simsbury","address":{"@type":"PostalAddress","addressLocality":"West Simsbury","addressRegion":"CT","postalCode":"06092","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":41.8812,"longitude":-72.8387},"containedInPlace":{"@type":"City","name":"Simsbury","addressRegion":"CT"}},
+{"@type":"City","name":"Simsbury","addressRegion":"CT","addressCountry":"US"}
+],
+"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","bestRating":"5","worstRating":"1","reviewCount":"340"},
+"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"19:00"}],
+"priceRange":"$50 - $7000",
+"knowsAbout":["Garage door repair","Garage door spring replacement","Garage door opener repair","Garage door cable repair","Off-track garage door repair","Garage door installation","Garage door maintenance"],
+"sameAs":["https://www.facebook.com/theproliftgaragedoors","https://www.google.com/maps?cid=15686198537328393987"],
+"hasOfferCatalog":{"@type":"OfferCatalog","name":"Garage door services in West Simsbury, CT","itemListElement":[
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Garage door spring replacement in West Simsbury","serviceType":"Spring replacement"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Garage door opener repair in West Simsbury","serviceType":"Opener repair"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Garage door cable repair in West Simsbury","serviceType":"Cable repair"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Off-track garage door repair in West Simsbury","serviceType":"Track repair"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"New garage door installation in West Simsbury","serviceType":"Door installation"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Garage door tune-up in West Simsbury","serviceType":"Maintenance"}}
+]}
+},
+{
+"@type":"WebPage",
+"@id":"https://theproliftgaragedoors.com/locations/west-simsbury/#webpage",
+"url":"https://theproliftgaragedoors.com/locations/west-simsbury/",
+"name":"Garage Door Repair West Simsbury, CT | ProLift Garage Doors",
+"description":"Same-day garage door repair, spring replacement, opener service and installation in West Simsbury, a section of Simsbury, CT.",
+"isPartOf":{"@id":"https://theproliftgaragedoors.com/#website"},
+"about":{"@id":"https://theproliftgaragedoors.com/#business"},
+"primaryImageOfPage":{"@type":"ImageObject","url":"https://theproliftgaragedoors.com/images/west-simsbury-ct-garage-door-repair-by-prolift-garage-doors.webp"},
+"inLanguage":"en-US",
+"dateModified":"2026-10-02",
+"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer-box",".hero-desc",".faq-a-in"]},
+"breadcrumb":{"@id":"https://theproliftgaragedoors.com/locations/west-simsbury/#breadcrumb"}
+},
+{
+"@type":"BreadcrumbList",
+"@id":"https://theproliftgaragedoors.com/locations/west-simsbury/#breadcrumb",
+"itemListElement":[
+{"@type":"ListItem","position":1,"name":"Home","item":"https://theproliftgaragedoors.com/"},
+{"@type":"ListItem","position":2,"name":"Locations","item":"https://theproliftgaragedoors.com/locations/"},
+{"@type":"ListItem","position":3,"name":"Simsbury","item":"https://theproliftgaragedoors.com/locations/simsbury/"},
+{"@type":"ListItem","position":4,"name":"West Simsbury","item":"https://theproliftgaragedoors.com/locations/west-simsbury/"}
+]
+},
+{
+"@type":"FAQPage",
+"mainEntity":[
+{"@type":"Question","name":"How quickly can ProLift reach West Simsbury?","acceptedAnswer":{"@type":"Answer","text":"Call before noon and we are typically at your West Simsbury door the same day. The usual arrival window is 2 to 4 hours from your call, subject to technician schedules and weather."}},
+{"@type":"Question","name":"How much does garage door repair cost in West Simsbury, CT?","acceptedAnswer":{"@type":"Answer","text":"ProLift quotes flat-rate pricing before any work starts. The final cost depends on the part and door size; a spring replacement, an opener repair and a new door are priced very differently. The price quoted is the price you pay."}},
+{"@type":"Question","name":"Is the diagnosis visit free?","acceptedAnswer":{"@type":"Answer","text":"There is a standard service call fee covering the technician's time and inspection. It is waived when you proceed with the repair, and you are never obligated to proceed."}},
+{"@type":"Question","name":"Why does my garage door stop working in cold Connecticut weather?","acceptedAnswer":{"@type":"Answer","text":"Cold thickens lubricant, contracts metal and makes springs work harder. Rollers stiffen, weatherstripping can freeze to the floor, and worn springs often break on the first very cold morning. A tune-up before winter reduces these failures."}},
+{"@type":"Question","name":"Can I replace a broken garage door spring myself?","acceptedAnswer":{"@type":"Answer","text":"No. Torsion and extension springs hold high tension and can cause serious injury. Spring replacement should be done by a trained technician with winding bars and the correct springs for the door's weight."}},
+{"@type":"Question","name":"What brands of garage door and opener do you service in West Simsbury?","acceptedAnswer":{"@type":"Answer","text":"All major brands including LiftMaster, Chamberlain, Genie, Craftsman, Ryobi, Overhead Door, Stanley and Wayne Dalton. Common parts are stocked on our trucks."}},
+{"@type":"Question","name":"Is every repair covered by a warranty?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every ProLift repair carries a 12-month parts and labor warranty. If the repaired component fails within 12 months, we return and fix it at no charge."}},
+{"@type":"Question","name":"Should I repair or replace my garage door?","acceptedAnswer":{"@type":"Answer","text":"If the issue is one failed component and the door is structurally sound, repair usually makes sense. If panels are cracked, rusted or sagging, or the system fails repeatedly, replacement is often the better long-term value. Our technician gives an honest recommendation."}},
+{"@type":"Question","name":"Do you serve homes near Stratton Brook and Talcott Mountain?","acceptedAnswer":{"@type":"Answer","text":"Yes. We serve all of West Simsbury, including wooded and hillside neighborhoods and streets near Stratton Brook State Park, plus nearby Weatogue, Tariffville and the rest of Simsbury."}}
+]
+},
+{
+"@type":"HowTo",
+"name":"How to check if your garage door is balanced",
+"description":"A safe homeowner check to see whether a garage door is balanced, so you know when to call a technician.",
+"totalTime":"PT10M",
+"step":[
+{"@type":"HowToStep","position":1,"name":"Close the door and disconnect the opener","text":"With the door fully closed, pull the red emergency release cord so the door can be moved by hand."},
+{"@type":"HowToStep","position":2,"name":"Lift the door by hand to halfway","text":"Raise the door slowly to about waist height, which is roughly halfway open."},
+{"@type":"HowToStep","position":3,"name":"Let go and observe","text":"A balanced door stays in place. If it drops or rises on its own, the springs are out of balance or worn."},
+{"@type":"HowToStep","position":4,"name":"Call a professional","text":"Do not adjust springs or cables yourself. Call ProLift at (844) 901-6101 to have the system inspected."}
+]
+},
+{
+"@type":"ItemList",
+"name":"Nearby areas served by ProLift",
+"itemListElement":[
+{"@type":"ListItem","position":1,"name":"Simsbury","url":"https://theproliftgaragedoors.com/locations/simsbury/"},
+{"@type":"ListItem","position":2,"name":"Weatogue","url":"https://theproliftgaragedoors.com/locations/simsbury/weatogue-garage-door-repair"},
+{"@type":"ListItem","position":3,"name":"Tariffville","url":"https://theproliftgaragedoors.com/locations/simsbury/tariffville-garage-door-repair"}
+]
+}
+]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+<style>
+:root{--ink:#0d1117;--ink2:#161d26;--ink3:#1e2833;--mist:#8e9ba8;--fog:#c4cdd6;--snow:#f2f4f6;--white:#fff;--teal:#0c8075;--teal2:#0fa898;--teal3:#12c4b2;--r8:8px;--r12:12px;--r16:16px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+.loc-hero{min-height:72vh;display:grid;grid-template-columns:1fr 1fr;background:var(--ink);position:relative;overflow:hidden}
+.loc-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 30% 40%,rgba(12,128,117,.12),transparent 60%),radial-gradient(ellipse 40% 60% at 80% 20%,rgba(12,128,117,.06),transparent 50%);pointer-events:none}
+.hero-left{padding:80px 64px 80px 80px;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2}
+.badge{display:inline-flex;align-items:center;gap:8px;margin-bottom:28px;background:rgba(12,128,117,.12);border:1px solid rgba(12,128,117,.25);padding:6px 14px;border-radius:999px;width:fit-content}
+.badge-dot{width:6px;height:6px;background:var(--teal3);border-radius:50%;animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.badge span{font-size:11px;font-weight:600;color:var(--teal3);letter-spacing:.6px}
+h1{font-family:'Fraunces',serif;font-size:54px;font-weight:400;line-height:1.06;letter-spacing:-1.5px;margin-bottom:20px}
+h1 .accent{font-style:italic;color:var(--teal3)}
+h1 .dim{color:rgba(255,255,255,.45)}
+.hero-desc{font-size:16px;font-weight:300;line-height:1.75;color:var(--mist);max-width:480px;margin-bottom:32px}
+.hero-cta{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:36px}
+.btn-main{background:var(--teal);color:var(--white);font-size:14px;font-weight:700;padding:14px 28px;border-radius:var(--r8);text-decoration:none;transition:all .2s;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.btn-main:hover{background:var(--teal2);transform:translateY(-1px)}
+.btn-call{display:flex;align-items:center;gap:9px;font-size:15px;font-weight:700;color:var(--white);text-decoration:none;transition:color .2s}
+.btn-call:hover{color:var(--teal3)}
+.btn-call-icon{width:40px;height:40px;background:rgba(12,128,117,.15);border:1px solid rgba(12,128,117,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.btn-call-icon svg{width:16px;height:16px;fill:var(--teal3)}
+.hero-trust{display:flex;flex-wrap:wrap;gap:20px}
+.trust-pill{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:500;color:rgba(255,255,255,.4)}
+.trust-pill svg{width:14px;height:14px;fill:none;stroke:var(--teal2);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.hero-right{padding:64px 80px 64px 32px;display:flex;align-items:center;justify-content:center;position:relative;z-index:2}
+.stats-panel{width:100%;max-width:380px;background:var(--ink2);border:1px solid rgba(255,255,255,.08);border-radius:var(--r16);overflow:hidden}
+.sp-header{padding:20px 26px;border-bottom:1px solid rgba(255,255,255,.06);display:flex;align-items:center;gap:10px}
+.sp-dot{width:8px;height:8px;background:var(--teal3);border-radius:50%;box-shadow:0 0 8px var(--teal3)}
+.sp-title{font-size:12px;font-weight:600;color:var(--mist);letter-spacing:.8px}
+.sp-grid{display:grid;grid-template-columns:1fr 1fr}
+.sp-stat{padding:26px 22px;border-right:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05)}
+.sp-stat:nth-child(2n){border-right:none}
+.sp-stat:nth-child(n+3){border-bottom:none}
+.sp-num{font-family:'Fraunces',serif;font-size:40px;font-weight:600;line-height:1;margin-bottom:6px;letter-spacing:-2px}
+.sp-num b{color:var(--teal3);font-weight:400}
+.sp-label{font-size:12px;color:var(--mist);line-height:1.45}
+.sp-footer{padding:15px 22px;background:var(--teal);font-size:12px;font-weight:500;color:rgba(255,255,255,.9)}
+.ticker{background:var(--teal);padding:12px 0;overflow:hidden}
+.ticker-track{display:flex;animation:tick 30s linear infinite;width:max-content}
+.ticker-track:hover{animation-play-state:paused}
+.t-group{display:flex;align-items:center;padding:0 20px;white-space:nowrap}
+.t-item{font-size:10.5px;font-weight:700;letter-spacing:.8px;color:rgba(255,255,255,.88);text-transform:uppercase}
+.t-sep{width:4px;height:4px;background:rgba(255,255,255,.3);border-radius:50%;margin:0 20px;flex-shrink:0}
+@keyframes tick{to{transform:translateX(-50%)}}
+.sec-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--teal2);margin-bottom:10px}
+.sec-h{font-family:'Fraunces',serif;font-size:38px;font-weight:400;letter-spacing:-.8px;line-height:1.12}
+.sec-h .acc{color:var(--teal3);font-style:italic}
+.sec-p{font-size:15px;font-weight:300;color:var(--mist);line-height:1.8;margin-top:12px}
+#services{padding:96px 64px}
+.srv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}
+.srv-card{background:var(--ink2);border:1px solid rgba(255,255,255,.07);border-radius:var(--r12);padding:22px;transition:border-color .2s,transform .2s}
+.srv-card:hover{border-color:rgba(12,128,117,.3);transform:translateY(-2px)}
+.srv-card h3{font-size:15px;font-weight:600;margin-bottom:8px}
+.srv-card p,.why-card p{font-size:13px;font-weight:300;color:var(--mist);line-height:1.65}
+.srv-card a{color:var(--teal3);font-size:12px;font-weight:600;text-decoration:none;display:inline-block;margin-top:10px}
+#why{background:var(--ink2);padding:96px 64px}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px}
+.why-card{background:var(--ink3);border:1px solid rgba(255,255,255,.06);border-radius:var(--r12);padding:28px 24px}
+.why-num{font-family:'Fraunces',serif;font-size:40px;font-weight:600;color:var(--teal3);margin-bottom:10px;line-height:1}
+.why-card h3{font-size:15px;font-weight:600;margin-bottom:8px}
+.ctaband{background:var(--teal);padding:60px 64px;display:flex;justify-content:space-between;align-items:center;gap:40px;flex-wrap:wrap}
+.ctaband h2{font-family:'Fraunces',serif;font-size:32px;font-weight:400;margin-bottom:6px;letter-spacing:-.5px}
+.ctaband p{font-size:15px;font-weight:300;color:rgba(255,255,255,.7)}
+.cta-btns{display:flex;flex-direction:column;gap:12px;align-items:flex-end}
+.btn-white{background:var(--white);color:var(--teal);font-size:14px;font-weight:700;padding:14px 28px;border-radius:var(--r8);text-decoration:none;white-space:nowrap}
+.btn-white:hover{background:var(--snow)}
+.btn-phone{color:rgba(255,255,255,.8);font-size:14px;font-weight:600;text-decoration:none}
+.btn-phone:hover{color:var(--white)}
+#faq{background:var(--snow);padding:96px 64px}
+.faq-layout{display:grid;grid-template-columns:5fr 7fr;gap:80px;align-items:start}
+.faq-intro .sec-h{margin-bottom:14px;color:var(--ink)}
+.faq-intro .sec-label{color:var(--teal)}
+.faq-intro p{font-size:14px;font-weight:300;color:#6b7d8a;line-height:1.8}
+.faq-list{border-radius:var(--r12);overflow:hidden;border:1px solid #dde4ea}
+.faq-item{background:var(--white);border-bottom:1px solid #dde4ea}
+.faq-item:last-child{border-bottom:none}
+.faq-q{width:100%;background:none;border:none;padding:19px 22px;text-align:left;font-family:'Inter',sans-serif;font-size:13.5px;font-weight:600;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq-q:hover{background:#f5f8fb}
+.faq-q svg{width:15px;height:15px;fill:none;stroke:var(--teal);stroke-width:2;flex-shrink:0;transition:transform .28s}
+.faq-q.open svg{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .32s ease}
+.faq-a.open{max-height:420px}
+.faq-a-in{padding:0 22px 18px;font-size:13px;color:#6b7d8a;line-height:1.72;font-weight:300}
+.breadcrumb{background:var(--ink2);padding:14px 64px;border-bottom:1px solid rgba(255,255,255,.06)}
+.breadcrumb ol{display:flex;flex-wrap:wrap;gap:6px;list-style:none;font-size:12px;color:var(--mist)}
+.breadcrumb a{color:var(--mist);text-decoration:none}
+.breadcrumb a:hover{color:var(--teal3)}
+.breadcrumb .current{color:rgba(255,255,255,.35)}
+.bc-sep{color:rgba(255,255,255,.2)}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+.local-seo-section{padding:96px 64px;border-top:1px solid rgba(255,255,255,.06)}
+.seo-body-grid{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:24px;margin-top:42px;align-items:start}
+.seo-primary,.seo-side{display:flex;flex-direction:column;gap:18px}
+.seo-side{position:sticky;top:20px}
+.seo-featured,.seo-longcopy,.seo-neighbourhoods,.seo-callout,.seo-toc{background:var(--ink2);border:1px solid rgba(255,255,255,.07);border-radius:var(--r12)}
+.seo-featured{overflow:hidden}
+.seo-featured img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.seo-longcopy{padding:30px}
+.seo-neighbourhoods,.seo-callout,.seo-toc{padding:24px}
+.seo-longcopy h2{font-family:'Fraunces',serif;font-size:26px;font-weight:400;line-height:1.25;margin:34px 0 12px;letter-spacing:-.4px}
+.seo-longcopy h2:first-child{margin-top:0}
+.seo-longcopy h3,.seo-neighbourhoods h3,.seo-callout h3,.seo-toc h3{font-size:18px;font-weight:700;line-height:1.35;margin:22px 0 10px}
+.seo-neighbourhoods h3,.seo-callout h3,.seo-toc h3{margin-top:0}
+.seo-longcopy p,.seo-neighbourhoods p,.seo-callout p{font-size:14px;font-weight:300;color:var(--mist);line-height:1.82;margin:0 0 14px}
+.seo-longcopy a{color:var(--teal3);text-decoration:underline;text-underline-offset:3px}
+.seo-longcopy ul,.seo-longcopy ol{margin:0 0 16px 20px;color:var(--mist);font-size:14px;font-weight:300;line-height:1.8}
+.seo-longcopy li{margin-bottom:6px}
+.seo-longcopy strong{color:var(--fog);font-weight:600}
+.answer-box{background:rgba(12,128,117,.12);border:1px solid rgba(12,128,117,.3);border-radius:var(--r8);padding:18px 20px;margin:0 0 18px}
+.answer-box p{margin:0;color:var(--fog)}
+.seo-table{width:100%;border-collapse:collapse;margin:6px 0 18px;font-size:13px}
+.seo-table th,.seo-table td{text-align:left;padding:11px 12px;border-bottom:1px solid rgba(255,255,255,.08);color:var(--mist);font-weight:300;vertical-align:top}
+.seo-table th{color:var(--teal3);font-weight:600;font-size:11px;letter-spacing:1px;text-transform:uppercase}
+.table-wrap{overflow-x:auto}
+.map-wrap{border-radius:var(--r12);overflow:hidden;border:1px solid rgba(255,255,255,.08);margin:6px 0 18px}
+.map-wrap iframe{display:block;width:100%;height:340px;border:0}
+.seo-neighbourhoods ul,.seo-toc ul{list-style:none;display:grid;gap:8px;margin-top:14px}
+.seo-neighbourhoods a,.seo-toc a{display:block;color:var(--fog);text-decoration:none;font-size:13px;font-weight:600;padding:10px 12px;border-radius:var(--r8);background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.05);transition:all .2s}
+.seo-neighbourhoods a:hover,.seo-neighbourhoods a.active,.seo-toc a:hover{color:var(--white);border-color:rgba(12,128,117,.35);background:rgba(12,128,117,.16)}
+.seo-callout{border-color:rgba(12,128,117,.25);background:linear-gradient(180deg,rgba(12,128,117,.14),rgba(255,255,255,.03))}
+.seo-callout .btn-main{width:max-content}
+@media(max-width:960px){.loc-hero{grid-template-columns:1fr}.hero-left{padding:48px 20px 32px}h1{font-size:38px}.hero-right{padding:0 20px 48px}#services,#why,#faq,.local-seo-section{padding:64px 20px}.ctaband{padding:48px 20px}.breadcrumb{padding:14px 20px}.srv-grid,.why-grid{grid-template-columns:1fr 1fr}.faq-layout{grid-template-columns:1fr;gap:40px}.cta-btns{align-items:flex-start}.seo-body-grid{grid-template-columns:1fr}.seo-side{order:-1;position:static}}
+@media(max-width:600px){h1{font-size:30px}.srv-grid,.why-grid{grid-template-columns:1fr}.ctaband{flex-direction:column;gap:24px}}
+</style>
+</head>
+<body>
+
+<div id="site-header"></div>
+<script>
+(async function(){
+  const el=document.getElementById('site-header');
+  try{
+    const r=await fetch('https://theproliftgaragedoors.com/header.html',{cache:'no-cache'});
+    if(!r.ok) throw new Error('Header HTTP '+r.status);
+    const doc=new DOMParser().parseFromString(await r.text(),'text/html');
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});
+    doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
+    el.innerHTML=doc.body.innerHTML;
+    doc.querySelectorAll('script').forEach(x=>{const s=document.createElement('script');if(x.src)s.src=x.src;else s.textContent=x.textContent;document.body.appendChild(s)});
+  }catch(e){console.error('Could not load header.html',e)}
+})();
+</script>
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="https://theproliftgaragedoors.com/">Home</a></li><li class="bc-sep" aria-hidden="true">›</li><li><a href="https://theproliftgaragedoors.com/locations/">Locations</a></li><li class="bc-sep" aria-hidden="true">›</li><li><a href="https://theproliftgaragedoors.com/locations/simsbury/">Simsbury</a></li><li class="bc-sep" aria-hidden="true">›</li><li class="current" aria-current="page">West Simsbury</li>
+  </ol>
+</nav>
+
+<main>
+<section class="loc-hero">
+  <div class="hero-left">
+    <div class="badge"><span class="badge-dot"></span><span>Serving West Simsbury, CT</span></div>
+    <h1>Garage Door Repair<br><span class="accent">West Simsbury</span><br><span class="dim">Connecticut</span></h1>
+    <p class="hero-desc">ProLift Garage Doors is a trusted garage door company for West Simsbury homeowners. We repair broken springs, snapped cables, off-track doors and failing openers, and install new doors, with licensed techs dispatched same-day across West Simsbury and greater <a href="https://theproliftgaragedoors.com/locations/simsbury/" style="color:var(--teal3)">Simsbury</a>.</p>
+    <div class="hero-cta">
+      <a href="tel:+18449016101" class="btn-main"><svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.08 1.18 2 2 0 012.05 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Call (844) 901-6101</a>
+      <a href="https://theproliftgaragedoors.com/#contact" class="btn-call"><div class="btn-call-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div>Get a Free Quote</a>
+    </div>
+    <div class="hero-trust">
+      <div class="trust-pill"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>Licensed &amp; Insured</div>
+      <div class="trust-pill"><svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Same-Day Service</div>
+      <div class="trust-pill"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>12-Month Warranty</div>
+      <div class="trust-pill"><svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>4.9 ★ Rating</div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="stats-panel">
+      <div class="sp-header"><div class="sp-dot"></div><div class="sp-title">SERVICE METRICS · WEST SIMSBURY</div></div>
+      <div class="sp-grid">
+        <div class="sp-stat"><div class="sp-num">2<b>–</b>4<b>h</b></div><div class="sp-label">Typical arrival window same day</div></div>
+        <div class="sp-stat"><div class="sp-num">4<b>.9</b></div><div class="sp-label">Google rating from 340+ reviews</div></div>
+        <div class="sp-stat"><div class="sp-num">12<b>mo</b></div><div class="sp-label">Parts &amp; labor warranty</div></div>
+        <div class="sp-stat"><div class="sp-num">15<b>+</b></div><div class="sp-label">Years serving Connecticut</div></div>
+      </div>
+      <div class="sp-footer">Licensed, insured &amp; background-checked techs</div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track">
+  <div class="t-group"><span class="t-item">Same-Day Service</span><span class="t-sep"></span><span class="t-item">Spring Replacement</span><span class="t-sep"></span><span class="t-item">Opener Repair</span><span class="t-sep"></span><span class="t-item">Cable Repair</span><span class="t-sep"></span><span class="t-item">Off-Track Repair</span><span class="t-sep"></span><span class="t-item">New Door Installation</span><span class="t-sep"></span><span class="t-item">12-Month Warranty</span><span class="t-sep"></span><span class="t-item">Flat-Rate Pricing</span><span class="t-sep"></span></div>
+  <div class="t-group"><span class="t-item">Same-Day Service</span><span class="t-sep"></span><span class="t-item">Spring Replacement</span><span class="t-sep"></span><span class="t-item">Opener Repair</span><span class="t-sep"></span><span class="t-item">Cable Repair</span><span class="t-sep"></span><span class="t-item">Off-Track Repair</span><span class="t-sep"></span><span class="t-item">New Door Installation</span><span class="t-sep"></span><span class="t-item">12-Month Warranty</span><span class="t-sep"></span><span class="t-item">Flat-Rate Pricing</span><span class="t-sep"></span></div>
+</div></div>
+
+<section id="services">
+  <div class="sec-label">What We Fix</div>
+  <h2 class="sec-h">Full-Service Garage Door Repair<br><span class="acc">in West Simsbury</span></h2>
+  <p class="sec-p">Every job is quoted flat-rate before we start. No surprises, no upsells, just honest work backed by a 12-month warranty.</p>
+  <div class="srv-grid">
+    <div class="srv-card reveal"><h3>Spring Replacement</h3><p>A broken torsion or extension spring is the most common reason a door won't open. We carry springs for all door sizes and replace them safely.</p><a href="#services-detail">Spring details</a></div>
+    <div class="srv-card reveal"><h3>Opener Repair &amp; Installation</h3><p>Motor failing, reversing unexpectedly, or not responding? We repair and install chain, belt, screw and direct-drive openers.</p><a href="#services-detail">Opener details</a></div>
+    <div class="srv-card reveal"><h3>Cable Repair</h3><p>Snapped or frayed cables cause dangerous imbalances. We replace both cables together so wear stays even.</p><a href="#services-detail">Cable details</a></div>
+    <div class="srv-card reveal"><h3>Off-Track Repair</h3><p>Don't force a door that jumped its tracks. We realign and test the full track system before leaving.</p><a href="#services-detail">Track details</a></div>
+    <div class="srv-card reveal"><h3>New Door Installation</h3><p>Full replacement or a new-home install in steel, insulated, wood and carriage-house styles.</p><a href="#services-detail">Install details</a></div>
+    <div class="srv-card reveal"><h3>Tune-Up &amp; Maintenance</h3><p>Lubrication, hardware tightening, balance check, sensor testing and a full safety inspection.</p><a href="#services-detail">Tune-up details</a></div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="sec-label">Why ProLift</div>
+  <h2 class="sec-h">The West Simsbury<br><span class="acc">Difference</span></h2>
+  <div class="why-grid">
+    <div class="why-card reveal"><div class="why-num">01</div><h3>Same-Day Dispatch</h3><p>Call before noon and we're typically at your door the same day. Most jobs finish in one visit.</p></div>
+    <div class="why-card reveal"><div class="why-num">02</div><h3>Flat-Rate Pricing</h3><p>You get a firm quote before we touch anything. The price we quote is the price you pay.</p></div>
+    <div class="why-card reveal"><div class="why-num">03</div><h3>12-Month Warranty</h3><p>Every repair carries 12 months of parts and labor coverage. If it fails, we return and fix it free.</p></div>
+    <div class="why-card reveal"><div class="why-num">04</div><h3>Licensed &amp; Insured</h3><p>All technicians are licensed, fully insured and background-checked.</p></div>
+  </div>
+</section>
+
+<div class="ctaband">
+  <div><h2>Ready to fix your garage door in <em>West Simsbury</em>?</h2><p>Same-day service available. Call now or request a free quote online.</p></div>
+  <div class="cta-btns"><a href="https://theproliftgaragedoors.com/#contact" class="btn-white">Get a Free Quote</a><a href="tel:+18449016101" class="btn-phone">(844) 901-6101</a></div>
+</div>
+
+<section id="faq">
+  <div class="faq-layout">
+    <div class="faq-intro reveal">
+      <div class="sec-label">FAQ</div>
+      <h2 class="sec-h">Common Questions<br>About Garage Door<br><span class="acc">Repair in West Simsbury</span></h2>
+      <p style="margin-top:16px">Can't find your answer? Call us at <a href="tel:+18449016101" style="color:var(--teal);font-weight:600">(844) 901-6101</a>. We're happy to help.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How quickly can ProLift reach West Simsbury?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">Call before noon and we're typically at your West Simsbury door the same day. The usual arrival window is 2 to 4 hours from your call, subject to technician schedules and weather.</div></div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How much does garage door repair cost in West Simsbury, CT?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">We quote flat-rate pricing before any work starts. The cost depends on the part and door size: a spring, an opener repair and a new door are priced very differently. The price quoted is the price you pay.</div></div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is the diagnosis visit free?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">There's a standard service call fee covering the tech's time and inspection. It's waived when you proceed with the repair, and you're never obligated to proceed.</div></div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Why does my garage door stop working in cold Connecticut weather?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">Cold thickens lubricant, contracts metal and makes springs work harder. Rollers stiffen, weatherstripping can freeze to the floor, and worn springs often break on the first very cold morning. A pre-winter tune-up reduces these failures.</div></div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Can I replace a broken garage door spring myself?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">No. Torsion and extension springs hold high tension and can cause serious injury. Replacement should be done by a trained technician with winding bars and the correct springs for your door's weight.</div></div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What brands of garage door and opener do you service?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">All major brands including LiftMaster, Chamberlain, Genie, Craftsman, Ryobi, Overhead Door, Stanley and Wayne Dalton. Common parts are stocked on our trucks.</div></div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is every repair covered by a warranty?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">Yes. Every ProLift repair carries a 12-month parts and labor warranty. If the repaired component fails within 12 months, we return and fix it at no charge.</div></div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Should I repair or replace my garage door?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">If the problem is one failed component and the door is structurally sound, repair usually wins. If panels are cracked, rusted or sagging, or the system fails repeatedly, replacement is often the better long-term value. Our tech gives an honest recommendation.</div></div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Do you serve homes near Stratton Brook and Talcott Mountain?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">Yes. We serve all of West Simsbury, including wooded and hillside streets near Stratton Brook State Park, plus <a href="https://theproliftgaragedoors.com/locations/simsbury/weatogue-garage-door-repair" style="color:var(--teal)">Weatogue</a>, <a href="https://theproliftgaragedoors.com/locations/simsbury/tariffville-garage-door-repair" style="color:var(--teal)">Tariffville</a> and the rest of <a href="https://theproliftgaragedoors.com/locations/simsbury/" style="color:var(--teal)">Simsbury</a>.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="local-seo-section" data-seo-content-wrapper>
+  <div class="sec-label">Local Garage Door Help</div>
+  <h2 class="sec-h">West Simsbury garage door repair<br><span class="acc">by ProLift</span></h2>
+  <p class="sec-p">A local guide for West Simsbury homeowners: services, common problems, seasonal tips, step-by-step checks, a service-area map, and what to see and do nearby.</p>
+  <div class="seo-body-grid">
+    <div class="seo-primary">
+      <figure class="seo-featured reveal">
+        <img class="featured-image" src="https://theproliftgaragedoors.com/images/west-simsbury-ct-garage-door-repair-by-prolift-garage-doors.webp" alt="West Simsbury CT garage door repair by ProLift Garage Doors" width="1280" height="720" loading="lazy">
+      </figure>
+      <div class="seo-longcopy reveal">
+
+<div class="answer-box" id="quick-answer"><p><strong>Quick answer:</strong> ProLift Garage Doors repairs and installs garage doors in West Simsbury, CT. We offer same-day service when you call before noon, flat-rate quotes before work begins, licensed and insured technicians, and a 12-month parts-and-labor warranty. Call (844) 901-6101.</p></div>
+
+<h2 id="about">Trusted garage door repair for West Simsbury homeowners</h2>
+<p>West Simsbury is the quiet, tree-lined western side of <a href="https://theproliftgaragedoors.com/locations/simsbury/">Simsbury</a>, where larger lots, wooded hillsides and well-kept colonial, contemporary and ranch homes are the norm. Most houses here have attached two- and three-car garages, often with heavy insulated doors, carriage-house styling and smart openers that families use several times a day. Heavier, busier doors wear springs and openers faster, and when something fails, you need a team that arrives quickly and explains the problem clearly.</p>
+<p>ProLift technicians repair springs, cables, rollers, tracks, hinges, panels, sensors, weather seals, openers, remotes and keypads. We diagnose first, quote a flat rate before touching anything, and recommend only what the door needs. If you are searching for "garage door repair near me" in West Simsbury, this page explains what we do, how fast we arrive, and how to protect your door through a Connecticut year.</p>
+
+<h2 id="services-detail">Garage door services we provide in West Simsbury</h2>
+<h3>Garage door spring replacement</h3>
+<p>Springs counterbalance a door that can weigh well over 100 pounds, and insulated or carriage-house doors weigh more. A torsion spring is rated for a limited number of cycles; when it breaks you will hear a loud bang and the door will feel extremely heavy or refuse to lift. We replace springs in matched pairs where appropriate, match them to the door's actual weight and height, and test the balance afterward. Never attempt this yourself.</p>
+<h3>Cable repair and roller replacement</h3>
+<p>Cables carry the load when the door moves. Frayed, rusty or snapped cables leave one side hanging crooked. Worn rollers cause grinding and shaking. We replace cables in pairs and upgrade worn rollers to quieter, longer-lasting options when it makes sense.</p>
+<h3>Off-track and bent-track repair</h3>
+<p>A door that has jumped its track is unsafe to operate. Forcing it can bend panels beyond repair. We secure the door, straighten or replace damaged track, realign the system, and run full cycles before we leave.</p>
+<h3>Garage door opener repair and installation</h3>
+<p>If your opener hums but does not move the door, clicks, stalls, reverses or ignores the remote, we check power, logic board, travel limits, safety sensors, drive system and mounting. When replacement is the better value, we install chain, belt and direct-drive models with Wi-Fi control, battery backup and quiet operation, and program remotes and keypads on the spot.</p>
+<h3>New garage door installation</h3>
+<p>We measure, supply and install new doors in steel, insulated steel, wood and carriage-house styles, with new tracks, springs, seals and openers where needed. A new door is one of the easiest curb-appeal upgrades for a West Simsbury home.</p>
+<h3>Tune-up and preventive maintenance</h3>
+<p>Our tune-up covers lubrication, hardware tightening, balance testing, cable and spring inspection, roller and hinge checks, weatherstripping, and safety-sensor and auto-reverse testing. It is the most affordable way to avoid an emergency call.</p>
+<p>Nearby? See <a href="https://theproliftgaragedoors.com/locations/simsbury/weatogue-garage-door-repair">Weatogue garage door repair</a>, <a href="https://theproliftgaragedoors.com/locations/simsbury/tariffville-garage-door-repair">Tariffville garage door repair</a>, or our main <a href="https://theproliftgaragedoors.com/locations/simsbury/">Simsbury garage door repair</a> page.</p>
+
+<h2 id="signs">Signs your West Simsbury garage door needs repair</h2>
+<ul>
+<li><strong>Loud bang, then the door will not lift:</strong> usually a broken torsion spring.</li>
+<li><strong>Door sits crooked:</strong> a snapped or slipped cable, or a bent track.</li>
+<li><strong>Grinding, squealing or shaking:</strong> worn rollers, dry hinges or loose hardware.</li>
+<li><strong>Opener runs but the door does not move:</strong> disconnected trolley or stripped gear.</li>
+<li><strong>Door reverses before closing:</strong> dirty or misaligned safety sensors, or travel limits needing adjustment.</li>
+<li><strong>Door drops when released halfway:</strong> worn springs, out of balance.</li>
+<li><strong>Gaps, rot or frost at the bottom seal:</strong> failed weatherstripping.</li>
+</ul>
+
+<h2 id="local-issues">Local garage door problems in West Simsbury</h2>
+<h3>Heavy insulated and carriage-house doors</h3>
+<p>Many newer West Simsbury homes have heavy doors with wide openings. Springs on these doors are under more stress and often fail earlier than the rated cycle count if the door is used constantly by a busy household. Ask for a spring check once a door is about ten years old.</p>
+<h3>Cold snaps and freeze-thaw cycles</h3>
+<p>Connecticut winters swing above and below freezing. Cold stiffens grease and rubber, contracts metal and loads springs and openers. A bottom seal can freeze to the concrete overnight; if the door sticks, stop pressing the button, check the seal, then call us.</p>
+<h3>Hilltop wind, trees and debris</h3>
+<p>Wooded lots mean leaves, pine needles and twigs in tracks and under the bottom seal, and falling branches during storms can strike doors. Keep tracks clean and trim limbs near the garage.</p>
+<h3>Storm power outages</h3>
+<p>New England storms and ice can cut power for hours, and wooded areas are especially exposed. Every opener has a red emergency release cord. If the door is stuck or the cord fails, call us rather than forcing it. A battery-backup opener is a worthwhile upgrade.</p>
+<h3>Road salt and moisture</h3>
+<p>Salt tracked into the garage corrodes the bottom bracket, bottom panel and seal. Rinse the floor edge and bottom of the door periodically in winter, and dry hardware in damp months.</p>
+
+<h2 id="weather">West Simsbury weather and your garage door: a year-round guide</h2>
+<p>West Simsbury has a four-season New England climate with cold, snowy winters, warm humid summers, and changeable springs and falls. Each season stresses a door differently.</p>
+<div class="table-wrap"><table class="seo-table">
+<thead><tr><th>Season</th><th>Main risk to your door</th><th>What to do</th></tr></thead>
+<tbody>
+<tr><td>Winter</td><td>Frozen seals, stiff lubricant, spring failure in extreme cold</td><td>Clear snow and ice from the door base, lubricate before the first freeze, never force a stuck door</td></tr>
+<tr><td>Spring</td><td>Meltwater, rust, loosened hardware</td><td>Book a tune-up, inspect cables and seals, tighten brackets</td></tr>
+<tr><td>Summer</td><td>Heat and humidity affect wood, seals and opener electronics</td><td>Ventilate the garage, check sensor alignment, clean tracks</td></tr>
+<tr><td>Fall</td><td>Leaves in tracks, falling temperatures, storm season</td><td>Clean tracks, test balance, consider battery backup</td></tr>
+</tbody></table></div>
+<p>For current conditions, see the <a href="https://forecast.weather.gov/MapClick.php?lat=41.8812&amp;lon=-72.8387" rel="noopener" target="_blank">National Weather Service forecast for West Simsbury</a>. Heavy snow or ice can affect arrival windows, so call early in a storm.</p>
+
+<h2 id="map">West Simsbury service area map</h2>
+<div class="map-wrap"><iframe src="https://www.google.com/maps?q=West+Simsbury,+CT&amp;output=embed" title="Map of West Simsbury, CT service area" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+<p><a href="https://www.google.com/maps/search/?api=1&amp;query=West+Simsbury+CT" target="_blank" rel="noopener">Open West Simsbury in Google Maps</a>. We cover the whole area, from the Simsbury town line near Avon to the neighborhoods around Stratton Brook.</p>
+
+<h2 id="howto">How to check and care for your garage door (step by step)</h2>
+<h3>How to test your garage door balance</h3>
+<ol>
+<li>Close the door fully, then pull the red emergency release cord to disconnect the opener.</li>
+<li>Lift the door by hand to about halfway open.</li>
+<li>Let go. A balanced door stays put. If it drops or shoots up, the springs are worn or out of adjustment.</li>
+<li>Reconnect the opener only when the door is closed, and call a technician for any imbalance. Do not touch springs or cables.</li>
+</ol>
+<h3>How to test the safety reversal system</h3>
+<ol>
+<li>Lay a roll of paper towels or a 2x4 flat in the door's path.</li>
+<li>Press the button to close the door.</li>
+<li>It should reverse as soon as it touches the object. If not, stop using the opener and call us.</li>
+<li>Wave a broom handle through the sensor beam while closing; the door should reverse immediately.</li>
+</ol>
+<h3>How to lubricate your garage door</h3>
+<ol>
+<li>Wipe dirt from hinges, springs and roller stems.</li>
+<li>Apply garage-door lubricant (silicone or lithium-based) to hinges, roller bearings and the spring coil.</li>
+<li>Do not grease the tracks; wipe them clean with a dry cloth.</li>
+<li>Cycle the door a few times and wipe off any excess.</li>
+</ol>
+<h3>How to open your door manually during a power outage</h3>
+<ol>
+<li>Close the door if possible and make sure no one is beneath it.</li>
+<li>Pull the red cord down and back to release the trolley.</li>
+<li>Lift by the handle. If it feels very heavy, a spring may be broken: stop and call a professional.</li>
+</ol>
+
+<h2 id="tips">Best garage door tips for West Simsbury homeowners</h2>
+<ul>
+<li><strong>Schedule a tune-up each fall</strong> before the first hard freeze.</li>
+<li><strong>Replace springs before they fail</strong> if your door is over a decade old and used daily.</li>
+<li><strong>Keep sensors clean</strong> and free of cobwebs and leaves.</li>
+<li><strong>Keep a clear zone</strong> around tracks and sensors.</li>
+<li><strong>Use the vacation lock</strong> when you travel.</li>
+<li><strong>Upgrade the bottom seal</strong> to keep out snow, leaves and pests.</li>
+<li><strong>Choose insulation</strong> if the garage is attached, heated or sits below a bedroom.</li>
+<li><strong>Know where the red cord is,</strong> and make sure everyone in the home does too.</li>
+<li><strong>Never adjust springs or cables yourself.</strong> This is the leading cause of garage-door injuries.</li>
+</ul>
+
+<h2 id="repair-vs-replace">Repair or replace? A quick guide</h2>
+<p>Repair makes sense when one component has failed and the sections are straight, solid and dry. Consider replacement when several panels are dented or cracked, wood is rotting, insulation or finish has failed, parts are discontinued, or you have paid for several repairs recently. We explain both options and their realistic costs so you can decide without pressure.</p>
+
+<h2 id="why-local">Why West Simsbury homeowners choose ProLift</h2>
+<ul>
+<li><strong>Same-day availability.</strong> Call before noon and we are typically there the same day, subject to schedule and parts.</li>
+<li><strong>Flat-rate pricing.</strong> You approve the price before work starts.</li>
+<li><strong>12-month warranty</strong> on parts and labor.</li>
+<li><strong>Licensed, insured, background-checked technicians.</strong></li>
+<li><strong>Stocked trucks.</strong> Common springs, cables, rollers and opener parts on board for one-visit repairs.</li>
+<li><strong>Clear communication.</strong> We show you the problem and explain the options.</li>
+<li><strong>Local focus.</strong> We also serve <a href="https://theproliftgaragedoors.com/locations/simsbury/">Simsbury</a>, <a href="https://theproliftgaragedoors.com/locations/simsbury/weatogue-garage-door-repair">Weatogue</a> and <a href="https://theproliftgaragedoors.com/locations/simsbury/tariffville-garage-door-repair">Tariffville</a>.</li>
+</ul>
+
+<h2 id="about-west-simsbury">About West Simsbury, CT: a short local profile</h2>
+<p>West Simsbury sits in the western part of Simsbury, at the foot of the Talcott Mountain ridge, in the Farmington Valley. It is known for its residential neighborhoods, open space, farms, state parks and trails, and for quick access to Avon, Canton, Granby and the Hartford region. Many residents value its mix of rural character and convenient shopping and schools nearby.</p>
+
+<h2 id="attractions">Top attractions near West Simsbury (with Google Maps links)</h2>
+<p>If you are home waiting for a technician, or want to explore once your door is running smoothly, these are well-known places in and around West Simsbury. Hours and access can change, so check before you go.</p>
+<ul>
+<li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Stratton+Brook+State+Park+Simsbury+CT" target="_blank" rel="noopener">Stratton Brook State Park</a>:</strong> a pond, picnic areas and walking trails, popular for swimming and relaxing in summer.</li>
+<li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Heublein+Tower+Talcott+Mountain+State+Park+Simsbury+CT" target="_blank" rel="noopener">Heublein Tower at Talcott Mountain State Park</a>:</strong> a hilltop tower reached by a scenic hike, with wide views over the Farmington Valley.</li>
+<li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Flamig+Farm+West+Simsbury+CT" target="_blank" rel="noopener">Flamig Farm</a>:</strong> a family farm with animals, seasonal activities and a farm stand.</li>
+<li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Penwood+State+Park+Bloomfield+CT" target="_blank" rel="noopener">Penwood State Park</a>:</strong> ridge-top trails and overlooks just east of West Simsbury.</li>
+<li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Simsbury+Farms+Recreation+Complex+Simsbury+CT" target="_blank" rel="noopener">Simsbury Farms Recreation Complex</a>:</strong> golf, a pool, an ice rink and event space.</li>
+<li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Simsbury+Historical+Society+Phelps+Hatheway+House+Simsbury+CT" target="_blank" rel="noopener">Phelps-Hatheway House</a>:</strong> local history, period rooms and gardens.</li>
+<li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Farmington+River+Trail+Simsbury+CT" target="_blank" rel="noopener">Farmington River Trail</a>:</strong> multi-use paths for walking, running and cycling.</li>
+</ul>
+
+<h2 id="events">Festivals and community events around West Simsbury</h2>
+<p>Simsbury and the Farmington Valley host events through the year. Dates and formats change, so confirm with organizers and the town calendar before attending.</p>
+<ul>
+<li><strong>Seasonal farmers' markets:</strong> local produce and crafts in the warmer months.</li>
+<li><strong>Summer concerts and community events:</strong> outdoor evenings at town recreation spaces.</li>
+<li><strong>Fall festival season:</strong> harvest activities, farm events and foliage.</li>
+<li><strong>Trail and outdoor events:</strong> hikes, runs and fundraisers around the state parks.</li>
+<li><strong>Holiday events:</strong> tree lightings and village celebrations in December.</li>
+</ul>
+<p>Event days can mean more traffic. If you need service on a busy weekend, tell us in advance so we can plan timing.</p>
+
+<h2 id="process">What happens when you call ProLift</h2>
+<ol>
+<li><strong>Call (844) 901-6101</strong> or request a quote online and describe the problem.</li>
+<li><strong>Get an arrival window.</strong> Calls before noon are typically served the same day.</li>
+<li><strong>On-site diagnosis.</strong> We inspect the full system, not just the visible fault.</li>
+<li><strong>Flat-rate quote.</strong> You approve the price before work begins.</li>
+<li><strong>Repair and test.</strong> We finish the work, run safety tests and walk you through the result.</li>
+<li><strong>Warranty.</strong> Your repair is covered for 12 months on parts and labor.</li>
+</ol>
+
+<h2 id="schedule">Schedule garage door repair in West Simsbury today</h2>
+<p>Whether you need emergency help, a spring replacement, a new opener, a seasonal tune-up or advice on replacing an aging door, ProLift Garage Doors is ready in West Simsbury and across Simsbury. Call <a href="tel:+18449016101">(844) 901-6101</a> or <a href="https://theproliftgaragedoors.com/#contact">request a free quote</a>. Keep people and vehicles clear of a damaged door, and do not pull on a door with a broken spring or loose cable.</p>
+      </div>
+    </div>
+    <aside class="seo-side reveal">
+      <div class="seo-toc"><h3>On this page</h3><ul>
+        <li><a href="#quick-answer">Quick answer</a></li><li><a href="#services-detail">Services</a></li><li><a href="#local-issues">Local problems</a></li><li><a href="#weather">Weather guide</a></li><li><a href="#map">Service map</a></li><li><a href="#howto">How-to checks</a></li><li><a href="#attractions">Attractions</a></li><li><a href="#events">Events</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+      <div class="seo-neighbourhoods" data-seo-location-nav><h3>Areas we serve near West Simsbury</h3><p>Explore nearby garage door repair pages.</p><ul><li><a href="https://theproliftgaragedoors.com/locations/simsbury/">Simsbury Garage Door Repair</a></li><li><a href="https://theproliftgaragedoors.com/locations/simsbury/weatogue-garage-door-repair">Weatogue Garage Door Repair</a></li><li><a href="https://theproliftgaragedoors.com/locations/simsbury/tariffville-garage-door-repair">Tariffville Garage Door Repair</a></li><li><a class="active" href="https://theproliftgaragedoors.com/locations/west-simsbury/" aria-current="page">West Simsbury Garage Door Repair</a></li></ul></div>
+      <div class="seo-callout"><h3>Need same-day help?</h3><p>Call ProLift Garage Doors for careful diagnosis, clear pricing and reliable repair from a local Connecticut team.</p><a class="btn-main" href="tel:+18449016101">(844) 901-6101</a></div>
+    </aside>
+  </div>
+</section>
+</main>
+
+<div id="site-footer"></div>
+<script>
+(async function(){
+  const el=document.getElementById('site-footer');
+  try{
+    const r=await fetch('https://theproliftgaragedoors.com/footer.html',{cache:'no-cache'});
+    if(!r.ok) throw new Error('Footer HTTP '+r.status);
+    const doc=new DOMParser().parseFromString(await r.text(),'text/html');
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});
+    doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
+    el.innerHTML=doc.body.innerHTML;
+  }catch(e){console.error('Could not load footer.html',e)}
+})();
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.06});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+function toggleFaq(btn){
+  const ans=btn.nextElementSibling,open=ans.classList.contains('open');
+  document.querySelectorAll('.faq-a.open').forEach(a=>{a.classList.remove('open');a.previousElementSibling.classList.remove('open')});
+  if(!open){ans.classList.add('open');btn.classList.add('open')}
+}
+</script>
+</body>
+</html>
