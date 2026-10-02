@@ -114,13 +114,20 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="dns-prefetch" href="https://theproliftgaragedoors.com"/>
+<link rel="preload" href="https://theproliftgaragedoors.com/header.html" as="fetch" crossorigin="anonymous"/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600;700&display=swap"/></noscript>
 
 <style>
-:root{--ink:#0d1117;--ink2:#161d26;--ink3:#1e2833;--mist:#8e9ba8;--fog:#c4cdd6;--snow:#f2f4f6;--white:#fff;--teal:#0c8075;--teal2:#0fa898;--teal3:#12c4b2;--r8:8px;--r12:12px;--r16:16px}
+@font-face{font-family:'Inter Fallback';src:local('Arial');size-adjust:107%;ascent-override:90%;descent-override:22%;line-gap-override:0%}
+@font-face{font-family:'Fraunces Fallback';src:local('Georgia');size-adjust:97%;ascent-override:95%;descent-override:25%;line-gap-override:0%}
+#site-header{min-height:72px}
+#site-footer{min-height:420px;background:var(--ink)}
+:root{--ink:#0d1117;--ink2:#161d26;--ink3:#1e2833;--mist:#8e9ba8;--fog:#c4cdd6;--snow:#f2f4f6;--white:#fff;--teal:#0c8075;--tealdk:#0a6b62;--teal2:#0fa898;--teal3:#12c4b2;--r8:8px;--r12:12px;--r16:16px}
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body{font-family:'Inter','Inter Fallback',Arial,sans-serif;background:var(--ink);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 .loc-hero{min-height:72vh;display:grid;grid-template-columns:1fr 1fr;background:var(--ink);position:relative;overflow:hidden}
 .loc-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 30% 40%,rgba(12,128,117,.12),transparent 60%),radial-gradient(ellipse 40% 60% at 80% 20%,rgba(12,128,117,.06),transparent 50%);pointer-events:none}
 .hero-left{padding:80px 64px 80px 80px;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2}
@@ -128,9 +135,9 @@ body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);ove
 .badge-dot{width:6px;height:6px;background:var(--teal3);border-radius:50%;animation:blink 2s ease-in-out infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
 .badge span{font-size:11px;font-weight:600;color:var(--teal3);letter-spacing:.6px}
-h1{font-family:'Fraunces',serif;font-size:54px;font-weight:400;line-height:1.06;letter-spacing:-1.5px;margin-bottom:20px}
+h1{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:54px;font-weight:400;line-height:1.06;letter-spacing:-1.5px;margin-bottom:20px}
 h1 .accent{font-style:italic;color:var(--teal3)}
-h1 .dim{color:rgba(255,255,255,.45)}
+h1 .dim{color:rgba(255,255,255,.7)}
 .hero-desc{font-size:16px;font-weight:300;line-height:1.75;color:var(--mist);max-width:480px;margin-bottom:32px}
 .hero-cta{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:36px}
 .btn-main{background:var(--teal);color:var(--white);font-size:14px;font-weight:700;padding:14px 28px;border-radius:var(--r8);text-decoration:none;transition:all .2s;display:flex;align-items:center;gap:8px;white-space:nowrap}
@@ -140,7 +147,7 @@ h1 .dim{color:rgba(255,255,255,.45)}
 .btn-call-icon{width:40px;height:40px;background:rgba(12,128,117,.15);border:1px solid rgba(12,128,117,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .btn-call-icon svg{width:16px;height:16px;fill:var(--teal3)}
 .hero-trust{display:flex;flex-wrap:wrap;gap:20px}
-.trust-pill{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:500;color:rgba(255,255,255,.4)}
+.trust-pill{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:400;color:rgba(255,255,255,.75)}
 .trust-pill svg{width:14px;height:14px;fill:none;stroke:var(--teal2);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .hero-right{padding:64px 80px 64px 32px;display:flex;align-items:center;justify-content:center;position:relative;z-index:2}
 .stats-panel{width:100%;max-width:380px;background:var(--ink2);border:1px solid rgba(255,255,255,.08);border-radius:var(--r16);overflow:hidden}
@@ -151,62 +158,67 @@ h1 .dim{color:rgba(255,255,255,.45)}
 .sp-stat{padding:26px 22px;border-right:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05)}
 .sp-stat:nth-child(2n){border-right:none}
 .sp-stat:nth-child(n+3){border-bottom:none}
-.sp-num{font-family:'Fraunces',serif;font-size:40px;font-weight:600;line-height:1;margin-bottom:6px;letter-spacing:-2px}
+.sp-num{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:40px;font-weight:600;line-height:1;margin-bottom:6px;letter-spacing:-2px}
 .sp-num b{color:var(--teal3);font-weight:400}
-.sp-label{font-size:12px;color:var(--mist);line-height:1.45}
-.sp-footer{padding:15px 22px;background:var(--teal);font-size:12px;font-weight:500;color:rgba(255,255,255,.9)}
+.sp-label{font-size:12px;color:#a9b5c0;line-height:1.45}
+.sp-footer{padding:15px 22px;background:var(--teal);font-size:12px;font-weight:600;color:#fff}
 .ticker{background:var(--teal);padding:12px 0;overflow:hidden}
 .ticker-track{display:flex;animation:tick 30s linear infinite;width:max-content}
 .ticker-track:hover{animation-play-state:paused}
 .t-group{display:flex;align-items:center;padding:0 20px;white-space:nowrap}
-.t-item{font-size:10.5px;font-weight:700;letter-spacing:.8px;color:rgba(255,255,255,.88);text-transform:uppercase}
+.t-item{font-size:10.5px;font-weight:700;letter-spacing:.8px;color:#fff;text-transform:uppercase}
 .t-sep{width:4px;height:4px;background:rgba(255,255,255,.3);border-radius:50%;margin:0 20px;flex-shrink:0}
 @keyframes tick{to{transform:translateX(-50%)}}
 .sec-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--teal2);margin-bottom:10px}
-.sec-h{font-family:'Fraunces',serif;font-size:38px;font-weight:400;letter-spacing:-.8px;line-height:1.12}
+.sec-h{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:38px;font-weight:400;letter-spacing:-.8px;line-height:1.12}
 .sec-h .acc{color:var(--teal3);font-style:italic}
-.sec-p{font-size:15px;font-weight:300;color:var(--mist);line-height:1.8;margin-top:12px}
+.sec-p{font-size:15px;font-weight:300;color:#a9b5c0;line-height:1.8;margin-top:12px}
 #services{padding:96px 64px}
 .srv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}
 .srv-card{background:var(--ink2);border:1px solid rgba(255,255,255,.07);border-radius:var(--r12);padding:22px;transition:border-color .2s,transform .2s}
 .srv-card:hover{border-color:rgba(12,128,117,.3);transform:translateY(-2px)}
 .srv-card h3{font-size:15px;font-weight:600;margin-bottom:8px}
-.srv-card p,.why-card p{font-size:13px;font-weight:300;color:var(--mist);line-height:1.65}
+.srv-card p,.why-card p{font-size:13px;font-weight:300;color:#a9b5c0;line-height:1.65}
 .srv-card a{color:var(--teal3);font-size:12px;font-weight:600;text-decoration:none;display:inline-block;margin-top:10px}
 #why{background:var(--ink2);padding:96px 64px}
 .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px}
 .why-card{background:var(--ink3);border:1px solid rgba(255,255,255,.06);border-radius:var(--r12);padding:28px 24px}
-.why-num{font-family:'Fraunces',serif;font-size:40px;font-weight:600;color:var(--teal3);margin-bottom:10px;line-height:1}
+.why-num{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:40px;font-weight:600;color:var(--teal3);margin-bottom:10px;line-height:1}
 .why-card h3{font-size:15px;font-weight:600;margin-bottom:8px}
 .ctaband{background:var(--teal);padding:60px 64px;display:flex;justify-content:space-between;align-items:center;gap:40px;flex-wrap:wrap}
-.ctaband h2{font-family:'Fraunces',serif;font-size:32px;font-weight:400;margin-bottom:6px;letter-spacing:-.5px}
-.ctaband p{font-size:15px;font-weight:300;color:rgba(255,255,255,.7)}
+.ctaband h2{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:32px;font-weight:400;margin-bottom:6px;letter-spacing:-.5px}
+.ctaband p{font-size:15px;font-weight:400;color:#fff}
 .cta-btns{display:flex;flex-direction:column;gap:12px;align-items:flex-end}
 .btn-white{background:var(--white);color:var(--teal);font-size:14px;font-weight:700;padding:14px 28px;border-radius:var(--r8);text-decoration:none;white-space:nowrap}
 .btn-white:hover{background:var(--snow)}
-.btn-phone{color:rgba(255,255,255,.8);font-size:14px;font-weight:600;text-decoration:none}
-.btn-phone:hover{color:var(--white)}
+.btn-phone{color:#fff;font-size:14px;font-weight:600;text-decoration:underline;text-underline-offset:3px;padding:12px 4px}
+.btn-phone:hover{color:var(--snow)}
 #faq{background:var(--snow);padding:96px 64px}
 .faq-layout{display:grid;grid-template-columns:5fr 7fr;gap:80px;align-items:start}
 .faq-intro .sec-h{margin-bottom:14px;color:var(--ink)}
-.faq-intro .sec-label{color:var(--teal)}
-.faq-intro p{font-size:14px;font-weight:300;color:#6b7d8a;line-height:1.8}
+.faq-intro .sec-label{color:var(--tealdk)}
+.faq-intro p{font-size:14px;font-weight:400;color:#44535f;line-height:1.8}
 .faq-list{border-radius:var(--r12);overflow:hidden;border:1px solid #dde4ea}
 .faq-item{background:var(--white);border-bottom:1px solid #dde4ea}
 .faq-item:last-child{border-bottom:none}
-.faq-q{width:100%;background:none;border:none;padding:19px 22px;text-align:left;font-family:'Inter',sans-serif;font-size:13.5px;font-weight:600;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq-q{width:100%;background:none;border:none;padding:19px 22px;text-align:left;font-family:'Inter','Inter Fallback',Arial,sans-serif;font-size:13.5px;font-weight:600;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px}
 .faq-q:hover{background:#f5f8fb}
 .faq-q svg{width:15px;height:15px;fill:none;stroke:var(--teal);stroke-width:2;flex-shrink:0;transition:transform .28s}
 .faq-q.open svg{transform:rotate(45deg)}
 .faq-a{max-height:0;overflow:hidden;transition:max-height .32s ease}
 .faq-a.open{max-height:420px}
-.faq-a-in{padding:0 22px 18px;font-size:13px;color:#6b7d8a;line-height:1.72;font-weight:300}
+.faq-a-in{padding:0 22px 18px;font-size:13px;color:#44535f;line-height:1.72;font-weight:400}
 .breadcrumb{background:var(--ink2);padding:14px 64px;border-bottom:1px solid rgba(255,255,255,.06)}
 .breadcrumb ol{display:flex;flex-wrap:wrap;gap:6px;list-style:none;font-size:12px;color:var(--mist)}
 .breadcrumb a{color:var(--mist);text-decoration:none}
 .breadcrumb a:hover{color:var(--teal3)}
-.breadcrumb .current{color:rgba(255,255,255,.35)}
-.bc-sep{color:rgba(255,255,255,.2)}
+.breadcrumb .current{color:rgba(255,255,255,.75)}
+.bc-sep{color:rgba(255,255,255,.6)}
+.hero-desc a,.faq-a-in a,.faq-intro a,.srv-card a,.breadcrumb a{text-decoration:underline;text-underline-offset:3px}
+.srv-card a{padding:12px 0;margin-top:0}
+.breadcrumb a{display:inline-block;padding:10px 6px}
+.breadcrumb ol{gap:2px;align-items:center}
+.faq-q{min-height:48px}
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
 .reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
@@ -219,19 +231,19 @@ h1 .dim{color:rgba(255,255,255,.45)}
 .seo-featured img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
 .seo-longcopy{padding:30px}
 .seo-neighbourhoods,.seo-callout,.seo-toc{padding:24px}
-.seo-longcopy h2{font-family:'Fraunces',serif;font-size:26px;font-weight:400;line-height:1.25;margin:34px 0 12px;letter-spacing:-.4px}
+.seo-longcopy h2{font-family:'Fraunces','Fraunces Fallback',Georgia,serif;font-size:26px;font-weight:400;line-height:1.25;margin:34px 0 12px;letter-spacing:-.4px}
 .seo-longcopy h2:first-child{margin-top:0}
 .seo-longcopy h3,.seo-neighbourhoods h3,.seo-callout h3,.seo-toc h3{font-size:18px;font-weight:700;line-height:1.35;margin:22px 0 10px}
 .seo-neighbourhoods h3,.seo-callout h3,.seo-toc h3{margin-top:0}
-.seo-longcopy p,.seo-neighbourhoods p,.seo-callout p{font-size:14px;font-weight:300;color:var(--mist);line-height:1.82;margin:0 0 14px}
+.seo-longcopy p,.seo-neighbourhoods p,.seo-callout p{font-size:14px;font-weight:300;color:#a9b5c0;line-height:1.82;margin:0 0 14px}
 .seo-longcopy a{color:var(--teal3);text-decoration:underline;text-underline-offset:3px}
-.seo-longcopy ul,.seo-longcopy ol{margin:0 0 16px 20px;color:var(--mist);font-size:14px;font-weight:300;line-height:1.8}
+.seo-longcopy ul,.seo-longcopy ol{margin:0 0 16px 20px;color:#a9b5c0;font-size:14px;font-weight:300;line-height:1.8}
 .seo-longcopy li{margin-bottom:6px}
 .seo-longcopy strong{color:var(--fog);font-weight:600}
 .answer-box{background:rgba(12,128,117,.12);border:1px solid rgba(12,128,117,.3);border-radius:var(--r8);padding:18px 20px;margin:0 0 18px}
 .answer-box p{margin:0;color:var(--fog)}
 .seo-table{width:100%;border-collapse:collapse;margin:6px 0 18px;font-size:13px}
-.seo-table th,.seo-table td{text-align:left;padding:11px 12px;border-bottom:1px solid rgba(255,255,255,.08);color:var(--mist);font-weight:300;vertical-align:top}
+.seo-table th,.seo-table td{text-align:left;padding:11px 12px;border-bottom:1px solid rgba(255,255,255,.08);color:#a9b5c0;font-weight:300;vertical-align:top}
 .seo-table th{color:var(--teal3);font-weight:600;font-size:11px;letter-spacing:1px;text-transform:uppercase}
 .table-wrap{overflow-x:auto}
 .map-wrap{border-radius:var(--r12);overflow:hidden;border:1px solid rgba(255,255,255,.08);margin:6px 0 18px}
@@ -255,7 +267,7 @@ h1 .dim{color:rgba(255,255,255,.45)}
     const r=await fetch('https://theproliftgaragedoors.com/header.html',{cache:'no-cache'});
     if(!r.ok) throw new Error('Header HTTP '+r.status);
     const doc=new DOMParser().parseFromString(await r.text(),'text/html');
-    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{if(/fonts\.googleapis/.test(x.href))return;const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});
     doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
     el.innerHTML=doc.body.innerHTML;
     doc.querySelectorAll('script').forEach(x=>{const s=document.createElement('script');if(x.src)s.src=x.src;else s.textContent=x.textContent;document.body.appendChild(s)});
@@ -340,7 +352,7 @@ h1 .dim{color:rgba(255,255,255,.45)}
     <div class="faq-intro reveal">
       <div class="sec-label">FAQ</div>
       <h2 class="sec-h">Common Questions<br>About Garage Door<br><span class="acc">Repair in West Simsbury</span></h2>
-      <p style="margin-top:16px">Can't find your answer? Call us at <a href="tel:+18449016101" style="color:var(--teal);font-weight:600">(844) 901-6101</a>. We're happy to help.</p>
+      <p style="margin-top:16px">Can't find your answer? Call us at <a href="tel:+18449016101" style="color:var(--tealdk);font-weight:600">(844) 901-6101</a>. We're happy to help.</p>
     </div>
     <div class="faq-list">
       <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How quickly can ProLift reach West Simsbury?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">Call before noon and we're typically at your West Simsbury door the same day. The usual arrival window is 2 to 4 hours from your call, subject to technician schedules and weather.</div></div></div>
@@ -351,7 +363,7 @@ h1 .dim{color:rgba(255,255,255,.45)}
       <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What brands of garage door and opener do you service?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">All major brands including LiftMaster, Chamberlain, Genie, Craftsman, Ryobi, Overhead Door, Stanley and Wayne Dalton. Common parts are stocked on our trucks.</div></div></div>
       <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is every repair covered by a warranty?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">Yes. Every ProLift repair carries a 12-month parts and labor warranty. If the repaired component fails within 12 months, we return and fix it at no charge.</div></div></div>
       <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Should I repair or replace my garage door?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">If the problem is one failed component and the door is structurally sound, repair usually wins. If panels are cracked, rusted or sagging, or the system fails repeatedly, replacement is often the better long-term value. Our tech gives an honest recommendation.</div></div></div>
-      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Do you serve homes near Stratton Brook and Talcott Mountain?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">Yes. We serve all of West Simsbury, including wooded and hillside streets near Stratton Brook State Park, plus <a href="https://theproliftgaragedoors.com/locations/simsbury/weatogue-garage-door-repair" style="color:var(--teal)">Weatogue</a>, <a href="https://theproliftgaragedoors.com/locations/simsbury/tariffville-garage-door-repair" style="color:var(--teal)">Tariffville</a> and the rest of <a href="https://theproliftgaragedoors.com/locations/simsbury/" style="color:var(--teal)">Simsbury</a>.</div></div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Do you serve homes near Stratton Brook and Talcott Mountain?<svg viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg></button><div class="faq-a"><div class="faq-a-in">Yes. We serve all of West Simsbury, including wooded and hillside streets near Stratton Brook State Park, plus <a href="https://theproliftgaragedoors.com/locations/simsbury/weatogue-garage-door-repair" style="color:var(--tealdk)">Weatogue</a>, <a href="https://theproliftgaragedoors.com/locations/simsbury/tariffville-garage-door-repair" style="color:var(--tealdk)">Tariffville</a> and the rest of <a href="https://theproliftgaragedoors.com/locations/simsbury/" style="color:var(--tealdk)">Simsbury</a>.</div></div></div>
     </div>
   </div>
 </section>
@@ -535,17 +547,18 @@ h1 .dim{color:rgba(255,255,255,.45)}
 
 <div id="site-footer"></div>
 <script>
-(async function(){
+async function loadFooter(){
   const el=document.getElementById('site-footer');
   try{
     const r=await fetch('https://theproliftgaragedoors.com/footer.html',{cache:'no-cache'});
     if(!r.ok) throw new Error('Footer HTTP '+r.status);
     const doc=new DOMParser().parseFromString(await r.text(),'text/html');
-    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});
+    doc.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{if(/fonts\.googleapis/.test(x.href))return;const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});
     doc.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));
     el.innerHTML=doc.body.innerHTML;
   }catch(e){console.error('Could not load footer.html',e)}
-})();
+}
+new IntersectionObserver((e,o)=>{if(e[0].isIntersecting){o.disconnect();loadFooter()}},{rootMargin:'800px'}).observe(document.getElementById('site-footer'));
 const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.06});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 function toggleFaq(btn){
