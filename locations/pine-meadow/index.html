@@ -110,17 +110,20 @@
 }
 </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
 <link rel="preload" href="https://theproliftgaragedoors.com/header.html" as="fetch" crossorigin/>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"/>
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap"/></noscript>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap"/></noscript>
+<script>
+addEventListener('load',function(){
+  var l=document.createElement('link');l.rel='preconnect';l.href='https://fonts.gstatic.com';l.crossOrigin='';document.head.appendChild(l);
+  var f=document.createElement('link');f.rel='stylesheet';f.href='https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap';document.head.appendChild(f);
+});
+</script>
 
 <style>
 @font-face{font-family:'Inter Fallback';src:local('Arial');size-adjust:107%;ascent-override:90%;descent-override:22%;line-gap-override:0%}
 @font-face{font-family:'Fraunces Fallback';src:local('Georgia');size-adjust:104%;ascent-override:92%;descent-override:24%;line-gap-override:0%}
 #site-header{min-height:76px}
+#services,#why,#faq,.local-seo-section{content-visibility:auto;contain-intrinsic-size:auto 900px}
 #site-footer{min-height:360px}
 img{max-width:100%;height:auto}
 :root{--ink:#0d1117;--ink2:#161d26;--ink3:#1e2833;--mist:#8e9ba8;--fog:#c4cdd6;--snow:#f2f4f6;--white:#fff;--teal:#0c8075;--teal2:#0fa898;--teal3:#12c4b2;--r8:8px;--r12:12px;--r16:16px}
@@ -261,7 +264,7 @@ function inject(id,url,runScripts){
       doc.querySelectorAll('style').forEach(function(x){document.head.appendChild(document.importNode(x,true))});
       Array.prototype.forEach.call(doc.body.childNodes,function(n){if(n.nodeName!=='SCRIPT')frag.appendChild(document.importNode(n,true))});
       el.replaceChildren(frag);
-      if(runScripts)doc.querySelectorAll('script').forEach(function(x){var sc=document.createElement('script');if(x.src)sc.src=x.src;else sc.textContent=x.textContent;document.body.appendChild(sc)});
+      if(runScripts){var run=function(){doc.querySelectorAll('script').forEach(function(x){var sc=document.createElement('script');if(x.src)sc.src=x.src;else sc.textContent=x.textContent;document.body.appendChild(sc)})};(window.requestIdleCallback?requestIdleCallback(run,{timeout:3000}):setTimeout(run,1500))}
     });
   }).catch(function(e){console.error(e)});
 }
