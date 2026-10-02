@@ -60,43 +60,49 @@
 {"@type":"ListItem","position":3,"name":"Simsbury","url":"https://theproliftgaragedoors.com/locations/simsbury/"}]}
 ]}
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600;700&display=swap"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600;700&display=swap" media="print" onload="this.media='all'"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600;700&display=swap"/></noscript>
+<link rel="preload" as="fetch" href="https://theproliftgaragedoors.com/header.html" crossorigin="anonymous"/>
 <style>
-:root{--ink:#0d1117;--ink2:#161d26;--ink3:#1e2833;--mist:#8e9ba8;--fog:#c4cdd6;--snow:#f2f4f6;--white:#fff;--teal:#0c8075;--teal2:#0fa898;--teal3:#12c4b2;--r8:8px;--r12:12px;--r16:16px}
+@font-face{font-family:'Inter Fallback';src:local('Arial');size-adjust:107%;ascent-override:90%;descent-override:22%;line-gap-override:0%}
+@font-face{font-family:'Fraunces Fallback';src:local('Georgia');size-adjust:103%;ascent-override:93%;descent-override:24%;line-gap-override:0%}
+:root{--hdr-h:72px;--ftr-h:520px;--ink:#0d1117;--ink2:#161d26;--ink3:#1e2833;--mist:#8e9ba8;--fog:#c4cdd6;--snow:#f2f4f6;--white:#fff;--teal:#0c8075;--teal2:#0fa898;--teal3:#12c4b2;--r8:8px;--r12:12px;--r16:16px}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{font-family:'Inter',sans-serif;background:var(--ink);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body{font-family:'Inter','Inter Fallback',sans-serif;background:var(--ink);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 .loc-hero{min-height:72vh;display:grid;grid-template-columns:1fr 1fr;background:radial-gradient(ellipse 60% 50% at 30% 40%,rgba(12,128,117,.12),transparent 60%),var(--ink)}
 .hero-left{padding:80px 64px 80px 80px;display:flex;flex-direction:column;justify-content:center}
 .badge{display:inline-flex;align-items:center;gap:8px;margin-bottom:28px;background:rgba(12,128,117,.12);border:1px solid rgba(12,128,117,.25);padding:6px 14px;border-radius:999px;width:fit-content;font-size:11px;font-weight:600;color:var(--teal3);letter-spacing:.6px}
 .badge i{width:6px;height:6px;background:var(--teal3);border-radius:50%;animation:blink 2s infinite}
 @keyframes blink{50%{opacity:.3}}
-h1{font-family:'Fraunces',serif;font-size:54px;font-weight:400;line-height:1.06;letter-spacing:-1.5px;margin-bottom:20px}
+h1{font-family:'Fraunces','Fraunces Fallback',serif;font-size:54px;font-weight:400;line-height:1.06;letter-spacing:-1.5px;margin-bottom:20px}
 h1 .accent{font-style:italic;color:var(--teal3)}h1 .dim{color:rgba(255,255,255,.45)}
 .hero-desc{font-size:16px;font-weight:300;line-height:1.75;color:var(--mist);max-width:480px;margin-bottom:32px}
 .hero-cta{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:36px}
 .btn-main{background:var(--teal);color:#fff;font-size:14px;font-weight:700;padding:14px 28px;border-radius:var(--r8);text-decoration:none;transition:.2s;display:flex;align-items:center;gap:8px;white-space:nowrap}
 .btn-main:hover{background:var(--teal2);transform:translateY(-1px)}
-.btn-call{font-size:15px;font-weight:700;color:#fff;text-decoration:none}.btn-call:hover{color:var(--teal3)}
+.btn-call{padding:12px 4px;font-size:15px;font-weight:700;color:#fff;text-decoration:none}.btn-call:hover{color:var(--teal3)}
 .hero-trust{display:flex;flex-wrap:wrap;gap:20px}
-.trust-pill{font-size:12px;font-weight:500;color:rgba(255,255,255,.5)}
+.trust-pill{font-size:12px;font-weight:500;color:rgba(255,255,255,.72)}
 .hero-right{padding:64px 80px 64px 32px;display:flex;align-items:center;justify-content:center}
 .stats-panel{width:100%;max-width:380px;background:var(--ink2);border:1px solid rgba(255,255,255,.08);border-radius:var(--r16);overflow:hidden}
 .sp-title{padding:20px 26px;border-bottom:1px solid rgba(255,255,255,.06);font-size:12px;font-weight:600;color:var(--mist);letter-spacing:.8px}
 .sp-grid{display:grid;grid-template-columns:1fr 1fr}
 .sp-stat{padding:26px 22px;border-right:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05)}
 .sp-stat:nth-child(2n){border-right:none}.sp-stat:nth-child(n+3){border-bottom:none}
-.sp-num{font-family:'Fraunces',serif;font-size:40px;font-weight:600;line-height:1;margin-bottom:6px;letter-spacing:-2px}
+.sp-num{font-family:'Fraunces','Fraunces Fallback',serif;font-size:40px;font-weight:600;line-height:1;margin-bottom:6px;letter-spacing:-2px}
 .sp-num b{color:var(--teal3);font-weight:400}.sp-label{font-size:12px;color:var(--mist);line-height:1.45}
 .sp-footer{padding:15px 22px;background:var(--teal);font-size:12px;font-weight:500}
 .ticker{background:var(--teal);padding:12px 0;overflow:hidden}
 .ticker-track{display:flex;animation:tick 30s linear infinite;width:max-content}
 .t-group{display:flex;align-items:center;padding:0 20px;white-space:nowrap}
-.t-item{font-size:10.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase}
+.t-item{color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase}
 .t-sep{width:4px;height:4px;background:rgba(255,255,255,.3);border-radius:50%;margin:0 20px}
 @keyframes tick{to{transform:translateX(-50%)}}
 .sec-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--teal2);margin-bottom:10px}
-.sec-h{font-family:'Fraunces',serif;font-size:38px;font-weight:400;letter-spacing:-.8px;line-height:1.12}
+.sec-h{font-family:'Fraunces','Fraunces Fallback',serif;font-size:38px;font-weight:400;letter-spacing:-.8px;line-height:1.12}
 .sec-h .acc{color:var(--teal3);font-style:italic}
 .sec-p{font-size:15px;font-weight:300;color:var(--mist);line-height:1.8;margin-top:12px}
 #services{padding:96px 64px}#why{background:var(--ink2);padding:96px 64px}
@@ -107,25 +113,26 @@ h1 .accent{font-style:italic;color:var(--teal3)}h1 .dim{color:rgba(255,255,255,.
 .srv-card p,.why-card p{font-size:13px;font-weight:300;color:var(--mist);line-height:1.65}
 .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px}
 .why-card{background:var(--ink3);border:1px solid rgba(255,255,255,.06);border-radius:var(--r12);padding:28px 24px}
-.why-num{font-family:'Fraunces',serif;font-size:40px;font-weight:600;color:var(--teal3);margin-bottom:10px;line-height:1}
+.why-num{font-family:'Fraunces','Fraunces Fallback',serif;font-size:40px;font-weight:600;color:var(--teal3);margin-bottom:10px;line-height:1}
 .ctaband{background:var(--teal);padding:60px 64px;display:flex;justify-content:space-between;align-items:center;gap:40px;flex-wrap:wrap}
-.ctaband h2{font-family:'Fraunces',serif;font-size:32px;font-weight:400;margin-bottom:6px}
-.ctaband p{font-size:15px;color:rgba(255,255,255,.7)}
+.ctaband h2{font-family:'Fraunces','Fraunces Fallback',serif;font-size:32px;font-weight:400;margin-bottom:6px}
+.ctaband p{font-size:15px;color:#fff}
 .cta-btns{display:flex;flex-direction:column;gap:12px;align-items:flex-end}
 .btn-white{background:#fff;color:var(--teal);font-size:14px;font-weight:700;padding:14px 28px;border-radius:var(--r8);text-decoration:none}
-.btn-phone{color:rgba(255,255,255,.85);font-size:14px;font-weight:600;text-decoration:none}
+.btn-phone{color:#fff;font-size:14px;font-weight:700;text-decoration:underline;text-underline-offset:3px;padding:10px 4px;display:inline-block}
 #faq{background:var(--snow);padding:96px 64px;color:var(--ink)}
 .faq-layout{display:grid;grid-template-columns:5fr 7fr;gap:80px;align-items:start}
-.faq-intro .sec-label{color:var(--teal)}.faq-intro p{font-size:14px;font-weight:300;color:#6b7d8a;line-height:1.8}
+.faq-intro .sec-label{color:var(--teal)}.faq-intro p{font-size:14px;font-weight:300;color:#4f606c;line-height:1.8}
 .faq-list{border-radius:var(--r12);overflow:hidden;border:1px solid #dde4ea}
 .faq-item{background:#fff;border-bottom:1px solid #dde4ea}.faq-item:last-child{border:none}
-.faq-q{width:100%;background:none;border:none;padding:19px 22px;text-align:left;font:600 13.5px 'Inter',sans-serif;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;gap:16px}
+.faq-q{width:100%;background:none;border:none;padding:19px 22px;text-align:left;font:600 13.5px 'Inter','Inter Fallback',sans-serif;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;gap:16px}
 .faq-q:hover{background:#f5f8fb}.faq-q span{color:var(--teal);font-size:18px;transition:transform .28s}.faq-q.open span{transform:rotate(45deg)}
 .faq-a{max-height:0;overflow:hidden;transition:max-height .32s}.faq-a.open{max-height:420px}
-.faq-a-in{padding:0 22px 18px;font-size:13px;color:#6b7d8a;line-height:1.72;font-weight:300}
+.faq-a-in{padding:0 22px 18px;font-size:13px;color:#4f606c;line-height:1.72;font-weight:300}
+#site-header{min-height:var(--hdr-h)}#site-footer{min-height:var(--ftr-h)}
 .breadcrumb{background:var(--ink2);padding:14px 64px;border-bottom:1px solid rgba(255,255,255,.06)}
 .breadcrumb ol{display:flex;flex-wrap:wrap;gap:8px;list-style:none;font-size:12px;color:var(--mist)}
-.breadcrumb a{color:var(--mist);text-decoration:none}.breadcrumb a:hover{color:var(--teal3)}.breadcrumb .current{color:rgba(255,255,255,.35)}
+.breadcrumb a{color:var(--mist);text-decoration:none}.breadcrumb a:hover{color:var(--teal3)}.breadcrumb .current{color:#c4cdd6}.breadcrumb a{display:inline-block;padding:8px 6px}
 .reveal{opacity:0;transform:translateY(18px);transition:.55s}.reveal.in{opacity:1;transform:none}
 .local-seo-section{padding:96px 64px;border-top:1px solid rgba(255,255,255,.06)}
 .seo-body-grid{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:24px;margin-top:42px;align-items:start}
@@ -134,7 +141,7 @@ h1 .accent{font-style:italic;color:var(--teal3)}h1 .dim{color:rgba(255,255,255,.
 .seo-featured img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
 .seo-longcopy,.seo-neighbourhoods,.seo-callout,.seo-toc{background:var(--ink2);border:1px solid rgba(255,255,255,.07);border-radius:var(--r12);padding:24px}
 .seo-longcopy{padding:30px}
-.seo-longcopy h2{font-family:'Fraunces',serif;font-size:26px;font-weight:400;line-height:1.25;margin:34px 0 12px}
+.seo-longcopy h2{font-family:'Fraunces','Fraunces Fallback',serif;font-size:26px;font-weight:400;line-height:1.25;margin:34px 0 12px}
 .seo-longcopy h2:first-child{margin-top:0}
 .seo-longcopy h3,.seo-side h3{font-size:18px;font-weight:700;margin:22px 0 10px}.seo-side h3{margin-top:0}
 .seo-longcopy p,.seo-side p{font-size:14px;font-weight:300;color:var(--mist);line-height:1.82;margin:0 0 14px}
@@ -159,7 +166,7 @@ h1 .accent{font-style:italic;color:var(--teal3)}h1 .dim{color:rgba(255,255,255,.
 <body>
 <div id="site-header"></div>
 <script>
-(async function(){const el=document.getElementById('site-header');try{const r=await fetch('https://theproliftgaragedoors.com/header.html',{cache:'no-cache'});if(!r.ok)throw new Error(r.status);const d=new DOMParser().parseFromString(await r.text(),'text/html');d.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});d.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));el.innerHTML=d.body.innerHTML;d.querySelectorAll('script').forEach(x=>{const s=document.createElement('script');if(x.src)s.src=x.src;else s.textContent=x.textContent;document.body.appendChild(s)})}catch(e){console.error('header',e)}})();
+(async function(){const el=document.getElementById('site-header');try{const r=await fetch('https://theproliftgaragedoors.com/header.html',{credentials:'omit'});if(!r.ok)throw new Error(r.status);const d=new DOMParser().parseFromString(await r.text(),'text/html');d.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});d.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));el.innerHTML=d.body.innerHTML;d.querySelectorAll('script').forEach(x=>{const s=document.createElement('script');if(x.src)s.src=x.src;else s.textContent=x.textContent;document.body.appendChild(s)})}catch(e){console.error('header',e)}})();
 </script>
 
 <nav class="breadcrumb" aria-label="Breadcrumb"><ol>
@@ -404,7 +411,8 @@ h1 .accent{font-style:italic;color:var(--teal3)}h1 .dim{color:rgba(255,255,255,.
 
 <div id="site-footer"></div>
 <script>
-(async function(){const el=document.getElementById('site-footer');try{const r=await fetch('https://theproliftgaragedoors.com/footer.html',{cache:'no-cache'});if(!r.ok)throw new Error(r.status);const d=new DOMParser().parseFromString(await r.text(),'text/html');d.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});d.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));el.innerHTML=d.body.innerHTML}catch(e){console.error('footer',e)}})();
+(function(){const el=document.getElementById('site-footer');async function load(){try{const r=await fetch('https://theproliftgaragedoors.com/footer.html',{credentials:'omit'});if(!r.ok)throw new Error(r.status);const d=new DOMParser().parseFromString(await r.text(),'text/html');d.querySelectorAll('link[rel="stylesheet"]').forEach(x=>{const l=document.createElement('link');l.rel='stylesheet';l.href=x.href;document.head.appendChild(l)});d.querySelectorAll('style').forEach(x=>document.head.appendChild(document.importNode(x,true)));el.innerHTML=d.body.innerHTML}catch(e){console.error('footer',e)}}
+('requestIdleCallback' in window)?requestIdleCallback(load,{timeout:1500}):setTimeout(load,300)})();
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.06});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 function toggleFaq(b){const a=b.nextElementSibling,o=a.classList.contains('open');document.querySelectorAll('.faq-a.open').forEach(x=>{x.classList.remove('open');x.previousElementSibling.classList.remove('open')});if(!o){a.classList.add('open');b.classList.add('open')}}
