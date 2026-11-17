@@ -1,6 +1,6 @@
 # The ProLift Garage Doors
 
-> The ProLift Garage Doors provides garage door repair and related garage door services throughout communities in Connecticut. The website contains company information, contact information, privacy information, service-area pages, and local garage door repair pages.
+> The ProLift Garage Doors provides garage door repair and related garage door services throughout communities in Connecticut. The website contains company information, contact information, privacy information, service pages, service-area pages, and local garage door repair pages.
 
 ## Main pages
 
@@ -9,11 +9,37 @@
 - [Privacy Policy](https://theproliftgaragedoors.com/privacy-policy)
 - [All Locations](https://theproliftgaragedoors.com/locations/)
 
+
+## Services
+
+- [All Services](https://theproliftgaragedoors.com/services/)
+- [Garage Door Opener Repair](https://theproliftgaragedoors.com/services/garage-door-opener-repair/)
+- [Garage Door Spring Replacement](https://theproliftgaragedoors.com/services/garage-door-spring-replacement/)
+- [Garage Door Cable Repair](https://theproliftgaragedoors.com/services/garage-door-cable-repair/)
+- [Garage Door Off-Track Repair](https://theproliftgaragedoors.com/services/garage-door-off-track-repair/)
+- [Garage Door Opener Motor Repair](https://theproliftgaragedoors.com/services/garage-door-opener-motor-repair/)
+- [Garage Door Installation](https://theproliftgaragedoors.com/services/garage-door-installation/)
+- [Garage Door Opener Installation](https://theproliftgaragedoors.com/services/garage-door-opener-installation/)
+- [Garage Door Sensor Alignment](https://theproliftgaragedoors.com/services/garage-door-sensor-alignment/)
+- [Garage Door Roller Replacement](https://theproliftgaragedoors.com/services/garage-door-roller-replacement/)
+- [Garage Door Track Alignment](https://theproliftgaragedoors.com/services/garage-door-track-alignment/)
+- [Garage Door Hinge Repair](https://theproliftgaragedoors.com/services/garage-door-hinge-repair/)
+- [Garage Door Panel Replacement](https://theproliftgaragedoors.com/services/garage-door-panel-replacement/)
+- [Garage Door Wiring Repair](https://theproliftgaragedoors.com/services/garage-door-wiring-repair/)
+- [Garage Door Balancing](https://theproliftgaragedoors.com/services/garage-door-balancing/)
+- [Garage Door Tune-Up & Maintenance](https://theproliftgaragedoors.com/services/garage-door-tune-up-maintenance/)
+- [Garage Door Remote & Keypad Programming](https://theproliftgaragedoors.com/services/garage-door-remote-keypad-programming/)
+- [Garage Door Weatherstripping](https://theproliftgaragedoors.com/services/garage-door-weatherstripping/)
+- [Garage Door Insulation](https://theproliftgaragedoors.com/services/garage-door-insulation/)
+- [Garage Door Repair](https://theproliftgaragedoors.com/services/garage-door-repair/)
+
 ## Site structure
 
 - `/about` — Company information.
 - `/contact` — Contact page.
 - `/privacy-policy` — Privacy policy.
+- `/services/` — All garage door services.
+- `/services/{service}/` — Individual service page.
 - `/locations/` — Service-area directory.
 - `/locations/{city}/` — City or community service-area page.
 - `/locations/{city}/{neighborhood}-garage-door-repair` — Neighborhood-level garage door repair page.
